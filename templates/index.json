@@ -157,7 +157,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "collection": "saree",
+        "collection": "embroidered",
         "carousel": true,
         "grid": 4,
         "limit": 10,
@@ -170,19 +170,19 @@
         "16256717602b44b536-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "saree"
+            "collection": "chanderi"
           }
         },
         "16256717602b44b536-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ikat"
           }
         },
         "16256717602b44b536-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "printed"
           }
         }
       },
