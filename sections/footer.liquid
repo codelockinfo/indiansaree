@@ -1,4 +1,4 @@
-.{%- liquid
+{%- liquid
   assign locale_selector = false
   assign country_selector = false
 
@@ -39,6 +39,13 @@
       class="footerbackground"
       style="background: url({{section.settings.kombg | img_url:'master' }});"
     >
+      <div class="fotterlogo">
+        <img src="{{ section.settings.ftlogo | img_url:'master' }}" class="footerimage">
+      </div>
+      <div class="footerdiscriptio">
+        <p class="ftdiscriptipon">{{ section.settings.ftdiscript }}</p>
+      </div>
+
       <div id="footer" class="row">
         {% for block in section.blocks %}
           <section class="footer-block block-{{ block.id }}" {{ block.shopify_attributes }}>
@@ -588,6 +595,16 @@
    "id": "kombg",
    "type": "image_picker",
     "label": "Banner Image"
+   },
+             {
+   "id": "ftlogo",
+   "type": "image_picker",
+    "label": "Logo Image"
+   },
+                 {
+   "id": "ftdiscript",
+   "type": "textarea",
+    "label": "Discription"
    }
   ],
   "blocks": [
