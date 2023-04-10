@@ -13639,9 +13639,12 @@ textarea.required-error {
 
 
 /* cls007 */
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .hovermg .col-swatch li.color {
-    width: 80px !important;
-    height: 80px!important;
+  width: 50px !important;
+  height: 70px!important;
       display: block;
 }
 
@@ -13663,22 +13666,30 @@ textarea.required-error {
     position: absolute;
     bottom: 0px;
     z-index: 9;
-    top: -382px;
+    top: -419px;
   transition: transform .5s ease,opacity .1s;
-    left: -5rem;
-}
-.js-product-listing:hover .hovermg.prod-colors {
-    opacity: 1;
-    transform: translate(4rem,0rem);
+  transform: translate(-4rem,0rem); 
+  opacity: 1; 
+  left: 0;
 }
 .prod-image:hover > .product-listing__quickview-trigger {
     display: none;
 }
-.hovermg .col-swatch ul{
-      opacity: 0;
+
+.georgesimage .collection__page-product:hover .hovermg.prod-colors{
+  opacity: 1;
+  transform: translate(0rem,0rem);
 }
-
-
+.georgesimage .collection__page-product{
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+}
+.prod-title {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+}
 
     .footerbackground {
    background-repeat: no-repeat !important;
@@ -13698,6 +13709,8 @@ textarea.required-error {
     margin: 0 auto;
     text-align: center;
     padding: 15px 0px 20px;
+    position: relative;
+    z-index: 1;
 }
 .footercontain {
   max-width: 1200px;
@@ -13744,4 +13757,23 @@ textarea.required-error {
   max-width: 1000px;
     margin: 0 auto;
     width: 100%;
+}
+#shopify-section-announcement-bar .social-icons__list.span-4.auto.sm-hide.v-center {
+  display: none;
+}
+.footerbackground:before{
+  content: " ";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0px;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: #fff;
+    opacity: 0.5;
+    z-index: 1;
+}
+.footerimage, .fotelogoflex, #bottom-footer{
+  position: relative;
+  z-index: 1;
 }
