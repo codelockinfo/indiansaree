@@ -13681,11 +13681,20 @@ textarea.required-error {
 
 
     .footerbackground {
-        background-repeat: no-repeat !important;
-      background-color: #0a243d !important;
-      background-position: center bottom !important;
-      background-size: 100%;
-      position: relative;
-      border-top: 0!important;
-      padding-bottom: 0!important;
+   background-repeat: no-repeat !important;
+    background-position: center bottom !important;
+    position: relative;
+    border-top: 0!important;
+    padding-bottom: 0!important;
+    background-size: 100% 100%  !important;
+    width: 100%;
   }
+.fotterlogo {
+    text-align: center;
+    padding-top: 4%;
+}
+.ftdiscriptipon {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
