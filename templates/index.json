@@ -1,1 +1,296 @@
-{"sections":{"1625671734793532ca":{"type":"slideshow","blocks":{"1625671734793532ca-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/N-than-1964-a.jpg","overlay":false,"text_align":"left","caption_horizontal":50,"caption_vertical":50,"hide_caption_background":false,"caption_below":false,"heading":"","subheading":"","link":"","button_text":"","second_link":"","second_button_text":"","slide_text_color":"#000000","cta_color":"#ffffff","cta_background":"#000000","caption_background":"rgba(0,0,0,0)","caption_background_opacity":20}},"1625671734793532ca-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/kankatala-kan2-tussar-desktop-banner-kan1_949a7d30-6b47-43c8-ad64-59c8bb9c0ea5.jpg","overlay":false,"text_align":"left","caption_horizontal":50,"caption_vertical":50,"hide_caption_background":false,"caption_below":false,"heading":"","subheading":"","link":"","button_text":"","second_link":"","second_button_text":"","slide_text_color":"#000000","cta_color":"#ffffff","cta_background":"#000000","caption_background":"rgba(0,0,0,0)","caption_background_opacity":20}},"e3feb807-3a1b-4c80-a832-76383d011961":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/kankatala-kan2-banarasi-desktop-banner-kan1.jpg","overlay":false,"text_align":"left","caption_horizontal":50,"caption_vertical":50,"hide_caption_background":false,"caption_below":false,"heading":"Slide image title","subheading":"<p>Slide image subheading<\/p>","link":"","button_text":"Add a button","second_link":"","second_button_text":"Button 2 text","slide_text_color":"#000000","cta_color":"#ffffff","cta_background":"#000000","caption_background":"rgba(0,0,0,0)","caption_background_opacity":20}}},"block_order":["1625671734793532ca-0","1625671734793532ca-1","e3feb807-3a1b-4c80-a832-76383d011961"],"settings":{"display_wide":true,"no_autoplay":true,"slider_speed":5,"pager":"dots","slide_heading_size":22,"subheading_size":14,"cta_size":14,"section_space":"bottom"}},"162567173863ea5075":{"type":"gallery","blocks":{"162567173863ea5075-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tad227-blue.jpg","overlay":true,"image_width":"33%","link":"","title_text":"Heading","hidden_text":"<p>Subheading<\/p>","text_color":"#ffffff","text_position":"on_image","caption_vertical":80,"caption_horizontal":50,"text_align":"center"}},"162567173863ea5075-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tad230-mustard.jpg","overlay":true,"image_width":"33%","link":"","title_text":"Heading","hidden_text":"<p>Subheading<\/p>","text_color":"#ffffff","text_position":"on_image","caption_vertical":80,"caption_horizontal":50,"text_align":"center"}},"162567173863ea5075-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tad228-pink.jpg","overlay":true,"image_width":"33%","link":"","title_text":"Heading","hidden_text":"<p>Subheading<\/p>","text_color":"#ffffff","text_position":"on_image","caption_vertical":80,"caption_horizontal":50,"text_align":"center"}}},"block_order":["162567173863ea5075-0","162567173863ea5075-1","162567173863ea5075-2"],"settings":{"full_width":false,"promo_size":22,"hidden_size":14,"section_space":"top_and_bottom"}},"162567175551040fc5":{"type":"featured-collection","settings":{"title":"Featured collection","collection":"saree","carousel":true,"grid":4,"limit":10,"section_space":"top_and_bottom"}},"16256717602b44b536":{"type":"collection-list","blocks":{"16256717602b44b536-0":{"type":"featured_collection","settings":{"collection":"saree"}},"16256717602b44b536-1":{"type":"featured_collection","settings":{"collection":""}},"16256717602b44b536-2":{"type":"featured_collection","settings":{"collection":""}}},"block_order":["16256717602b44b536-0","16256717602b44b536-1","16256717602b44b536-2"],"settings":{"title":"Collection list","grid":3,"title_position":"below","collection_count":false,"section_space":"top_and_bottom"}},"1625671772ae604f4a":{"type":"image-with-text-overlay","settings":{"full_width":true,"overlay":false,"background_attachment":"fixed","height":400,"mobile_height":400,"text_align":"center","caption_vertical":50,"caption_horizontal":50,"heading":"Image with text overlay","subheading_text":"<p>Subheading text<\/p>","button_text":"Button","link":"","heading_font_size":30,"subheading_font_size":16,"text_color":"#000000","button_text_color":"#ffffff","button_color":"#000000","section_space":"top_and_bottom"}},"16256717844b22c31c":{"type":"featured-collection","settings":{"title":"Featured collection","collection":"","carousel":true,"grid":4,"limit":10,"section_space":"top_and_bottom"}},"1625671777dd905141":{"type":"collage","blocks":{"1625671777dd905141-0":{"type":"text","settings":{"title_text":"Our collections","text":"<p>Add text blocks to call out features, updates and more.<\/p>","center_align":false,"column_size":2}},"1625671777dd905141-1":{"type":"image","settings":{"image_size":"none","link":"","column_size":2}},"1625671777dd905141-2":{"type":"image","settings":{"image_size":"none","link":"","column_size":2}}},"block_order":["1625671777dd905141-0","1625671777dd905141-1","1625671777dd905141-2"],"settings":{"display_wide":false,"no_space":false,"section_space":"top_and_bottom"}},"1625671845c9538e1f":{"type":"newsletter","settings":{"heading":"Subscribe to our newsletter","newsletter_subheading":"<p>Signup for our newsletter to stay up to date on sales and events.<\/p>","newsletter_gdpr_text":"*By completing this form you're signing up to receive our emails and can unsubscribe at any time","color":"#000000","background_color":"#f7f7f7","section_space":"top_and_bottom"}}},"order":["1625671734793532ca","162567173863ea5075","162567175551040fc5","16256717602b44b536","1625671772ae604f4a","16256717844b22c31c","1625671777dd905141","1625671845c9538e1f"]}
+{
+  "sections": {
+    "1625671734793532ca": {
+      "type": "slideshow",
+      "blocks": {
+        "1625671734793532ca-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kankatala-kan2-banarasi-desktop-banner-kan1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "1625671734793532ca-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/N-than-1964-a.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "e3feb807-3a1b-4c80-a832-76383d011961": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kankatala-kan2-tussar-desktop-banner-kan1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "1625671734793532ca-0",
+        "1625671734793532ca-1",
+        "e3feb807-3a1b-4c80-a832-76383d011961"
+      ],
+      "settings": {
+        "display_wide": true,
+        "no_autoplay": true,
+        "slider_speed": 5,
+        "pager": "dots",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_space": "bottom"
+      }
+    },
+    "162567173863ea5075": {
+      "type": "gallery",
+      "blocks": {
+        "162567173863ea5075-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tad227-blue.jpg",
+            "overlay": true,
+            "image_width": "33%",
+            "link": "",
+            "title_text": "Heading",
+            "hidden_text": "<p>Subheading<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        },
+        "162567173863ea5075-1": {
+          "type": "image",
+          "settings": {
+            "overlay": true,
+            "image_width": "33%",
+            "link": "",
+            "title_text": "Heading",
+            "hidden_text": "<p>Subheading<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        },
+        "162567173863ea5075-2": {
+          "type": "image",
+          "settings": {
+            "overlay": true,
+            "image_width": "33%",
+            "link": "",
+            "title_text": "Heading",
+            "hidden_text": "<p>Subheading<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "162567173863ea5075-0",
+        "162567173863ea5075-1",
+        "162567173863ea5075-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "promo_size": 22,
+        "hidden_size": 14,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "162567175551040fc5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "saree",
+        "carousel": true,
+        "grid": 4,
+        "limit": 10,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "16256717602b44b536": {
+      "type": "collection-list",
+      "blocks": {
+        "16256717602b44b536-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "saree"
+          }
+        },
+        "16256717602b44b536-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16256717602b44b536-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16256717602b44b536-0",
+        "16256717602b44b536-1",
+        "16256717602b44b536-2"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "grid": 3,
+        "title_position": "below",
+        "collection_count": false,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "1625671772ae604f4a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "overlay": false,
+        "background_attachment": "fixed",
+        "height": 400,
+        "mobile_height": 400,
+        "text_align": "center",
+        "caption_vertical": 50,
+        "caption_horizontal": 50,
+        "heading": "Image with text overlay",
+        "subheading_text": "<p>Subheading text<\/p>",
+        "button_text": "Button",
+        "link": "",
+        "heading_font_size": 30,
+        "subheading_font_size": 16,
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
+        "section_space": "top_and_bottom"
+      }
+    },
+    "16256717844b22c31c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "carousel": true,
+        "grid": 4,
+        "limit": 10,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "1625671777dd905141": {
+      "type": "collage",
+      "blocks": {
+        "1625671777dd905141-0": {
+          "type": "text",
+          "settings": {
+            "title_text": "Our collections",
+            "text": "<p>Add text blocks to call out features, updates and more.<\/p>",
+            "center_align": false,
+            "column_size": 2
+          }
+        },
+        "1625671777dd905141-1": {
+          "type": "image",
+          "settings": {
+            "image_size": "none",
+            "link": "",
+            "column_size": 2
+          }
+        },
+        "1625671777dd905141-2": {
+          "type": "image",
+          "settings": {
+            "image_size": "none",
+            "link": "",
+            "column_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "1625671777dd905141-0",
+        "1625671777dd905141-1",
+        "1625671777dd905141-2"
+      ],
+      "settings": {
+        "display_wide": false,
+        "no_space": false,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "1625671845c9538e1f": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Subscribe to our newsletter",
+        "newsletter_subheading": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>",
+        "newsletter_gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time",
+        "color": "#000000",
+        "background_color": "#f7f7f7",
+        "section_space": "top_and_bottom"
+      }
+    }
+  },
+  "order": [
+    "1625671734793532ca",
+    "162567173863ea5075",
+    "162567175551040fc5",
+    "16256717602b44b536",
+    "1625671772ae604f4a",
+    "16256717844b22c31c",
+    "1625671777dd905141",
+    "1625671845c9538e1f"
+  ]
+}
