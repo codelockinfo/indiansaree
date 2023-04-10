@@ -1120,7 +1120,7 @@
           "announcement_text": "<p>Share a shop announcement or message<\/p>",
           "announcement_text_size": 13,
           "show_locale_selector": false,
-          "show_country_selector": true
+          "show_country_selector": false
         }
       },
       "mailing-popup": {
