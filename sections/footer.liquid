@@ -40,13 +40,16 @@
       style="background: url({{section.settings.kombg | img_url:'master' }});"
     >
       <div class="fotterlogo">
+        {% if section.settings.ftlogo!= blank %}
         <img src="{{ section.settings.ftlogo | img_url:'master' }}" class="footerimage">
+        {% endif %}
       </div>
       <div class="footerdiscriptio">
         <p class="ftdiscriptipon">{{ section.settings.ftdiscript }}</p>
       </div>
 
-      <div id="footer" class="row">
+      <div id="footer" class="footercontain row ">
+        <div class="fotelogoflex">
         {% for block in section.blocks %}
           <section class="footer-block block-{{ block.id }}" {{ block.shopify_attributes }}>
             {% case block.type %}
@@ -142,6 +145,7 @@
             {% endcase %}
           </section>
         {% endfor %}
+        </div>
       </div>
       <div id="bottom-footer" class="row">
         <div class="footer-left">

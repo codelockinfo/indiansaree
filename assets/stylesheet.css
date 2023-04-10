@@ -13697,4 +13697,51 @@ textarea.required-error {
     width: 35%;
     margin: 0 auto;
     text-align: center;
+    padding: 15px 0px 20px;
+}
+.footercontain {
+  max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.footerbackground #footer {
+  display: block;
+}
+.fotelogoflex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footerbackground section.footer-block.block-50069b64-25ef-4e95-8f6b-c841efaec4ea, .footerbackground .footer-block.block-1480352627697{
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+.footerbackground .footer-block + .footer-block {
+  margin-left: 0%;
+}
+.footer-sect ul {
+  list-style: none;
+}
+.footerbackground .footer-sect h3{
+  font-size: 23px;
+}
+.footerbackground li a{
+  font-size: 18px;
+  line-height: 25px;
+}
+.social-icons__list svg g{
+  fill: #000;
+}
+.social-icons__list  svg{
+  width: 25px;
+    height: 25px;
+}
+.footerbackground div#copy{
+  font-size: 20px;
+}
+.footerbackground div#bottom-footer{
+  max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
 }
