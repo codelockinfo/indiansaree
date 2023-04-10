@@ -227,7 +227,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "collection": "",
+        "collection": "banarasi",
         "carousel": true,
         "grid": 4,
         "limit": 10,
@@ -249,7 +249,8 @@
         "1625671777dd905141-1": {
           "type": "image",
           "settings": {
-            "image_size": "none",
+            "image": "shopify:\/\/shop_images\/tad248.webp",
+            "image_size": "medium",
             "link": "",
             "column_size": 2
           }
@@ -257,7 +258,8 @@
         "1625671777dd905141-2": {
           "type": "image",
           "settings": {
-            "image_size": "none",
+            "image": "shopify:\/\/shop_images\/1_87_360x_d7577247-21ec-4962-9387-200376eaf3c9.jpg",
+            "image_size": "medium",
             "link": "",
             "column_size": 2
           }
