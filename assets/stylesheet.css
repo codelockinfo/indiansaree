@@ -13777,3 +13777,6 @@ body{
   position: relative;
   z-index: 1;
 }
+.gridlock-fluid .social-icons__list {
+    display: none;
+} 
