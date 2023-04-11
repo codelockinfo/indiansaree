@@ -13780,3 +13780,9 @@ body{
 .gridlock-fluid .social-icons__list {
     display: none;
 } 
+.clsgallarytarget .gallery__item-caption{
+  font-size: 25px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
