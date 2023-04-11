@@ -1042,7 +1042,7 @@
         "settings": {
           "nav_style": "inline",
           "logo": "shopify:\/\/shop_images\/images_1.png",
-          "logo_max_width": 65,
+          "logo_max_width": 50,
           "mobile_logo_max_width": 30,
           "cart_icon": "bag",
           "main_nav": "saree-menu",
