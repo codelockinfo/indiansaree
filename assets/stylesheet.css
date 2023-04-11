@@ -13780,7 +13780,7 @@ body{
 .gridlock-fluid .social-icons__list {
     display: none;
 } 
-.clsgallarytarget .gallery__item-caption h3{
+.clsgallarytarget .gallery__item-caption h3, .collection__item-details p{
   font-size: 25px;
     line-height: 35px;
     text-transform: uppercase;
