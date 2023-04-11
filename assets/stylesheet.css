@@ -13786,3 +13786,9 @@ body{
     text-transform: uppercase;
     font-family: 'Poppins';
 }
+.haddingtextual {
+    background-color: #fff;
+}
+.haddingtextual p {
+    color: #000 !important;
+}
