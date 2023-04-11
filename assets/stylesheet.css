@@ -13760,6 +13760,7 @@ body{
   max-width: 1000px;
     margin: 0 auto;
     width: 100%;
+  padding-bottom: 5%;
 }
 #shopify-section-announcement-bar .social-icons__list.span-4.auto.sm-hide.v-center {
   display: none;
