@@ -13808,6 +13808,6 @@ margin-bottom: 10px;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
-#bottom-footer #copy p{
+#bottom-footer #copy p, #bottom-footer #copy a{
       color: #fff;
 }
