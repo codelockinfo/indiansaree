@@ -13780,11 +13780,12 @@ body{
 .gridlock-fluid .social-icons__list {
     display: none;
 } 
-.clsgallarytarget .gallery__item-caption{
+.clsgallarytarget .gallery__item-caption h3{
   font-size: 25px;
     line-height: 35px;
     text-transform: uppercase;
     font-family: 'Poppins';
+margin-bottom: 10px;
 }
 .haddingtextual {
     background-color: #fff;
