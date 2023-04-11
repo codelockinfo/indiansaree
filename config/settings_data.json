@@ -1024,10 +1024,20 @@
               "link": "shopify:\/\/collections",
               "show_images": true
             }
+          },
+          "b051c45c-bf5c-4992-899b-6e9ce0cf1226": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "New Arrivals",
+              "nav_image": "shopify:\/\/shop_images\/31-314455_indian-saree-models-png.png",
+              "link": "",
+              "show_images": true
+            }
           }
         },
         "block_order": [
-          "3272587b-24ab-41e5-936d-c6a2ed376b73"
+          "3272587b-24ab-41e5-936d-c6a2ed376b73",
+          "b051c45c-bf5c-4992-899b-6e9ce0cf1226"
         ],
         "settings": {
           "nav_style": "inline",
