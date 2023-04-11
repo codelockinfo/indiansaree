@@ -15,6 +15,7 @@
 
 <section class="global__section gallery__image-section{{ section_space_class }}" data-section-id="{{ section.id }}" >
 {% if section.settings.full_width %}<div class="gridlock-fluid"><div class="row">{% endif %}
+<h2 class="gallarytitle">{{ section.settings.coltitle }}</h2>
   <div class="row grid__wrapper">
 
     {% for block in section.blocks %}
