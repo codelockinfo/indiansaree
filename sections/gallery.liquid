@@ -79,10 +79,8 @@
               {% endif %}
               {% if block.settings.hidden_text != blank %}
               <div class="haddingtextual">  
-                {% if has_link %}<a href="{{ block.settings.link }}">
-                {{ block.settings.hidden_text }}    
-                 {% endif %}
-                </div>
+                 {{ block.settings.hidden_text }}    
+                    </div>
              
               {% endif %}
             </div>
