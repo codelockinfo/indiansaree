@@ -75,12 +75,12 @@
             {% if has_link %}</a>{% endif %}
             <div class="gallery__item-caption rte">
               {% if block.settings.title_text != blank %}
-                <h3>{{ block.settings.title_text | escape }}</h3>
+                <h3>{{ block.settings.title_text  }}</h3>
               {% endif %}
               {% if block.settings.hidden_text != blank %}
 
-              
-                {{ block.settings.hidden_text }}     {% if has_link %}<a href="{{ block.settings.link }}">{% endif %}
+               {% if has_link %}<a href="{{ block.settings.link }}">{% endif %}
+                {{ block.settings.hidden_text }}    
               {% endif %}
             </div>
         </div>
