@@ -13789,8 +13789,11 @@ margin-bottom: 10px;
 }
 .haddingtextual {
     background-color: #fff;
+  border-radius: 5px;
 }
+
 .haddingtextual p {
     color: #000 !important;
       padding: 4px 0px;
+  font-size: 16px !important;
 }
