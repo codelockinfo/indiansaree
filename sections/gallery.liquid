@@ -56,7 +56,7 @@
       -%}
 
       <div class="gallery__item{% if block.settings.text_position == 'on_image' %} floating__text{% endif %} {{ image_width }} sm-span-12 auto item-{{ block.id }}" {{ block.shopify_attributes }}>
-        <div class="gallery__item-container">
+        <div class="clsgallarytarget gallery__item-container">
             {% if has_link %}<a href="{{ block.settings.link }}">{% endif %}
             {% if has_image %}
               <div class="gallery__item-image{% if block.settings.overlay %} overlay{% endif %}">
