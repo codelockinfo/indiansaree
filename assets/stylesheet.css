@@ -13744,6 +13744,7 @@ body{
 .footerbackground li a{
   font-size: 18px;
   line-height: 25px;
+      color: #fff;
 }
 .social-icons__list svg g{
   fill: #000;
