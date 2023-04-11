@@ -13726,7 +13726,7 @@ body{
   justify-content: center;
   flex-wrap: wrap;
 }
-.footerbackground section.footer-block.block-50069b64-25ef-4e95-8f6b-c841efaec4ea, .footerbackground .footer-block.block-1480352627697{
+.footerbackground section.footer-block.block-50069b64-25ef-4e95-8f6b-c841efaec4ea, .footerbackground .footer-block.block-1480352627697, section.footer-block.block-09db4b25-0281-4d32-95c5-364395cf81c1{
   width: 50%;
   justify-content: center;
   display: flex;
