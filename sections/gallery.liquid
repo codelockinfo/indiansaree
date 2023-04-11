@@ -79,8 +79,9 @@
               {% endif %}
               {% if block.settings.hidden_text != blank %}
 
-               {% if has_link %}<a href="{{ block.settings.link }}">{% endif %}
-                {{ block.settings.hidden_text }}    
+               {% if has_link %}<a href="{{ block.settings.link }}">
+                {{ block.settings.hidden_text }}  
+                 {% endif %}
               {% endif %}
             </div>
         </div>
