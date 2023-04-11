@@ -13711,6 +13711,7 @@ body{
     padding: 15px 0px 20px;
     position: relative;
     z-index: 1;
+      color: #fff;
 }
 .footercontain {
   max-width: 1200px;
