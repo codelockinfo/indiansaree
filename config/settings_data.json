@@ -1020,6 +1020,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Baluchari",
+              "nav_image": "shopify:\/\/shop_images\/images_10.jpg",
               "link": "shopify:\/\/collections",
               "show_images": true
             }
