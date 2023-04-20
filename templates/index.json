@@ -185,6 +185,9 @@
     },
     "162567175551040fc5": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2{text-align: center; margin-bottom: 20px; text-transform: inherit; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+      ],
       "settings": {
         "title": "Featured collection",
         "collection": "embroidered",
