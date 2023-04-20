@@ -354,7 +354,7 @@
         "16256717602b44b536-2"
       ],
       "custom_css": [
-        "h2{font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+        "h2 {font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
       ],
       "settings": {
         "title": "Collection list",
@@ -497,6 +497,9 @@
         "1625671777dd905141-0",
         "1625671777dd905141-1",
         "1625671777dd905141-2"
+      ],
+      "custom_css": [
+        "h3 {font-size: 24px; text-align: left; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
       ],
       "settings": {
         "display_wide": false,
