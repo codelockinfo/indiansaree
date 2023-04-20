@@ -27,6 +27,7 @@
               <!--         <img src="{{ block.settings.image | img_url: 'master' }}"> -->
               <h3 class="head-cls"> {{ block.settings.heading }} </h3>
             </div>
+            
             {% endfor %}
           </div>
         </section>
@@ -146,9 +147,9 @@
 <style>
 
   h3.head-cls{
-    color: white !important;
+    color: black !important;
     text-align: center;
-    margin-top: 12%;
+    margin-top: 32%;
   }
   .cls-head {
     font-size: 36px !important;
@@ -241,9 +242,7 @@
     display: none;
   }
 </style>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<scritp src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></scritp>
-<script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+
 <script>
   $( ".micro-slider-main" ).each(function( index ) {
     var mainId = $(this).attr('id');

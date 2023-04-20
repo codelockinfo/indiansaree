@@ -13811,3 +13811,10 @@ margin-bottom: 10px;
 #bottom-footer #copy p, #bottom-footer #copy a{
       color: #fff;
 }
+@media screen and (max-width: 520px) {
+.ftdiscriptipon{
+  
+  width: 90%;
+
+}
+}

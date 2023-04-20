@@ -55,7 +55,9 @@
   </style>
 
   {{ content_for_header }}
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <scritp src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></scritp>
+  <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
 </head>
 <body class="gridlock template-{{ template | handleize }} {% if template contains 'product' %}product{% elsif template contains 'collection' %}collection{% else %}{{ template | handleize }}{% endif %} js-slideout-toggle-wrapper js-modal-toggle-wrapper product-variant-type--{{ settings.product_variants }} {% if settings.image_hover_scale %}theme-image-effect{% endif %} {% if settings.button_corners == 'curved' %}theme-buttons-curved{% endif %} {% if settings.switch_image or settings.alternate_colors %}theme-image-hover{% endif %} {% if settings.product_border %}theme-border{% endif %}">
   <div class="js-slideout-overlay site-overlay"></div>
@@ -70,7 +72,7 @@
       {% section 'announcement-bar' %}
       {% section 'header' %}
 
-      <main class="content-wrapper" role="main">
+      <main class="content-wrapper" role="main">  
         {{ content_for_layout }}
       </main>
     </div>
