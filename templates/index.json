@@ -1,1 +1,544 @@
-{"sections":{"1625671734793532ca":{"type":"slideshow","blocks":{"1625671734793532ca-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/kankatala-kan2-banarasi-desktop-banner-kan1.jpg","overlay":false,"text_align":"left","caption_horizontal":50,"caption_vertical":50,"hide_caption_background":false,"caption_below":false,"heading":"","subheading":"","link":"","button_text":"","second_link":"","second_button_text":"","slide_text_color":"#000000","cta_color":"#ffffff","cta_background":"#000000","caption_background":"rgba(0,0,0,0)","caption_background_opacity":20}},"1625671734793532ca-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/N-than-1964-a.jpg","overlay":false,"text_align":"left","caption_horizontal":50,"caption_vertical":50,"hide_caption_background":false,"caption_below":false,"heading":"","subheading":"","link":"","button_text":"","second_link":"","second_button_text":"","slide_text_color":"#000000","cta_color":"#ffffff","cta_background":"#000000","caption_background":"rgba(0,0,0,0)","caption_background_opacity":20}},"e3feb807-3a1b-4c80-a832-76383d011961":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/kankatala-kan2-tussar-desktop-banner-kan1.jpg","overlay":false,"text_align":"left","caption_horizontal":50,"caption_vertical":50,"hide_caption_background":false,"caption_below":false,"heading":"","subheading":"","link":"","button_text":"Add a button","second_link":"","second_button_text":"Button 2 text","slide_text_color":"#000000","cta_color":"#ffffff","cta_background":"#000000","caption_background":"rgba(0,0,0,0)","caption_background_opacity":20}}},"block_order":["1625671734793532ca-0","1625671734793532ca-1","e3feb807-3a1b-4c80-a832-76383d011961"],"settings":{"display_wide":true,"no_autoplay":true,"slider_speed":5,"pager":"dots","slide_heading_size":22,"subheading_size":14,"cta_size":14,"section_space":"bottom"}},"162567173863ea5075":{"type":"gallery","blocks":{"162567173863ea5075-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2_1024x1024_9c2877da-5b66-49f8-bbdf-7114452865c4.jpg","overlay":true,"image_width":"33%","link":"shopify:\/\/collections\/embroidered","title_text":"Embroidered","hidden_text":"<p>Shop Now<\/p>","text_color":"#ffffff","text_position":"on_image","caption_vertical":80,"caption_horizontal":50,"text_align":"center"}},"162567173863ea5075-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/3_27_1024x1024_87332a32-81bd-4a7a-af64-8af094b199cd.jpg","overlay":true,"image_width":"33%","link":"shopify:\/\/collections\/printed","title_text":"Kanjivaram","hidden_text":"<p>Shop Now<\/p>","text_color":"#ffffff","text_position":"on_image","caption_vertical":80,"caption_horizontal":50,"text_align":"center"}},"162567173863ea5075-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2_1024x1024_6deeb0ed-9de0-4f57-99b4-b21b0e6b757f.jpg","overlay":true,"image_width":"33%","link":"shopify:\/\/collections\/chanderi","title_text":"Chanderi","hidden_text":"<p>Shop Now<\/p>","text_color":"#ffffff","text_position":"on_image","caption_vertical":80,"caption_horizontal":50,"text_align":"center"}}},"block_order":["162567173863ea5075-0","162567173863ea5075-1","162567173863ea5075-2"],"settings":{"coltitle":"CELEBRITY CHOICE","full_width":false,"promo_size":22,"hidden_size":14,"section_space":"top_and_bottom"}},"162567175551040fc5":{"type":"featured-collection","settings":{"title":"Featured collection","collection":"embroidered","carousel":true,"grid":4,"limit":10,"section_space":"top_and_bottom"}},"4ac16a36-69ac-4aed-a34e-2cf9f3026504":{"type":"custom_slider","blocks":{"ece6ab0f-ab2a-4cb4-9c99-512e5d7cac06":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp","heading":"Silk Saree"}},"a8053274-8fd2-47cf-b52d-b772d1ddca09":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/IMG-20230411-WA0013.jpg","heading":"Kanjivaram Silk Saree"}},"8e0406b3-7129-45eb-86bd-4933bf8cdda8":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/RJKAJALVol115232_360x_456015db-2f43-490c-b55e-cd5a724e26b2.webp","heading":"Kanjivaram Silk Saree"}},"5d43bf9c-0987-46fa-acdf-b716ee79cf34":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp","heading":"Kanjivaram Saree"}},"51e4b789-1497-4160-a769-0b1381e9e681":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/parired-1_360x_3219ae1c-351d-4154-8269-592072220a73.webp","heading":"Paithani Silk Saree"}},"36803a42-1b74-4fe5-8d02-c3148bb95379":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/RJAASHIYANA10034-1_360x_987fe4a3-5e36-4dcb-9cc3-fd1799327368.webp","heading":"Silk Saree"}},"25164ea2-ca9c-494a-a4fe-07d166906426":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/PNYManya-1_360x_86971416-1930-4422-b40f-400b325f5b89.webp","heading":"Silk Saree"}},"3a986331-80c7-4691-9bf6-6e8df7f2852c":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/simarn_malik.webp","heading":"Paithani Silk Saree"}},"e628f1f3-c049-4572-a565-edac8543c25f":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/163005-T_360x_64e8977b-52e0-4a97-82d9-241bf286ea12.webp","heading":"Kanjivaram Silk Saree"}}},"block_order":["ece6ab0f-ab2a-4cb4-9c99-512e5d7cac06","a8053274-8fd2-47cf-b52d-b772d1ddca09","8e0406b3-7129-45eb-86bd-4933bf8cdda8","5d43bf9c-0987-46fa-acdf-b716ee79cf34","51e4b789-1497-4160-a769-0b1381e9e681","36803a42-1b74-4fe5-8d02-c3148bb95379","25164ea2-ca9c-494a-a4fe-07d166906426","3a986331-80c7-4691-9bf6-6e8df7f2852c","e628f1f3-c049-4572-a565-edac8543c25f"],"settings":{"heading":"See Some of Our Client's Designs:","subheading":"","style_title":"title_2"}},"16256717602b44b536":{"type":"collection-list","blocks":{"16256717602b44b536-0":{"type":"featured_collection","settings":{"collection":"chanderi"}},"16256717602b44b536-1":{"type":"featured_collection","settings":{"collection":"ikat"}},"16256717602b44b536-2":{"type":"featured_collection","settings":{"collection":"printed"}}},"block_order":["16256717602b44b536-0","16256717602b44b536-1","16256717602b44b536-2"],"settings":{"title":"Collection list","grid":3,"title_position":"below","collection_count":false,"section_space":"top_and_bottom"}},"5c21fdd0-80ee-4491-9c44-8fd66b685e60":{"type":"accordion","blocks":{"template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-0":{"type":"accordion_pane","settings":{"title":"Which saree is famous in?","content":"<p>Often referred to as the 'queen of sarees',<strong>Kanjeevaram sarees<\/strong>are woven silk sarees produced and manufactured in the Kanjeevaram region in the state of Tamil Nadu<\/p>"}},"template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-1":{"type":"accordion_pane","settings":{"title":"Which saree is known as queen of sarees?","content":"<p>Paithani sarees popularly known as 'Queen of Sarees,' is a trademark of Indian tradition. Paithani saree is considered as one of the royal sarees in India.<\/p>"}},"template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-2":{"type":"accordion_pane","settings":{"title":"What is saree also called?","content":"<p>A sari (also known as a saree or a shari) is a type of clothing for women. It is mostly used as a daily clothing in modern Republic of India, Bangladesh, Nepal and Sri Lanka as well as formal clothing in Pakistan. It is a very long strip of cloth. Women wrap it around their body.<\/p>"}},"0d2a0d9b-c98a-4de9-b9e3-4d520f5c20f7":{"type":"accordion_pane","settings":{"title":"Which saree is softest?","content":"<p>Raw silk sarees are made from the most natural form of silk. They are very easy to wear and carry. <\/p>"}},"46276db8-0f69-4fb7-b53c-6402354d1714":{"type":"accordion_pane","settings":{"title":"What is the first saree?","content":"<p>The journey of sari began with cotton, which was first cultivated in the Indian subcontinent around 5th millennium BC.<\/p>"}}},"block_order":["template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-0","template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-1","template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-2","0d2a0d9b-c98a-4de9-b9e3-4d520f5c20f7","46276db8-0f69-4fb7-b53c-6402354d1714"],"settings":{"title":"FAQ","max_width":60,"allow_multiple":false}},"1625671772ae604f4a":{"type":"image-with-text-overlay","settings":{"full_width":true,"image":"shopify:\/\/shop_images\/25-2-23_0dce61b0-0574-4485-8c21-093b3a8675d9.jpg","overlay":false,"background_attachment":"fixed","height":400,"mobile_height":400,"text_align":"center","caption_vertical":50,"caption_horizontal":50,"heading":"Shop All Collections","subheading_text":"","button_text":"Button","link":"","heading_font_size":30,"subheading_font_size":16,"text_color":"#ffffff","button_text_color":"#ffffff","button_color":"#000000","section_space":"top_and_bottom"}},"16256717844b22c31c":{"type":"featured-collection","settings":{"title":"Featured collection","collection":"banarasi","carousel":true,"grid":4,"limit":10,"section_space":"top_and_bottom"}},"1625671777dd905141":{"type":"collage","blocks":{"1625671777dd905141-0":{"type":"text","settings":{"title_text":"Our collections","text":"<p>Add text blocks to call out features, updates and more.<\/p>","center_align":false,"column_size":2}},"1625671777dd905141-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/tad248.webp","image_size":"medium","link":"","column_size":2}},"1625671777dd905141-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1_87_360x_d7577247-21ec-4962-9387-200376eaf3c9.jpg","image_size":"medium","link":"","column_size":2}}},"block_order":["1625671777dd905141-0","1625671777dd905141-1","1625671777dd905141-2"],"settings":{"display_wide":false,"no_space":false,"section_space":"top_and_bottom"}},"1625671845c9538e1f":{"type":"newsletter","settings":{"heading":"Subscribe to our newsletter","newsletter_subheading":"<p>Signup for our newsletter to stay up to date on sales and events.<\/p>","newsletter_gdpr_text":"*By completing this form you're signing up to receive our emails and can unsubscribe at any time","color":"#000000","background_color":"#f7f7f7","section_space":"top_and_bottom"}}},"order":["1625671734793532ca","162567173863ea5075","162567175551040fc5","4ac16a36-69ac-4aed-a34e-2cf9f3026504","16256717602b44b536","5c21fdd0-80ee-4491-9c44-8fd66b685e60","1625671772ae604f4a","16256717844b22c31c","1625671777dd905141","1625671845c9538e1f"]}
+{
+  "sections": {
+    "1625671734793532ca": {
+      "type": "slideshow",
+      "blocks": {
+        "1625671734793532ca-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kankatala-kan2-banarasi-desktop-banner-kan1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "1625671734793532ca-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/N-than-1964-a.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "",
+            "second_link": "",
+            "second_button_text": "",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        },
+        "e3feb807-3a1b-4c80-a832-76383d011961": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kankatala-kan2-tussar-desktop-banner-kan1.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)",
+            "caption_background_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "1625671734793532ca-0",
+        "1625671734793532ca-1",
+        "e3feb807-3a1b-4c80-a832-76383d011961"
+      ],
+      "settings": {
+        "display_wide": true,
+        "no_autoplay": true,
+        "slider_speed": 5,
+        "pager": "dots",
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "cta_size": 14,
+        "section_space": "bottom"
+      }
+    },
+    "a18a2913-7419-4757-984d-22aa496ad2dc": {
+      "type": "introduction",
+      "settings": {
+        "heading": "ETHNIC SAREES ONLINE",
+        "text": "<p>More then 5000 designs in sarees are available in stock. A range of pure silk sarees is available at your fingertips for you to explore and choose. Shop from the comforts of your surrounding and look for what you want. No bargaining or haggling, but certainly various options for online sari shopping in India, such as Cash on Delivery, a 2-day returns guarantee and so on!<\/p>",
+        "link": "",
+        "button_text": "Find out more",
+        "heading_size": 80,
+        "text_color": "#000000",
+        "background_color": "#f7f7f7",
+        "padding": 90
+      }
+    },
+    "da60578f-bb7b-449b-acd0-4cb4e894885b": {
+      "type": "image-with-text",
+      "custom_css": [
+        "h2 {font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: inherit; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
+        "image_position": "left",
+        "image_size": "medium",
+        "title": "RAW SILK SAREES",
+        "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
+        "button_text": "Button",
+        "link": "",
+        "center_align": false,
+        "text_color": "#000000",
+        "background_color": "#f7f7f7"
+      }
+    },
+    "162567173863ea5075": {
+      "type": "gallery",
+      "blocks": {
+        "162567173863ea5075-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_1024x1024_9c2877da-5b66-49f8-bbdf-7114452865c4.jpg",
+            "overlay": true,
+            "image_width": "33%",
+            "link": "shopify:\/\/collections\/embroidered",
+            "title_text": "Embroidered",
+            "hidden_text": "<p>Shop Now<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        },
+        "162567173863ea5075-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_27_1024x1024_87332a32-81bd-4a7a-af64-8af094b199cd.jpg",
+            "overlay": true,
+            "image_width": "33%",
+            "link": "shopify:\/\/collections\/printed",
+            "title_text": "Kanjivaram",
+            "hidden_text": "<p>Shop Now<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        },
+        "162567173863ea5075-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_1024x1024_6deeb0ed-9de0-4f57-99b4-b21b0e6b757f.jpg",
+            "overlay": true,
+            "image_width": "33%",
+            "link": "shopify:\/\/collections\/chanderi",
+            "title_text": "Chanderi",
+            "hidden_text": "<p>Shop Now<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "162567173863ea5075-0",
+        "162567173863ea5075-1",
+        "162567173863ea5075-2"
+      ],
+      "custom_css": [
+        ".haddingtextual a {}"
+      ],
+      "settings": {
+        "coltitle": "CELEBRITY CHOICE",
+        "full_width": false,
+        "promo_size": 22,
+        "hidden_size": 14,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "162567175551040fc5": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; font-size: 24px; letter-spacing: 0.5px; font-family: sans-serif;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "collection": "latest-kanjivaram-collection",
+        "carousel": true,
+        "grid": 4,
+        "limit": 10,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "4ac16a36-69ac-4aed-a34e-2cf9f3026504": {
+      "type": "custom_slider",
+      "blocks": {
+        "ece6ab0f-ab2a-4cb4-9c99-512e5d7cac06": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
+            "heading": "Silk Saree"
+          }
+        },
+        "a8053274-8fd2-47cf-b52d-b772d1ddca09": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-20230411-WA0013.jpg",
+            "heading": "Kanjivaram Silk Saree"
+          }
+        },
+        "8e0406b3-7129-45eb-86bd-4933bf8cdda8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RJKAJALVol115232_360x_456015db-2f43-490c-b55e-cd5a724e26b2.webp",
+            "heading": "Kanjivaram Silk Saree"
+          }
+        },
+        "5d43bf9c-0987-46fa-acdf-b716ee79cf34": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp",
+            "heading": "Kanjivaram Saree"
+          }
+        },
+        "51e4b789-1497-4160-a769-0b1381e9e681": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/parired-1_360x_3219ae1c-351d-4154-8269-592072220a73.webp",
+            "heading": "Paithani Silk Saree"
+          }
+        },
+        "36803a42-1b74-4fe5-8d02-c3148bb95379": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RJAASHIYANA10034-1_360x_987fe4a3-5e36-4dcb-9cc3-fd1799327368.webp",
+            "heading": "Silk Saree"
+          }
+        },
+        "25164ea2-ca9c-494a-a4fe-07d166906426": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PNYManya-1_360x_86971416-1930-4422-b40f-400b325f5b89.webp",
+            "heading": "Silk Saree"
+          }
+        },
+        "3a986331-80c7-4691-9bf6-6e8df7f2852c": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/simarn_malik.webp",
+            "heading": "Paithani Silk Saree"
+          }
+        },
+        "e628f1f3-c049-4572-a565-edac8543c25f": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/163005-T_360x_64e8977b-52e0-4a97-82d9-241bf286ea12.webp",
+            "heading": "Kanjivaram Silk Saree"
+          }
+        }
+      },
+      "block_order": [
+        "ece6ab0f-ab2a-4cb4-9c99-512e5d7cac06",
+        "a8053274-8fd2-47cf-b52d-b772d1ddca09",
+        "8e0406b3-7129-45eb-86bd-4933bf8cdda8",
+        "5d43bf9c-0987-46fa-acdf-b716ee79cf34",
+        "51e4b789-1497-4160-a769-0b1381e9e681",
+        "36803a42-1b74-4fe5-8d02-c3148bb95379",
+        "25164ea2-ca9c-494a-a4fe-07d166906426",
+        "3a986331-80c7-4691-9bf6-6e8df7f2852c",
+        "e628f1f3-c049-4572-a565-edac8543c25f"
+      ],
+      "settings": {
+        "heading": "See Some of Our Client's Designs:",
+        "subheading": "",
+        "style_title": "title_2"
+      }
+    },
+    "a316756c-0344-4e62-8e85-7a9e02825b0b": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp",
+            "link": "shopify:\/\/collections\/latest-paithani-collection",
+            "title_text": "Paithani Collection",
+            "text": "<p>Paithani is a variety of saree, named after Paithan region in Maharashtra state where they are woven by hand. <\/p>",
+            "button_text": "Shop Now"
+          }
+        },
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/163005-T_360x_64e8977b-52e0-4a97-82d9-241bf286ea12.webp",
+            "link": "shopify:\/\/collections\/new-arrival",
+            "title_text": "Pure Silk",
+            "text": "<p>The origin of Mysore Silk Sarees is from Karnataka and is known to be one of the purest forms of silk.<\/p>",
+            "button_text": "Shop Now"
+          }
+        },
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RJKAJALVol115232_360x_456015db-2f43-490c-b55e-cd5a724e26b2.webp",
+            "link": "shopify:\/\/collections\/embroidered",
+            "title_text": "Embroidered",
+            "text": "<p>Saree embroidery is simply the method of using the various  embroidery styles to embelish sarees.<strong> <\/strong><\/p>",
+            "button_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-0",
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-1",
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-2"
+      ],
+      "settings": {
+        "title": "SAREES SHOPPING ONLINE",
+        "center_align": false,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "16256717602b44b536": {
+      "type": "collection-list",
+      "blocks": {
+        "16256717602b44b536-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "latest-paithani-collection"
+          }
+        },
+        "16256717602b44b536-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "banarasi"
+          }
+        },
+        "16256717602b44b536-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chanderi"
+          }
+        }
+      },
+      "block_order": [
+        "16256717602b44b536-0",
+        "16256717602b44b536-1",
+        "16256717602b44b536-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "grid": 3,
+        "title_position": "below",
+        "collection_count": false,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "225021c3-8600-4850-868b-e483da94345b": {
+      "type": "custom-liquid",
+      "settings": {
+        "liquid": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/wVHC8FIktdc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+        "display_wide": false
+      }
+    },
+    "5c21fdd0-80ee-4491-9c44-8fd66b685e60": {
+      "type": "accordion",
+      "disabled": true,
+      "blocks": {
+        "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-0": {
+          "type": "accordion_pane",
+          "settings": {
+            "title": "Which saree is famous in?",
+            "content": "<p>Often referred to as the 'queen of sarees',<strong>Kanjeevaram sarees<\/strong>are woven silk sarees produced and manufactured in the Kanjeevaram region in the state of Tamil Nadu<\/p>"
+          }
+        },
+        "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-1": {
+          "type": "accordion_pane",
+          "settings": {
+            "title": "Which saree is known as queen of sarees?",
+            "content": "<p>Paithani sarees popularly known as 'Queen of Sarees,' is a trademark of Indian tradition. Paithani saree is considered as one of the royal sarees in India.<\/p>"
+          }
+        },
+        "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-2": {
+          "type": "accordion_pane",
+          "settings": {
+            "title": "What is saree also called?",
+            "content": "<p>A sari (also known as a saree or a shari) is a type of clothing for women. It is mostly used as a daily clothing in modern Republic of India, Bangladesh, Nepal and Sri Lanka as well as formal clothing in Pakistan. It is a very long strip of cloth. Women wrap it around their body.<\/p>"
+          }
+        },
+        "0d2a0d9b-c98a-4de9-b9e3-4d520f5c20f7": {
+          "type": "accordion_pane",
+          "settings": {
+            "title": "Which saree is softest?",
+            "content": "<p>Raw silk sarees are made from the most natural form of silk. They are very easy to wear and carry. <\/p>"
+          }
+        },
+        "46276db8-0f69-4fb7-b53c-6402354d1714": {
+          "type": "accordion_pane",
+          "settings": {
+            "title": "What is the first saree?",
+            "content": "<p>The journey of sari began with cotton, which was first cultivated in the Indian subcontinent around 5th millennium BC.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-0",
+        "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-1",
+        "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-2",
+        "0d2a0d9b-c98a-4de9-b9e3-4d520f5c20f7",
+        "46276db8-0f69-4fb7-b53c-6402354d1714"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "max_width": 60,
+        "allow_multiple": false
+      }
+    },
+    "1625671772ae604f4a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/25-2-23_0dce61b0-0574-4485-8c21-093b3a8675d9.jpg",
+        "overlay": false,
+        "background_attachment": "fixed",
+        "height": 400,
+        "mobile_height": 400,
+        "text_align": "center",
+        "caption_vertical": 50,
+        "caption_horizontal": 50,
+        "heading": "Shop All Collections",
+        "subheading_text": "",
+        "button_text": "Button",
+        "link": "",
+        "heading_font_size": 30,
+        "subheading_font_size": 16,
+        "text_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
+        "section_space": "top_and_bottom"
+      }
+    },
+    "16256717844b22c31c": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "collection": "banarasi",
+        "carousel": true,
+        "grid": 4,
+        "limit": 10,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "1625671777dd905141": {
+      "type": "collage",
+      "blocks": {
+        "1625671777dd905141-0": {
+          "type": "text",
+          "settings": {
+            "title_text": "Our collections",
+            "text": "<p>Add text blocks to call out features, updates and more.<\/p>",
+            "center_align": false,
+            "column_size": 2
+          }
+        },
+        "1625671777dd905141-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tad248.webp",
+            "image_size": "medium",
+            "link": "",
+            "column_size": 2
+          }
+        },
+        "1625671777dd905141-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_87_360x_d7577247-21ec-4962-9387-200376eaf3c9.jpg",
+            "image_size": "medium",
+            "link": "",
+            "column_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "1625671777dd905141-0",
+        "1625671777dd905141-1",
+        "1625671777dd905141-2"
+      ],
+      "custom_css": [
+        "h3 {font-size: 24px; text-align: left; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+      ],
+      "settings": {
+        "display_wide": false,
+        "no_space": false,
+        "section_space": "top_and_bottom"
+      }
+    },
+    "1625671845c9538e1f": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Subscribe to our newsletter",
+        "newsletter_subheading": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>",
+        "newsletter_gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time",
+        "color": "#000000",
+        "background_color": "#f7f7f7",
+        "section_space": "top_and_bottom"
+      }
+    }
+  },
+  "order": [
+    "1625671734793532ca",
+    "a18a2913-7419-4757-984d-22aa496ad2dc",
+    "da60578f-bb7b-449b-acd0-4cb4e894885b",
+    "162567173863ea5075",
+    "162567175551040fc5",
+    "4ac16a36-69ac-4aed-a34e-2cf9f3026504",
+    "a316756c-0344-4e62-8e85-7a9e02825b0b",
+    "16256717602b44b536",
+    "225021c3-8600-4850-868b-e483da94345b",
+    "5c21fdd0-80ee-4491-9c44-8fd66b685e60",
+    "1625671772ae604f4a",
+    "16256717844b22c31c",
+    "1625671777dd905141",
+    "1625671845c9538e1f"
+  ]
+}
