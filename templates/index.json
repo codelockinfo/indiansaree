@@ -179,7 +179,7 @@
         "162567173863ea5075-2"
       ],
       "custom_css": [
-        ".haddingtextual a{padding:10px;}"
+        ".haddingtextual a {}"
       ],
       "settings": {
         "coltitle": "CELEBRITY CHOICE",
