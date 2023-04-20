@@ -190,7 +190,7 @@
       ],
       "settings": {
         "title": "Featured collection",
-        "collection": "embroidered",
+        "collection": "latest-kanjivaram-collection",
         "carousel": true,
         "grid": 4,
         "limit": 10,
