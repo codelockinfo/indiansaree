@@ -89,6 +89,21 @@
         "section_space": "bottom"
       }
     },
+    "da60578f-bb7b-449b-acd0-4cb4e894885b": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
+        "image_position": "left",
+        "image_size": "medium",
+        "title": "RAW SILK SAREES",
+        "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
+        "button_text": "Button",
+        "link": "",
+        "center_align": false,
+        "text_color": "#000000",
+        "background_color": "#f7f7f7"
+      }
+    },
     "162567173863ea5075": {
       "type": "gallery",
       "blocks": {
@@ -475,25 +490,11 @@
         "liquid": "<iframe width=\"560\" height=\"400\" src=\"https:\/\/www.youtube.com\/embed\/wVHC8FIktdc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
         "display_wide": false
       }
-    },
-    "da60578f-bb7b-449b-acd0-4cb4e894885b": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
-        "image_position": "left",
-        "image_size": "medium",
-        "title": "RAW SILK SAREES",
-        "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
-        "button_text": "Button",
-        "link": "",
-        "center_align": false,
-        "text_color": "#000000",
-        "background_color": "#f7f7f7"
-      }
     }
   },
   "order": [
     "1625671734793532ca",
+    "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567173863ea5075",
     "162567175551040fc5",
     "4ac16a36-69ac-4aed-a34e-2cf9f3026504",
@@ -504,7 +505,6 @@
     "16256717844b22c31c",
     "1625671777dd905141",
     "1625671845c9538e1f",
-    "225021c3-8600-4850-868b-e483da94345b",
-    "da60578f-bb7b-449b-acd0-4cb4e894885b"
+    "225021c3-8600-4850-868b-e483da94345b"
   ]
 }
