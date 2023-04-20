@@ -7,7 +7,7 @@
 {%- if sett_title != blank -%}
 	{%- if style_title != 'title_10' -%}
 		<div class="wrap_title {{section_title}} des_{{style_title}} sub_title_size_{{section.settings.sub_title | size}}">
-		<h3 class="section-title tc pr flex fl_center al_center fs__24 {{style_title}}"><span class="mr__10 ml__10">{{sett_title}}</span></h3>
+		<h3 class="section-title tc pr flex fl_center al_center fs__24 {{style_title}}"><span class="mr__10 ml__10 slidehead">{{sett_title}}</span></h3>
 		<span class="dn tt_divider"><span></span><i class="dn clpr{{section.settings.show_clpr}} {{style_title |split:'+' | last }} la-{{section.settings.ic_tt}}"></i><span></span></span><span class="section-subtitle db tc{% if section.settings.sub_font == '2' %} sub-title{% endif %}">{{section.settings.sub_title}}</span>
 		</div>
 	{%- else -%}
@@ -24,8 +24,7 @@
           <div class="micro-slider">
             {% for block in section.blocks %}
             <div class="slider-item" style="background-image: url({{ block.settings.image | img_url: 'master' }})">
-              <!--         <img src="{{ block.settings.image | img_url: 'master' }}"> -->
-              <h3 class="head-cls"> {{ block.settings.heading }} </h3>
+             <h3 class="head-cls"> {{ block.settings.heading }} </h3>
             </div>
             
             {% endfor %}
@@ -150,6 +149,11 @@
     color: black !important;
     text-align: center;
     margin-top: 32%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    opacity: 1;
+    font-weight: 500;
   }
   .cls-head {
     font-size: 36px !important;
@@ -179,7 +183,21 @@
     font-family: Poppins,sans-serif,Arial,"sans-serif";
     font-weight: 100;
   }
-
+  .section-cls{
+    margin-top: -1%;
+  }
+  .section-cls .slider-section{
+    margin-top: -1%;
+  }
+  span.mr__10.ml__10.slidehead {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
   /* CSS START BY SLIDER */
 
   .micro-slider section {

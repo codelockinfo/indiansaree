@@ -1,0 +1,124 @@
+<div class="videoslidebg">
+  <div class="container">
+    <div class="videoslidmaintitle">
+      <h2 class="video-slider-title">
+        {{ section.settings.heading1 }}
+      </h2>
+    </div>
+    <div class="video-slide-content videoitem">
+      {%- for block in section.blocks %}
+       <div class="videoslide-inner-conten">
+         <div class="video-wrapper">
+     <iframe id="video" src="{{ block.settings.videos }}" frameborder="0" allowfullscreen ></iframe>        
+
+          </div> 
+       
+       </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "add video",
+
+"settings": [
+{
+        "type": "range",
+       "id": "container",
+       "label": "container",
+       "default": 1150,
+       "min": 1000,
+       "max": 1800,
+       "step": 50
+
+      },
+  {
+          "id" : "heading1",
+          "type" : "text",
+          "label" : "ALTEREGO",
+          "default" : "Heading"
+        }
+
+],
+"blocks":[
+  {
+  "type" : "block",
+  "name" : "block",
+  "limit": 6,
+  "settings" : [
+     {
+        "type": "text",
+        "id": "videos",
+        "label": "Video URL",
+        "default": "video url"
+      }
+
+  ]
+  }
+
+  ],
+"presets" : [
+{
+  "name" : "add video",
+  "category" : "video-slider"
+
+  }
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+  
+.videoslide-inner-conten {
+    width: 16%;
+    margin: 0;
+    padding: 0;
+}.video-slide-content.videoitem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+h2.video-slider-title {
+    font-size: 24px;
+  text-align: center;
+    margin-bottom: 20px;
+     text-transform: inherit;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+  h3.video-txt {
+    max-width: 338px;
+}
+  .video-wrapper {
+    width: 100%;
+    
+}
+  .video-wrapper iframe {
+    width: 353px;
+    height: 400px;
+}
+@media only screen and (max-width: 991px) {
+    .videoslide-inner-conten {
+    width: 32%;
+}
+}
+@media only screen and (max-width: 600px) {
+    .videoslide-inner-conten {
+    width: 49%;
+}
+}
+@media only screen and (max-width: 600px) {
+    .videoslide-inner-conten {
+    width: 49%;
+}
+}
+@media only screen and (max-width: 420px) {
+    .videoslide-inner-conten {
+    width: 98%;
+}
+}
+{% endstylesheet %}
+

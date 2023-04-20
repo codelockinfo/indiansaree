@@ -1,0 +1,85 @@
+<div class="cmax_container">
+  <div class="cworkfleximg">
+    {% for block in section.blocks %}
+      <div class="cworkfle25img">
+
+        {% if block.settings.workimg != blank %}
+          <img src="{{block.settings.workimg |img_url:'800x'}}" class="paetimg">
+        {% endif %}
+
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "shipping",
+    "class": "shipping",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "blogs",
+        "name": "blogs",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "workimg",
+            "label": "Image"
+          }
+
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "shipping"
+      }
+    ]
+  }
+{% endschema %}
+<style>
+  .cworkfle25img img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .cworkfleximg {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px
+  }
+
+  .imgflexxximg {
+    margin-top: 20%;
+  }
+  .cworkfle25img {
+    width: 25%;
+    margin: auto;
+    display: flex;
+  }
+  .cmax_container {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+  .bworkdessimg {
+    margin: 0;
+    padding: 10px 30px 45px;
+    height: 175px;
+  }
+
+ 
+  @media only screen and (max-width: 748px) {
+    .cworkfle25img {
+      width: 33%;
+    }
+  }
+  @media only screen and (max-width:420px) {
+    .cworkfle25img {
+      width: 50%;
+    }
+  }
+</style>

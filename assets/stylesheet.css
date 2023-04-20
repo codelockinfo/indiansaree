@@ -13798,15 +13798,17 @@ margin-bottom: 10px;
 
 .haddingtextual p {
     color: #000 !important;
-      padding: 4px 0px;
+      padding: 10px 0px;
   font-size: 16px !important;
 }
 .gallarytitle {
-    text-align: center;
+  font-size: 24px;
+  text-align: center;
     margin-bottom: 20px;
-    text-transform: inherit;
-    font-weight: 700;
+     text-transform: inherit;
+    font-weight: 600;
     letter-spacing: 0.5px;
+    font-family: sans-serif;
 }
 #bottom-footer #copy p, #bottom-footer #copy a{
       color: #fff;
