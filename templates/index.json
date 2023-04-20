@@ -106,7 +106,7 @@
     "da60578f-bb7b-449b-acd0-4cb4e894885b": {
       "type": "image-with-text",
       "custom_css": [
-        "h2{font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: inherit; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
+        "h2 {font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: inherit; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
@@ -177,6 +177,9 @@
         "162567173863ea5075-0",
         "162567173863ea5075-1",
         "162567173863ea5075-2"
+      ],
+      "custom_css": [
+        ".haddingtextual a{padding:10px;}"
       ],
       "settings": {
         "coltitle": "CELEBRITY CHOICE",
