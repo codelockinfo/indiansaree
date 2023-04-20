@@ -366,6 +366,7 @@
     },
     "5c21fdd0-80ee-4491-9c44-8fd66b685e60": {
       "type": "accordion",
+      "disabled": true,
       "blocks": {
         "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-0": {
           "type": "accordion_pane",
