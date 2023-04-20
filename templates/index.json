@@ -523,6 +523,43 @@
         "background_color": "#f7f7f7",
         "section_space": "top_and_bottom"
       }
+    },
+    "87623fd6-79af-4af6-a050-957b614cde00": {
+      "type": "shipping",
+      "blocks": {
+        "c7c5e849-af2d-492e-88d9-571c8fa64cb4": {
+          "type": "blogs",
+          "settings": {
+            "workimg": "shopify:\/\/shop_images\/depositphotos_479265904-stock-illustration-high-quality-certified-product-vector.webp"
+          }
+        },
+        "79bfb780-a5cb-4703-8503-bb727723cf82": {
+          "type": "blogs",
+          "settings": {
+            "workimg": "shopify:\/\/shop_images\/depositphotos_90796196-stock-illustration-100-secure-transaction-icon_1.webp"
+          }
+        },
+        "3b86f4e4-29b7-4891-854f-500ad8154c4b": {
+          "type": "blogs",
+          "settings": {
+            "workimg": "shopify:\/\/shop_images\/depositphotos_145277999-stock-illustration-trusted-shopping-golden-vector-emblem.webp"
+          }
+        },
+        "d7ece2be-007e-4e96-ab70-c7145c15624d": {
+          "type": "blogs",
+          "settings": {
+            "workimg": "shopify:\/\/shop_images\/depositphotos_142430555-stock-illustration-money-back-guarantee-gold-web.webp"
+          }
+        }
+      },
+      "block_order": [
+        "c7c5e849-af2d-492e-88d9-571c8fa64cb4",
+        "79bfb780-a5cb-4703-8503-bb727723cf82",
+        "3b86f4e4-29b7-4891-854f-500ad8154c4b",
+        "d7ece2be-007e-4e96-ab70-c7145c15624d"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -539,6 +576,7 @@
     "1625671772ae604f4a",
     "16256717844b22c31c",
     "1625671777dd905141",
-    "1625671845c9538e1f"
+    "1625671845c9538e1f",
+    "87623fd6-79af-4af6-a050-957b614cde00"
   ]
 }
