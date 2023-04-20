@@ -89,6 +89,19 @@
         "section_space": "bottom"
       }
     },
+    "a18a2913-7419-4757-984d-22aa496ad2dc": {
+      "type": "introduction",
+      "settings": {
+        "heading": "ETHNIC SAREES ONLINE",
+        "text": "<p>More then 5000 designs in sarees are available in stock. A range of pure silk sarees is available at your fingertips for you to explore and choose. Shop from the comforts of your surrounding and look for what you want. No bargaining or haggling, but certainly various options for online sari shopping in India, such as Cash on Delivery, a 2-day returns guarantee and so on!<\/p>",
+        "link": "",
+        "button_text": "Find out more",
+        "heading_size": 80,
+        "text_color": "#000000",
+        "background_color": "#f7f7f7",
+        "padding": 90
+      }
+    },
     "da60578f-bb7b-449b-acd0-4cb4e894885b": {
       "type": "image-with-text",
       "settings": {
@@ -494,6 +507,7 @@
   },
   "order": [
     "1625671734793532ca",
+    "a18a2913-7419-4757-984d-22aa496ad2dc",
     "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567173863ea5075",
     "162567175551040fc5",
