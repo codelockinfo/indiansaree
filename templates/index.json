@@ -430,6 +430,51 @@
         "liquid": "<iframe width=\"560\" height=\"400\" src=\"https:\/\/www.youtube.com\/embed\/wVHC8FIktdc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
         "display_wide": false
       }
+    },
+    "a316756c-0344-4e62-8e85-7a9e02825b0b": {
+      "type": "editorial-columns",
+      "blocks": {
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp",
+            "link": "shopify:\/\/collections\/latest-paithani-collection",
+            "title_text": "Paithani Collection",
+            "text": "<p>Paithani is a variety of saree, named after Paithan region in Maharashtra state where they are woven by hand. Made from very fine mulberry silk,<strong>it is considered as one of the richest sarees in Maharashtra<\/strong>.<\/p>",
+            "button_text": "Button"
+          }
+        },
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/163005-T_360x_64e8977b-52e0-4a97-82d9-241bf286ea12.webp",
+            "link": "shopify:\/\/collections\/new-arrival",
+            "title_text": "Pure Silk",
+            "text": "<p>The origin of Mysore Silk Sarees is from Karnataka and is known to be one of the purest forms of silk.<\/p>",
+            "button_text": "Button"
+          }
+        },
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RJKAJALVol115232_360x_456015db-2f43-490c-b55e-cd5a724e26b2.webp",
+            "link": "shopify:\/\/collections\/embroidered",
+            "title_text": "Embroidered",
+            "text": "<p>Saree embroidery is simply<strong>the method of using the various embroidery styles to embellish sarees made from a variety of different fabrics<\/strong><\/p>",
+            "button_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-0",
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-1",
+        "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-2"
+      ],
+      "settings": {
+        "title": "SAREES SHOPPING ONLINE",
+        "center_align": false,
+        "section_space": "top_and_bottom"
+      }
     }
   },
   "order": [
@@ -443,6 +488,7 @@
     "16256717844b22c31c",
     "1625671777dd905141",
     "1625671845c9538e1f",
-    "225021c3-8600-4850-868b-e483da94345b"
+    "225021c3-8600-4850-868b-e483da94345b",
+    "a316756c-0344-4e62-8e85-7a9e02825b0b"
   ]
 }
