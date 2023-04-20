@@ -122,7 +122,7 @@
       {%- endif -%}
       <a class="slideout__trigger--open" href="{{ routes.cart_url }}" tabindex="-1">
         <button class="slideout__trigger-mobile-menu js-mini-cart-trigger {{ cart_classes }}" {{ cart_settings }} aria-label="Open cart" tabindex="0" type="button" name="button">
-          <span class="my-cart-text device-hide">{{ 'general.header.my_cart' | t }}&nbsp; </span>
+          <span class="my-cart-text hide">{{ 'general.header.my_cart' | t }}&nbsp; </span>
           {% render 'snip-icons',
              wrapper: '.cart-links__link-cart',
              type: 'testament-theme',
