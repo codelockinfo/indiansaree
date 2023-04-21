@@ -13896,7 +13896,7 @@ h2.testhead {
 .video-wrapper{
   padding:10px;
 }
-.videoslide-inner-conten video{
+.addvid video{
 object-fit: cover;
     position: absolute;
     top: 0px;
