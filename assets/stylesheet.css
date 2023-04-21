@@ -13820,3 +13820,8 @@ margin-bottom: 10px;
 
 }
 }
+.Containers.logoblock {
+  width: 1480px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,183 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<div class="Containers logoblock">
+
+  <div class="blockk11">
+        <h2 class="testhead">{{section.settings.testhead}}</h2>
+    <div class="logoimagess productslider3">
+          {% for block in section.blocks %}
+              <div class="parterimg">
+                <img src="{{ block.settings.logourl|img_url: '800x' }}">
+                <div class="testmonilcontent">
+                    <p>{{block.settings.testdesc}}</p>
+                    <h2>{{block.settings.testnam}}</h2>
+              </div>
+              </div>
+              
+           {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "testimonial",
+    "settings": [
+        {
+    "type": "text",
+    "id": "testhead",
+    "label": "Heading"
+      }
+      
+    ],
+    "blocks": [
+  {
+    "type": "review",
+    "name": "review",
+    "settings": [
+       {
+    "type": "image_picker",
+    "id": "logourl",
+    "label": "Image"
+      },
+      {
+    "type": "text",
+    "id": "testdesc",
+    "label": "Reviews"
+      },
+      {
+        "type":"text",
+        "id":"testnam",
+        "label":"Name"
+      }
+      
+    ]
+  }
+    ],
+      
+      
+      
+      "presets": [
+  {
+   "name": "testimonial"
+  }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+h2.testhead {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+  .logoimagess{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .logoimagess{
+    position:relative;
+  }
+ 
+.testmonilcontent {
+    padding: 10px;
+    position: relative;
+    height: 230px;
+}
+.testmonilcontent h2 {
+    position: absolute;
+    bottom: 0px;
+}
+  .parterimg{
+    padding: 0 0 35px;
+    width: 25%;
+   margin:0 5px;
+  }
+  .parterimg img{
+    width:100%;
+    height: 400px;
+  }
+   .logoblock .slick-track{
+    padding: 10px 0;
+  }
+
+  .logoblock ul.slick-dots {
+    display: none !important;
+}
+ .logoblock.blockk11 {
+              width: 20%;
+             margin: 0 5px;
+          }
+          .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+{% endstylesheet %}
+
+<script>
+  
+    $('.productslider3').slick({
+       speed: 500,
+        autoplaySpeed: 2000,
+      arrows: false,
+       dots: true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+       autoplay: true,
+      // prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+      //         nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+       responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 414,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+         {
+      breakpoint: 280,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
+</script>
+
