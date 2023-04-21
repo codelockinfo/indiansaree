@@ -567,7 +567,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/video-shopping-banner-desktop_1944x_be459786-87b1-4656-8e25-0e0216698771.webp",
         "overlay": false,
-        "background_attachment": "fixed",
+        "background_attachment": "scroll",
         "height": 500,
         "mobile_height": 400,
         "text_align": "center",
