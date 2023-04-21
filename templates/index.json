@@ -584,6 +584,26 @@
         "button_color": "#ffffff",
         "section_space": "top_and_bottom"
       }
+    },
+    "524f7391-2a05-4d41-8251-89038a484f69": {
+      "type": "video",
+      "settings": {
+        "display_wide": false,
+        "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay": false,
+        "style": "background",
+        "height": "medium",
+        "heading": "Video section title",
+        "subheading_text": "<p>Subheading text<\/p>",
+        "button_text": "Button",
+        "link": "",
+        "heading_font_size": 30,
+        "subheading_font_size": 16,
+        "text_color": "#000",
+        "button_text_color": "#fff",
+        "button_color": "#000",
+        "section_space": "top_and_bottom"
+      }
     }
   },
   "order": [
@@ -602,6 +622,7 @@
     "16256717844b22c31c",
     "1625671777dd905141",
     "1625671845c9538e1f",
-    "7c49b0bd-32e4-4386-baac-185d5f974b16"
+    "7c49b0bd-32e4-4386-baac-185d5f974b16",
+    "524f7391-2a05-4d41-8251-89038a484f69"
   ]
 }
