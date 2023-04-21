@@ -13893,3 +13893,16 @@ h2.testhead {
   outline: none;
   background: transparent;
 }
+.video-wrapper{
+  padding:10px;
+}
+video{
+object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px;
+    width: 100%;
+    aspect-ratio: 9/16;
+    height: auto;
+    background: #fff;}
