@@ -587,6 +587,7 @@
     },
     "a23bf6c9-8c4e-4d80-94b4-a9cb0a0c3fa7": {
       "type": "testimonial",
+      "disabled": true,
       "blocks": {
         "6f4ed326-3751-471b-afbd-8b24ef9f30ea": {
           "type": "review",
