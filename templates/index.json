@@ -576,12 +576,12 @@
         "heading": "VIDEO SHOPPING EXPERIENCE",
         "subheading_text": "<p>TRY OUR PERSONALLY ASSISTED<\/p>",
         "button_text": "Book Now",
-        "link": "",
+        "link": "shopify:\/\/pages\/home-page",
         "heading_font_size": 30,
         "subheading_font_size": 16,
-        "text_color": "#000",
-        "button_text_color": "#fff",
-        "button_color": "#000",
+        "text_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
         "section_space": "top_and_bottom"
       }
     }
