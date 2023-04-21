@@ -678,30 +678,35 @@
         },
         "3e5571f6-3d70-4172-9f65-968bb6bae4f4": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/be7d59385f044a65ad8377f729dd6f42.mp4"
           }
         },
         "49376f15-3968-4c8b-832b-d0fb02912cdb": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0a9bd6202212417fb6a424c86f946257.mp4"
           }
         },
         "bb005200-5274-4129-a117-9ad1d57c5f1b": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d4291b4f1ea544859fdc968325943596.mp4"
           }
         },
         "38425317-f4df-4947-97ac-2ff96fe78aa0": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d8855acd60ca45a29e008a84963171de.mp4"
           }
         },
         "6d34b61d-1c32-403c-9ed1-dd823baa8da9": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "videos": "\/\/cdn.shopify.com\/s\/files\/1\/0049\/3649\/9315\/files\/quinn_VcZ7xKFEke0EiD8LG5Z7q.mp4?v=15265358274115169027"
           }
