@@ -622,7 +622,6 @@
         },
         "a49dba1c-d10a-4f88-af66-c62bb44de21c": {
           "type": "review",
-          "disabled": true,
           "settings": {
             "logourl": "shopify:\/\/shop_images\/RJAASHIYANA10034-1_360x_987fe4a3-5e36-4dcb-9cc3-fd1799327368.webp",
             "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
@@ -631,7 +630,6 @@
         },
         "53abdd9a-e673-487f-8d99-5cf541695aa2": {
           "type": "review",
-          "disabled": true,
           "settings": {
             "logourl": "shopify:\/\/shop_images\/PNYManya-1_360x_86971416-1930-4422-b40f-400b325f5b89.webp",
             "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
@@ -653,7 +651,6 @@
     },
     "21ebbaae-9d61-4017-aef2-13760a0d0761": {
       "type": "morevideo",
-      "disabled": true,
       "blocks": {
         "ed884d79-7b2d-46b0-bf9e-1518e15c635a": {
           "type": "block",
