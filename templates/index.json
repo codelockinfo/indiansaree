@@ -585,24 +585,68 @@
         "section_space": "top_and_bottom"
       }
     },
-    "524f7391-2a05-4d41-8251-89038a484f69": {
-      "type": "video",
+    "a23bf6c9-8c4e-4d80-94b4-a9cb0a0c3fa7": {
+      "type": "testimonial",
+      "blocks": {
+        "6f4ed326-3751-471b-afbd-8b24ef9f30ea": {
+          "type": "review",
+          "settings": {
+            "logourl": "shopify:\/\/shop_images\/8TooWsol8DqGgzSh4sWkk6Lz2XJ1udJTjyS0Z5F4I-M__plaintext_638175711046311623.jpg",
+            "testdesc": "\"The meaning of Koskii is \"Girl\" and this brand literally symbolizes femininity, grace and elegance. I have always treasured each and every purchase that I have made from Koskii as they always make me stand out at any occasion\"",
+            "testnam": "SHAGUFTA MANNA"
+          }
+        },
+        "9758353d-62cb-4947-acd0-dd2bd4ff8aed": {
+          "type": "review",
+          "settings": {
+            "logourl": "shopify:\/\/shop_images\/simarn_malik.webp",
+            "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
+            "testnam": "DIVYA CHAVAN"
+          }
+        },
+        "f9b3af5c-c8e3-49e1-9894-2921ac8ee7a1": {
+          "type": "review",
+          "settings": {
+            "logourl": "shopify:\/\/shop_images\/IMG-20230411-WA0013.jpg",
+            "testdesc": "\"I bought my reception lehenga from Koskii store at Bangalore. Received amazing compliments from family and friends. Thank you\"",
+            "testnam": "HARINI SHREE"
+          }
+        },
+        "c283a174-69d2-4137-8e6c-d4ea1697fba2": {
+          "type": "review",
+          "settings": {
+            "logourl": "shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp",
+            "testdesc": "\"Thank you to the Koskii team for this awesome Bridal lehenga design.I got multiple compliments and many of my friends.It was sparkling and blushing like me on my D-day\"",
+            "testnam": "AHUTI MALHOTRA"
+          }
+        },
+        "a49dba1c-d10a-4f88-af66-c62bb44de21c": {
+          "type": "review",
+          "settings": {
+            "logourl": "shopify:\/\/shop_images\/RJAASHIYANA10034-1_360x_987fe4a3-5e36-4dcb-9cc3-fd1799327368.webp",
+            "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
+            "testnam": "AHUTI MALHOTRA"
+          }
+        },
+        "53abdd9a-e673-487f-8d99-5cf541695aa2": {
+          "type": "review",
+          "settings": {
+            "logourl": "shopify:\/\/shop_images\/PNYManya-1_360x_86971416-1930-4422-b40f-400b325f5b89.webp",
+            "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
+            "testnam": "DIVYA CHAVAN"
+          }
+        }
+      },
+      "block_order": [
+        "6f4ed326-3751-471b-afbd-8b24ef9f30ea",
+        "9758353d-62cb-4947-acd0-dd2bd4ff8aed",
+        "f9b3af5c-c8e3-49e1-9894-2921ac8ee7a1",
+        "c283a174-69d2-4137-8e6c-d4ea1697fba2",
+        "a49dba1c-d10a-4f88-af66-c62bb44de21c",
+        "53abdd9a-e673-487f-8d99-5cf541695aa2"
+      ],
       "settings": {
-        "display_wide": false,
-        "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "overlay": false,
-        "style": "background",
-        "height": "medium",
-        "heading": "Video section title",
-        "subheading_text": "<p>Subheading text<\/p>",
-        "button_text": "Button",
-        "link": "",
-        "heading_font_size": 30,
-        "subheading_font_size": 16,
-        "text_color": "#000",
-        "button_text_color": "#fff",
-        "button_color": "#000",
-        "section_space": "top_and_bottom"
+        "testhead": ""
       }
     }
   },
@@ -623,6 +667,6 @@
     "1625671777dd905141",
     "1625671845c9538e1f",
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
-    "524f7391-2a05-4d41-8251-89038a484f69"
+    "a23bf6c9-8c4e-4d80-94b4-a9cb0a0c3fa7"
   ]
 }
