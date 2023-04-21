@@ -719,7 +719,7 @@
         "6d34b61d-1c32-403c-9ed1-dd823baa8da9"
       ],
       "custom_css": [
-        "video {object-fit: cover; position: absolute; top: 0px; left: 0px; border-radius: 0px; width: 100%; aspect-ratio: 9\/16; height: auto; background: #fff;}"
+
       ],
       "settings": {
         "container": 1300,
