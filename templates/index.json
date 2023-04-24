@@ -53,7 +53,7 @@
         "e3feb807-3a1b-4c80-a832-76383d011961": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e5ec5e98090b30a13aaa18f2fa5f34cb_8db7cd63-f7cc-4dd6-94f2-dfefa9b44e7f.jpg",
+            "image": "shopify:\/\/shop_images\/1500712838b42.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -353,7 +353,7 @@
         "image": "shopify:\/\/shop_images\/4_00514a1e-488f-4e15-a2f8-66090124954f.jpg",
         "overlay": false,
         "background_attachment": "fixed",
-        "height": 540,
+        "height": 500,
         "mobile_height": 400,
         "text_align": "center",
         "caption_vertical": 50,
