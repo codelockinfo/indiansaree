@@ -6,7 +6,7 @@
         "1625671734793532ca-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kankatala-kan2-banarasi-desktop-banner-kan1.jpg",
+            "image": "shopify:\/\/shop_images\/e5ec5e98090b30a13aaa18f2fa5f34cb.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -203,90 +203,6 @@
         "section_space": "top_and_bottom"
       }
     },
-    "4ac16a36-69ac-4aed-a34e-2cf9f3026504": {
-      "type": "custom_slider",
-      "blocks": {
-        "ece6ab0f-ab2a-4cb4-9c99-512e5d7cac06": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
-            "heading": "Silk Saree"
-          }
-        },
-        "a8053274-8fd2-47cf-b52d-b772d1ddca09": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG-20230411-WA0013.jpg",
-            "heading": "Kanjivaram Silk Saree"
-          }
-        },
-        "8e0406b3-7129-45eb-86bd-4933bf8cdda8": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RJKAJALVol115232_360x_456015db-2f43-490c-b55e-cd5a724e26b2.webp",
-            "heading": "Kanjivaram Silk Saree"
-          }
-        },
-        "5d43bf9c-0987-46fa-acdf-b716ee79cf34": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp",
-            "heading": "Kanjivaram Saree"
-          }
-        },
-        "51e4b789-1497-4160-a769-0b1381e9e681": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/parired-1_360x_3219ae1c-351d-4154-8269-592072220a73.webp",
-            "heading": "Paithani Silk Saree"
-          }
-        },
-        "36803a42-1b74-4fe5-8d02-c3148bb95379": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RJAASHIYANA10034-1_360x_987fe4a3-5e36-4dcb-9cc3-fd1799327368.webp",
-            "heading": "Silk Saree"
-          }
-        },
-        "25164ea2-ca9c-494a-a4fe-07d166906426": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PNYManya-1_360x_86971416-1930-4422-b40f-400b325f5b89.webp",
-            "heading": "Silk Saree"
-          }
-        },
-        "3a986331-80c7-4691-9bf6-6e8df7f2852c": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/simarn_malik.webp",
-            "heading": "Paithani Silk Saree"
-          }
-        },
-        "e628f1f3-c049-4572-a565-edac8543c25f": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/163005-T_360x_64e8977b-52e0-4a97-82d9-241bf286ea12.webp",
-            "heading": "Kanjivaram Silk Saree"
-          }
-        }
-      },
-      "block_order": [
-        "ece6ab0f-ab2a-4cb4-9c99-512e5d7cac06",
-        "a8053274-8fd2-47cf-b52d-b772d1ddca09",
-        "8e0406b3-7129-45eb-86bd-4933bf8cdda8",
-        "5d43bf9c-0987-46fa-acdf-b716ee79cf34",
-        "51e4b789-1497-4160-a769-0b1381e9e681",
-        "36803a42-1b74-4fe5-8d02-c3148bb95379",
-        "25164ea2-ca9c-494a-a4fe-07d166906426",
-        "3a986331-80c7-4691-9bf6-6e8df7f2852c",
-        "e628f1f3-c049-4572-a565-edac8543c25f"
-      ],
-      "settings": {
-        "heading": "See Some of Our Client's Designs:",
-        "subheading": "",
-        "style_title": "title_2"
-      }
-    },
     "a316756c-0344-4e62-8e85-7a9e02825b0b": {
       "type": "editorial-columns",
       "blocks": {
@@ -330,43 +246,6 @@
         "title": "SAREES SHOPPING ONLINE",
         "center_align": false,
         "section_space": "top_and_bottom"
-      }
-    },
-    "87623fd6-79af-4af6-a050-957b614cde00": {
-      "type": "shipping",
-      "blocks": {
-        "c7c5e849-af2d-492e-88d9-571c8fa64cb4": {
-          "type": "blogs",
-          "settings": {
-            "workimg": "shopify:\/\/shop_images\/depositphotos_479265904-stock-illustration-high-quality-certified-product-vector.webp"
-          }
-        },
-        "79bfb780-a5cb-4703-8503-bb727723cf82": {
-          "type": "blogs",
-          "settings": {
-            "workimg": "shopify:\/\/shop_images\/depositphotos_90796196-stock-illustration-100-secure-transaction-icon_1.webp"
-          }
-        },
-        "3b86f4e4-29b7-4891-854f-500ad8154c4b": {
-          "type": "blogs",
-          "settings": {
-            "workimg": "shopify:\/\/shop_images\/depositphotos_145277999-stock-illustration-trusted-shopping-golden-vector-emblem.webp"
-          }
-        },
-        "d7ece2be-007e-4e96-ab70-c7145c15624d": {
-          "type": "blogs",
-          "settings": {
-            "workimg": "shopify:\/\/shop_images\/depositphotos_142430555-stock-illustration-money-back-guarantee-gold-web.webp"
-          }
-        }
-      },
-      "block_order": [
-        "c7c5e849-af2d-492e-88d9-571c8fa64cb4",
-        "79bfb780-a5cb-4703-8503-bb727723cf82",
-        "3b86f4e4-29b7-4891-854f-500ad8154c4b",
-        "d7ece2be-007e-4e96-ab70-c7145c15624d"
-      ],
-      "settings": {
       }
     },
     "16256717602b44b536": {
@@ -550,83 +429,6 @@
         "section_space": "top_and_bottom"
       }
     },
-    "21ebbaae-9d61-4017-aef2-13760a0d0761": {
-      "type": "morevideo",
-      "blocks": {
-        "ed884d79-7b2d-46b0-bf9e-1518e15c635a": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/304869d950e841f2b4a51a46e4be73dd.mp4"
-          }
-        },
-        "62fdefb9-493b-4a9d-9eff-a90b1adc1411": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/79f0f282d5b649edaf3332a490aaf5f0.mp4"
-          }
-        },
-        "c620eb85-bc94-4384-9bf3-b8fcb8ba3d30": {
-          "type": "block",
-          "settings": {
-            "videos": "\/\/cdn.shopify.com\/s\/files\/1\/0049\/3649\/9315\/files\/quinn_VcZ7xKFEke0EiD8LG5Z7q.mp4?v=15265358274115169027"
-          }
-        },
-        "bfb95ec2-d075-440d-94b2-f55c150b50cf": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8644dc7884784ff8926c2b86d6737c7f.mp4"
-          }
-        },
-        "3e5571f6-3d70-4172-9f65-968bb6bae4f4": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/be7d59385f044a65ad8377f729dd6f42.mp4"
-          }
-        },
-        "49376f15-3968-4c8b-832b-d0fb02912cdb": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0a9bd6202212417fb6a424c86f946257.mp4"
-          }
-        },
-        "bb005200-5274-4129-a117-9ad1d57c5f1b": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d4291b4f1ea544859fdc968325943596.mp4"
-          }
-        },
-        "38425317-f4df-4947-97ac-2ff96fe78aa0": {
-          "type": "block",
-          "settings": {
-            "videos": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d8855acd60ca45a29e008a84963171de.mp4"
-          }
-        },
-        "6d34b61d-1c32-403c-9ed1-dd823baa8da9": {
-          "type": "block",
-          "settings": {
-            "videos": "\/\/cdn.shopify.com\/s\/files\/1\/0049\/3649\/9315\/files\/quinn_VcZ7xKFEke0EiD8LG5Z7q.mp4?v=15265358274115169027"
-          }
-        }
-      },
-      "block_order": [
-        "ed884d79-7b2d-46b0-bf9e-1518e15c635a",
-        "62fdefb9-493b-4a9d-9eff-a90b1adc1411",
-        "c620eb85-bc94-4384-9bf3-b8fcb8ba3d30",
-        "bfb95ec2-d075-440d-94b2-f55c150b50cf",
-        "3e5571f6-3d70-4172-9f65-968bb6bae4f4",
-        "49376f15-3968-4c8b-832b-d0fb02912cdb",
-        "bb005200-5274-4129-a117-9ad1d57c5f1b",
-        "38425317-f4df-4947-97ac-2ff96fe78aa0",
-        "6d34b61d-1c32-403c-9ed1-dd823baa8da9"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "container": 1300,
-        "heading1": ""
-      }
-    },
     "1625671845c9538e1f": {
       "type": "newsletter",
       "settings": {
@@ -661,70 +463,6 @@
         "button_color": "#ffffff",
         "section_space": "top_and_bottom"
       }
-    },
-    "a23bf6c9-8c4e-4d80-94b4-a9cb0a0c3fa7": {
-      "type": "testimonial",
-      "blocks": {
-        "6f4ed326-3751-471b-afbd-8b24ef9f30ea": {
-          "type": "review",
-          "settings": {
-            "logourl": "shopify:\/\/shop_images\/8TooWsol8DqGgzSh4sWkk6Lz2XJ1udJTjyS0Z5F4I-M__plaintext_638175711046311623.jpg",
-            "testdesc": "\"The meaning of Koskii is \"Girl\" and this brand literally symbolizes femininity, grace and elegance. I have always treasured each and every purchase that I have made from Koskii as they always make me stand out at any occasion\"",
-            "testnam": "SHAGUFTA MANNA"
-          }
-        },
-        "9758353d-62cb-4947-acd0-dd2bd4ff8aed": {
-          "type": "review",
-          "settings": {
-            "logourl": "shopify:\/\/shop_images\/simarn_malik.webp",
-            "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
-            "testnam": "DIVYA CHAVAN"
-          }
-        },
-        "f9b3af5c-c8e3-49e1-9894-2921ac8ee7a1": {
-          "type": "review",
-          "settings": {
-            "logourl": "shopify:\/\/shop_images\/IMG-20230411-WA0013.jpg",
-            "testdesc": "\"I bought my reception lehenga from Koskii store at Bangalore. Received amazing compliments from family and friends. Thank you\"",
-            "testnam": "HARINI SHREE"
-          }
-        },
-        "c283a174-69d2-4137-8e6c-d4ea1697fba2": {
-          "type": "review",
-          "settings": {
-            "logourl": "shopify:\/\/shop_images\/AlishyaSilk6501_360x_5dea4a10-1ba5-48ca-ad88-6a2c6bcf87d9.webp",
-            "testdesc": "\"Thank you to the Koskii team for this awesome Bridal lehenga design.I got multiple compliments and many of my friends.It was sparkling and blushing like me on my D-day\"",
-            "testnam": "AHUTI MALHOTRA"
-          }
-        },
-        "a49dba1c-d10a-4f88-af66-c62bb44de21c": {
-          "type": "review",
-          "settings": {
-            "logourl": "shopify:\/\/shop_images\/RJAASHIYANA10034-1_360x_987fe4a3-5e36-4dcb-9cc3-fd1799327368.webp",
-            "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
-            "testnam": "AHUTI MALHOTRA"
-          }
-        },
-        "53abdd9a-e673-487f-8d99-5cf541695aa2": {
-          "type": "review",
-          "settings": {
-            "logourl": "shopify:\/\/shop_images\/PNYManya-1_360x_86971416-1930-4422-b40f-400b325f5b89.webp",
-            "testdesc": "\"I did my wedding shopping at Koskii,the first store I visited and in less than 15 min I had picked my lehengas. In my budget, no tailor would have done it this fine and beautiful. Thank you\"",
-            "testnam": "DIVYA CHAVAN"
-          }
-        }
-      },
-      "block_order": [
-        "6f4ed326-3751-471b-afbd-8b24ef9f30ea",
-        "9758353d-62cb-4947-acd0-dd2bd4ff8aed",
-        "f9b3af5c-c8e3-49e1-9894-2921ac8ee7a1",
-        "c283a174-69d2-4137-8e6c-d4ea1697fba2",
-        "a49dba1c-d10a-4f88-af66-c62bb44de21c",
-        "53abdd9a-e673-487f-8d99-5cf541695aa2"
-      ],
-      "settings": {
-        "testhead": "CUSTOMER TESTIMONIALS"
-      }
     }
   },
   "order": [
@@ -733,18 +471,14 @@
     "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567173863ea5075",
     "162567175551040fc5",
-    "4ac16a36-69ac-4aed-a34e-2cf9f3026504",
     "a316756c-0344-4e62-8e85-7a9e02825b0b",
-    "87623fd6-79af-4af6-a050-957b614cde00",
     "16256717602b44b536",
     "225021c3-8600-4850-868b-e483da94345b",
     "5c21fdd0-80ee-4491-9c44-8fd66b685e60",
     "1625671772ae604f4a",
     "16256717844b22c31c",
     "1625671777dd905141",
-    "21ebbaae-9d61-4017-aef2-13760a0d0761",
     "1625671845c9538e1f",
-    "7c49b0bd-32e4-4386-baac-185d5f974b16",
-    "a23bf6c9-8c4e-4d80-94b4-a9cb0a0c3fa7"
+    "7c49b0bd-32e4-4386-baac-185d5f974b16"
   ]
 }
