@@ -353,7 +353,7 @@
         "image": "shopify:\/\/shop_images\/r.jpg",
         "overlay": false,
         "background_attachment": "fixed",
-        "height": 400,
+        "height": 540,
         "mobile_height": 400,
         "text_align": "center",
         "caption_vertical": 50,
