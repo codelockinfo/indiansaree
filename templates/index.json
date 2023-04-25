@@ -534,8 +534,8 @@
         "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-2": {
           "type": "block",
           "settings": {
-            "icon": "credit_card",
-            "text": "Free Gift",
+            "icon": "sale_tag",
+            "text": "Upto 40% OFF",
             "link": ""
           }
         },
