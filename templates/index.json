@@ -534,15 +534,15 @@
         "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-2": {
           "type": "block",
           "settings": {
-            "icon": "secure",
-            "text": "Upto 40% OFF",
+            "icon": "credit_card",
+            "text": "Free Gift",
             "link": ""
           }
         },
         "3854a88c-d4ca-4461-a310-ded6470e5ab1": {
           "type": "block",
           "settings": {
-            "icon": "bag",
+            "icon": "credit_card",
             "text": "Secured Payment",
             "link": ""
           }
