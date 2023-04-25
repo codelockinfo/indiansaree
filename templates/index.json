@@ -6,7 +6,7 @@
         "1625671734793532ca-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Resize1.jpg",
+            "image": "shopify:\/\/shop_images\/crop1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
