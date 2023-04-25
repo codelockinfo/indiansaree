@@ -13820,3 +13820,6 @@ margin-bottom: 10px;
 
 }
 }
+ul.shopping__cart-links li svg {
+    height: 18px;
+}
