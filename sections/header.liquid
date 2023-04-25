@@ -47,6 +47,7 @@
            hover: 'var(--header-link-color)' %}
       </button>
   </li>
+  {{ shop.customer_accounts_enabled }}
   {% if shop.customer_accounts_enabled %}
     {% if customer  %}
       <li class="cart-links__link-account cust device-hide">
