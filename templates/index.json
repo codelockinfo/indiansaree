@@ -519,8 +519,8 @@
         "3854a88c-d4ca-4461-a310-ded6470e5ab1"
       ],
       "settings": {
-        "color": "",
-        "background": "",
+        "color": "#ffffff",
+        "background": "#460c0c",
         "section_space": "top_and_bottom"
       }
     },
