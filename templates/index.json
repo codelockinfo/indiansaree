@@ -288,6 +288,7 @@
     },
     "225021c3-8600-4850-868b-e483da94345b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "liquid": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/wVHC8FIktdc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
         "display_wide": false
