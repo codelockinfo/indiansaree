@@ -28,9 +28,8 @@
         },
         "1625671734793532ca-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/N-than-1964-a.jpg",
+            "image": "shopify:\/\/shop_images\/crop3.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
