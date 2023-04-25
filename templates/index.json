@@ -443,6 +443,7 @@
     },
     "7c49b0bd-32e4-4386-baac-185d5f974b16": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/video-shopping-banner-desktop_1944x_be459786-87b1-4656-8e25-0e0216698771.webp",
