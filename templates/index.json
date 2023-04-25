@@ -476,6 +476,54 @@
         "section_space": "none"
       }
     },
+    "89a826cf-856c-47e7-be1b-0e4199833e94": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-0": {
+          "type": "block",
+          "settings": {
+            "icon": "shipping_outline",
+            "text": "Fast shipping",
+            "link": ""
+          }
+        },
+        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-1": {
+          "type": "block",
+          "settings": {
+            "icon": "shield",
+            "text": "6500+ Saree Designs",
+            "link": ""
+          }
+        },
+        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-2": {
+          "type": "block",
+          "settings": {
+            "icon": "sale_tag",
+            "text": "Upto 40% OFF",
+            "link": ""
+          }
+        },
+        "3854a88c-d4ca-4461-a310-ded6470e5ab1": {
+          "type": "block",
+          "settings": {
+            "icon": "credit_card",
+            "text": "Secured Payment",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-0",
+        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-1",
+        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-2",
+        "3854a88c-d4ca-4461-a310-ded6470e5ab1"
+      ],
+      "settings": {
+        "color": "",
+        "background": "",
+        "section_space": "top_and_bottom"
+      }
+    },
     "1625671845c9538e1f": {
       "type": "newsletter",
       "settings": {
@@ -511,54 +559,6 @@
         "button_color": "#ffffff",
         "section_space": "top_and_bottom"
       }
-    },
-    "89a826cf-856c-47e7-be1b-0e4199833e94": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-0": {
-          "type": "block",
-          "settings": {
-            "icon": "shipping_outline",
-            "text": "Fast shipping",
-            "link": ""
-          }
-        },
-        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-1": {
-          "type": "block",
-          "settings": {
-            "icon": "messages",
-            "text": "6500+ Saree Designs",
-            "link": ""
-          }
-        },
-        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-2": {
-          "type": "block",
-          "settings": {
-            "icon": "sale_tag",
-            "text": "Upto 40% OFF",
-            "link": ""
-          }
-        },
-        "3854a88c-d4ca-4461-a310-ded6470e5ab1": {
-          "type": "block",
-          "settings": {
-            "icon": "credit_card",
-            "text": "Secured Payment",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-0",
-        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-1",
-        "template--18816811630890__89a826cf-856c-47e7-be1b-0e4199833e94-1682404577dd490271-2",
-        "3854a88c-d4ca-4461-a310-ded6470e5ab1"
-      ],
-      "settings": {
-        "color": "",
-        "background": "",
-        "section_space": "top_and_bottom"
-      }
     }
   },
   "order": [
@@ -575,8 +575,8 @@
     "16256717844b22c31c",
     "1625671777dd905141",
     "84240439-d13d-49ac-8114-395a7ed2864a",
+    "89a826cf-856c-47e7-be1b-0e4199833e94",
     "1625671845c9538e1f",
-    "7c49b0bd-32e4-4386-baac-185d5f974b16",
-    "89a826cf-856c-47e7-be1b-0e4199833e94"
+    "7c49b0bd-32e4-4386-baac-185d5f974b16"
   ]
 }
