@@ -16,7 +16,7 @@
     <div id="thumbnails" class="thumb-slider thumbnail-slider custom {{ style }} {{ width }} mobile-hide"
     data-thumbnail-position="{{ thumbnail_position }}">
       <div class="thumb-slider-wrapper {{ js_class }} js-thumb-wrapper" id="thumb-slider-wrapper">
-        <div class="carousel-nav thumb-slider-slides slides product-single__thumbnails-{{ section.id }} js-thumb-carousel-nav"style="max-height: 600px;">
+        <div class="carousel-nav thumb-slider-slides slides product-single__thumbnails-{{ section.id }} js-thumb-carousel-nav"style="max-height: 600px!important;">
           {% for media in product.media %}
             {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
             <div class="{{ media.media_type }}-thumbnail product-single__thumbnails-item carousel-cell {% if forloop.first %}is-nav-selected{% endif %} js-thumb-item" data-slide-index="{{ forloop.index0 }}"
