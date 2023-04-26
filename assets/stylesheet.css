@@ -13914,7 +13914,12 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .section-title.span-12.auto h2  ,.gallarytitle {
     text-transform: capitalize;
 }
-
+.main-collection-product-grid .product-info-inner .prod-title{
+overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
