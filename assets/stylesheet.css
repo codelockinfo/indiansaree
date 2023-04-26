@@ -1,3 +1,4 @@
+
 /*
 * Testament Shopify theme
 * Copyright 2022, We are Underground
@@ -13884,6 +13885,28 @@ button.slideout__trigger-search.js-slideout-open.button-as-link{
 .col-swatch ul.color.options {
 height: 409px;
     overflow: scroll;}
+.div_evowap_btn {
+    margin: 20px 0px;
+}
+a#evowap_btn {
+    padding: 12px 30px;
+    background: #25d366;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    transition: all .3s !important;
+    align-items: center;
+}
+button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
+    display: flex;
+    align-items: center;}
+.section-title.span-12.auto h2  ,.gallarytitle {
+    text-transform: capitalize;
+}
+
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
