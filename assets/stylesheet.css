@@ -13881,4 +13881,8 @@ li.seeks{
     align-items: center;
     text-align: center;
     position: relative;}
+button.slideout__trigger-search.js-slideout-open.button-as-link{
+    position: absolute;
+    right: 0;
+    top: 15px;}
 /* cls015 end */
