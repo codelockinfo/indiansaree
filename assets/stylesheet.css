@@ -13937,6 +13937,21 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     letter-spacing: 0.5px;
     font-family: sans-serif;
 }
+.collection__page-products form#product-form-buttons-template--18816811073834__main {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+.collection__page-products .product-info{
+    padding-bottom: 45px;}
+  @media screen and (max-width: 740px) {
+    button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    width: 100%;
+}
+    div_evowap_btn {
+    width: 100%;
+}
+  }
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
