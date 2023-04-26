@@ -13919,7 +13919,15 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .section-title.span-12.auto h2  ,.gallarytitle , .textWithImage__column-caption h3 {
     text-transform: capitalize!important;
 }
-
+.section-title.span-12.auto h2 {
+      font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+  text-align:center;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
