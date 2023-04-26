@@ -14011,7 +14011,9 @@ width: 100%;}
 .product__section-content .product__section--qty.qty-selection label.h5 {
     display: none;
 }
-
+.product__section-contentWrapper .product__section-content .product__section--buttons.product-add {
+    width: 90%;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
