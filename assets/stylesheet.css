@@ -13859,4 +13859,7 @@ h1.product__section-title.product-title {
     color: #333333!important;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: 600;}
+.price-item{
+    color: #bbb;!important;
+}
 /* cls015 end */
