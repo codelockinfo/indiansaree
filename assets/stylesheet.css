@@ -13902,6 +13902,9 @@ a#evowap_btn {
     transition: all .3s !important;
     align-items: center;
 }
+input#addToCart {
+    width: 50%;
+}
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded{
 width:50%;}
 button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
