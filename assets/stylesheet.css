@@ -14013,4 +14013,7 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
   margin-right: 10px;
   position: relative;
 }
+.collection__page-products .color.options::-webkit-scrollbar {
+    display: none;
+}
 /* end by cls003 */
