@@ -13990,12 +13990,12 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
          margin-left: unset;
          margin-right: unset;
    }
-   .clsshopify-payment-button {
+ }
+.clsshopify-payment-button {
          margin-top: 15px;
    }
    .clsshopify-payment-button .shopify-payment-button__button{
       display: flex;
     justify-content: center;
    }
- }
 /* end by cls003 */
