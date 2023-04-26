@@ -13942,6 +13942,16 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     width: 100%;
     bottom: -10px;
 }
+.collection__page-product dl.price__sale {
+    margin: 4px 0;
+}
+.collection__page-product span.price-item.price-item--sale {
+    font-size: 20px;
+    color: #000;
+}
+.collection__page-product s.price-item.price-item--regular {
+    font-size: 20px;
+}
 .collection__page-products .product-info{
     padding-bottom: 45px;}
   @media screen and (max-width: 740px) {
