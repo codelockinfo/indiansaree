@@ -13861,5 +13861,7 @@ h1.product__section-title.product-title {
     font-weight: 600;}
 .price-item{
     color: #bbb;!important;
+      font-weight: 400;
+  font-size: 22px;
 }
 /* cls015 end */
