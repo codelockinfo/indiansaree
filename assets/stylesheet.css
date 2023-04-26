@@ -13828,7 +13828,6 @@ ul.shopping__cart-links li svg {
 max-height:800px!important;
 }
 img[data-sizes="auto"]{
-      max-height: 800px;
-    min-height: 800px;
+      height: 800px;
 }
 /* cls015 end */
