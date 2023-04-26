@@ -13830,4 +13830,7 @@ max-height:800px!important;
 img[data-sizes="auto"]{
       height: 800px;
 }
+img.lazyload-fade.js-thumb-item-img.lazyautosizes.lazyloaded{
+width: 200px!important;
+    height: 200px!important;}
 /* cls015 end */
