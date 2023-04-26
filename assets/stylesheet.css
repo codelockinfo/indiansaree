@@ -2361,7 +2361,7 @@ ul.shopping__cart-links {
   list-style: none;
   display: flex;
   flex-direction: row;
-  grid-gap: 10px;
+  grid-gap: 20px;
   justify-content: end;
   align-items: center;
   margin-bottom: 0;
@@ -14010,6 +14010,7 @@ width: 100%;}
 .product__section-content .product__section--qty.qty-selection label.h5 {
     display: none;
 }
+
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
