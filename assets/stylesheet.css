@@ -13889,7 +13889,9 @@ text-transform: capitalize;
 .section-title.span-12.auto h2 {
     text-transform: capitalize;
 }
-
+a.slideout__trigger--open button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
+    display: flex;
+    align-items: center;}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
