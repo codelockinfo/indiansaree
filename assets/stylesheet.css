@@ -14022,6 +14022,10 @@ margin-top:0;}
  .clsshopify-payment-button  .shopify-payment-button__button div{
 font-size: 16px;
     text-transform: capitalize;}
+.product__section--buttons input#addToCart {
+    text-transform: capitalize;
+    font-size: 16px;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
