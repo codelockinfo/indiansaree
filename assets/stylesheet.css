@@ -13876,16 +13876,17 @@ h1.product__section-title.product-title {
     font-weight: 500;
   margin: 20px 0;
 }
-li.seeks{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    position: relative;}
-button.slideout__trigger-search.js-slideout-open.button-as-link{
-    position: absolute;
-    right: 0;
-    top: 15px;}
 .col-swatch ul.color.options {
 height: 409px;
     overflow: scroll;}
 /* cls015 end */
+/* cls003 */
+.headerformsearch{
+  position: relative;
+}
+.headersearch{
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 110px 14px 25px;
+    border: 1px solid #460c0c91;
+}
+/* end by cls003 */
