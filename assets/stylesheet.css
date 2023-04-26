@@ -1140,7 +1140,7 @@
 
   /* Grid Auto Columns */
   .span-1.auto { grid-column: auto / span 1; width: 100%; }
-  .span-2.auto { grid-column: auto / span 2; width: 100%; }
+  .span-2.auto { grid-column: auto / span 3; width: 100%; }
   .span-3.auto { grid-column: auto / span 3; width: 100%; }
   .span-4.auto, .span-third.auto { grid-column: auto / span 4; width: 100%; }
   .span-5.auto { grid-column: auto / span 5; width: 100%; }
@@ -1148,7 +1148,7 @@
   .span-7.auto { grid-column: auto / span 7; width: 100%; }
   .span-8.auto { grid-column: auto / span 8; width: 100%; }
   .span-9.auto { grid-column: auto / span 9; width: 100%; }
-  .span-10.auto { grid-column: auto / span 10; width: 100%; }
+  .span-10.auto { grid-column: auto / span 9; width: 100%; }
   .span-11.auto { grid-column: auto / span 11; width: 100%; }
   .span-12.auto { grid-column: auto / span 12; width: 100%; }
 
@@ -13833,4 +13833,5 @@ img[data-sizes="auto"]{
 img.lazyload-fade.js-thumb-item-img.lazyautosizes.lazyloaded{
 width: 200px!important;
     height: 200px!important;}
+
 /* cls015 end */
