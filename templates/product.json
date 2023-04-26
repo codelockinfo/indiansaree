@@ -132,6 +132,7 @@
     },
     "1f30b59f-8207-4aaf-8a5a-bbe77cf1abe5": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "You may also like",
         "collection": "best-sellers",
