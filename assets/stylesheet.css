@@ -13841,4 +13841,10 @@ label.swatches__form--label{
 p.swatches__option-name.h5 {
     display: none;
 }
+.product__section--header h3 {
+    font-weight: 500;
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    color: #7C0101;
+    text-transform: capitalize;
+}
 /* cls015 end */
