@@ -13928,6 +13928,15 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     font-family: sans-serif;
   text-align:center;
 }
+.image__with-textCaption.span-6.sm-span-12.auto h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
