@@ -49,14 +49,6 @@
     </dl>
     <dl class="price__sale">
       <dt>
-        <span class="visually-hidden visually-hidden--inline">{{ 'products.general.sale_price' | t }}</span>
-      </dt>
-      <dd>
-        <span class="price-item price-item--sale" data-sale-price>
-          {{ money_price }}
-        </span>
-      </dd>
-      <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.general.regular_price' | t }}</span>
       </dt>
       <dd>
@@ -64,6 +56,15 @@
           {{ compare_at_price | money }}
         </span>
       </dd>
+      <dt>
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.general.sale_price' | t }}</span>
+      </dt>
+      <dd>
+        <span class="price-item price-item--sale" data-sale-price>
+          {{ money_price }}
+        </span>
+      </dd>
+      
     </dl>
     <div class="price__badges">
       <span class="price__badge price__badge--sale" aria-hidden="true">
