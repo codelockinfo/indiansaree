@@ -13952,6 +13952,8 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .collection__page-product s.price-item.price-item--regular {
     font-size: 16px;
 }
+.collection__page-product .prod-title{
+    font-size: 16px;}
 .collection__page-products .product-info{
     padding-bottom: 45px;}
   @media screen and (max-width: 740px) {
