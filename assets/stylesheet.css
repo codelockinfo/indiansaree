@@ -14019,7 +14019,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 }
 .product__section-contentWrapper .qty-selection{
 margin-top:0;}
-.shopify-payment-button__button .clsshopify-payment-button  div{
+ .clsshopify-payment-button  .shopify-payment-button__button div{
 font-size: 16px;
     text-transform: capitalize;}
 /* cls015 end */
