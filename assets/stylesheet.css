@@ -14014,6 +14014,9 @@ width: 100%;}
 .product__section-contentWrapper .product__section-content .product__section--buttons.product-add {
     width: 90%;
 }
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    width: 100%;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
