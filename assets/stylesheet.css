@@ -13916,8 +13916,8 @@ width:50%;}
 button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     display: flex;
     align-items: center;}
-.section-title.span-12.auto h2  ,.gallarytitle {
-    text-transform: capitalize;
+.section-title.span-12.auto h2  ,.gallarytitle .textWithImage__column-caption h3 {
+    text-transform: capitalize!important;
 }
 
 /* cls015 end */
