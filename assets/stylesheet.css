@@ -13971,6 +13971,11 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     height: 800px!important;
 }
   }
+ @media screen and (max-width: 520px) {
+   .product__section-container #slider .flickity-viewport {
+    height: 500px!important;
+}
+ }
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
