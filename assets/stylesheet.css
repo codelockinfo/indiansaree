@@ -13978,6 +13978,24 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     height: 500px!important;
 }
  }
+button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
+position: relative;}
+span.js-cart-count.device-hide{
+    position: absolute;
+    top: 10px;
+    inset-inline-end: -9px;
+    z-index: 1;
+    width: 15px;
+    /* right: 10px; */
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
