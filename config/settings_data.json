@@ -1133,7 +1133,7 @@
         "type": "announcement-bar",
         "settings": {
           "full_width_header": false,
-          "announcement_text": "<p>Free Shipping Up to Rs.500<\/p>",
+          "announcement_text": "<p>Free shipping up to Rs.500<\/p>",
           "announcement_text_size": 13,
           "show_locale_selector": false,
           "show_country_selector": false
