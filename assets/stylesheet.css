@@ -13823,7 +13823,7 @@ margin-bottom: 10px;
 ul.shopping__cart-links li svg {
     height: 18px;
 }
-
+/* cls015 start */
 .carousel-nav.thumb-slider-slides.slides.product-single__thumbnails-template--18816811073834__main.js-thumb-carousel-nav{
 max-height:800px!important;
 }
@@ -13831,3 +13831,4 @@ img[data-sizes="auto"]{
       max-height: 800px;
     min-height: 800px;
 }
+/* cls015 end */
