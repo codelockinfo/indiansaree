@@ -13807,7 +13807,7 @@ margin-bottom: 10px;
   font-size: 24px;
   text-align: center;
     margin-bottom: 20px;
-     text-transform: inherit;
+     text-transform: capitalize;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: sans-serif;
@@ -13883,6 +13883,16 @@ button.slideout__trigger-search.js-slideout-open.button-as-link{
 .col-swatch ul.color.options {
 height: 409px;
     overflow: scroll;}
+#shopify-section-template--18816811630890__1625671777dd905141 h3{
+text-transform: capitalize;
+}
+.section-title.span-12.auto h2 {
+    text-transform: capitalize;
+}
+a.slideout__trigger--open button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
+    display: flex;
+    align-items: center;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
@@ -13893,14 +13903,4 @@ height: 409px;
     padding: 14px 110px 14px 25px;
     border: 1px solid #460c0c91;
 }
- @media screen and (max-width: 1193px) {
-.headersearch{
-      padding: 14px 25px 14px 25px;
-}
- }
- @media screen and (max-width: 1100px) {
-   .navigation__menulink{
-         padding: 0 10px !important;
-   }
- }
 /* end by cls003 */
