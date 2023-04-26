@@ -13829,7 +13829,7 @@ ul.shopping__cart-links li svg {
 .carousel-nav.thumb-slider-slides.slides.product-single__thumbnails-template--18816811073834__main.js-thumb-carousel-nav{
 max-height:800px!important;
 }
-img[data-sizes="auto"]{
+.product-image-container img[data-sizes="auto"]{
       height: 800px;
 }
 img.lazyload-fade.js-thumb-item-img.lazyautosizes.lazyloaded{
