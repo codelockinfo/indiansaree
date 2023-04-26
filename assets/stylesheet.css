@@ -13996,6 +13996,10 @@ span.js-cart-count.device-hide{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;}
+.product__section-content .disflex{
+    display: flex;
+    align-items: center;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
