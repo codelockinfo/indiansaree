@@ -203,7 +203,7 @@ endif
                 data-product-title="{{ product.title | escape }}"
                 style="visibility:hidden; min-height: 120px;" data-store-availability-container>
               </div>
-<div class="disflex">
+
               {%- when 'product_quantity' -%}
                 <div class="product__section--qty qty-selection" data-product-qty {{ block.shopify_attributes }}>
                   <label for="qty-{{ product.id }}" class="h5">{{ 'products.product.quantity' | t }}</label>
@@ -255,15 +255,13 @@ endif
                     </div>
 
                     <input id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit {% if settings.show_payment_button and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" {{ is_preorder }} value="{{ call_to_action }}" {% unless current_variant.available %}disabled{% endunless %} />
-</div>
-                </div>
-                                  <div class="clsflex">
+              <div class="clsflex">
                     {% if settings.show_payment_button %}
                       <div class="clsshopify-payment-button">
                             <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="document.querySelector('[data-testid]').click();">
                             <div class="svghtml"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></div><div>Buy it now</div>
                             </button> 
-                        </div>
+                          </div>
                       <div style="display:none;">
                          {{ form | payment_button }}
                       </div>
