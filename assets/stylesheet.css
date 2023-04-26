@@ -13992,10 +13992,15 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
    }
  }
 .clsshopify-payment-button {
-         margin-top: 15px;
-   }
-   .clsshopify-payment-button .shopify-payment-button__button{
-      display: flex;
-    justify-content: center;
-   }
+  margin-top: 15px;
+}
+.clsshopify-payment-button .shopify-payment-button__button{
+  display: flex;
+  justify-content: center;
+}
+.svghtml{
+  top: 5px;
+  margin-right: 10px;
+  position: relative;
+}
 /* end by cls003 */
