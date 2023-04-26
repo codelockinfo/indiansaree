@@ -13959,15 +13959,16 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .collection__page-product input#addToCart {
     width: 90%;
 }
-#slider .flickity-viewport {
-    height: 500px!important;
-}
+
   @media screen and (max-width: 740px) {
     button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     width: 100%;
 }
     .div_evowap_btn {
     width: 100%;
+}
+    .product__section-container #slider .flickity-viewport {
+    height: 800px!important;
 }
   }
 /* cls015 end */
