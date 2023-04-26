@@ -13864,4 +13864,9 @@ h1.product__section-title.product-title {
       font-weight: 400;
   font-size: 22px;
 }
+.price__badge--sale{
+    border: none;
+    font-size: 22px;
+    color: #ff905a;
+}
 /* cls015 end */
