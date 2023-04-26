@@ -81,7 +81,7 @@
         "product_page_border": "#ffffff",
         "form_left": true,
         "media_size": "medium",
-        "thumbnail_position": "left",
+        "thumbnail_position": "bottom",
         "click_to_enlarge": true,
         "enable_video_looping": true,
         "allow_multiple": true
