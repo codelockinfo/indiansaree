@@ -13876,4 +13876,9 @@ h1.product__section-title.product-title {
     font-weight: 500;
   margin: 20px 0;
 }
+li.seeks{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;}
 /* cls015 end */
