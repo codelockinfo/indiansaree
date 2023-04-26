@@ -10166,7 +10166,8 @@ ul.megamenu__ulcontainer {
 }
 
 .swatches__swatch--color .swatches__form--input:checked + .swatches__form--label {
-  box-shadow: 0px 0px 2px 2px #d6d6d6;
+/*   box-shadow: 0px 0px 2px 2px #d6d6d6; */
+  box-shadow: 0px 0px 2px 2px #000000c7;
 }
 
 .swatches__form--label:hover {
