@@ -76,6 +76,9 @@
         "social_sharing",
         "6dc2ae7c-6d05-4829-a17a-c0b19d6b4afb"
       ],
+      "custom_css": [
+        ".div_evowap_btn path {margin-right: 10px;}"
+      ],
       "settings": {
         "product_form_background": "#ffffff",
         "product_page_border": "#ffffff",
