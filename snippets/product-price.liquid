@@ -69,7 +69,7 @@
     <div class="price__badges">
       <span class="price__badge price__badge--sale" aria-hidden="true">
         <div class="sale-item--{{ settings.sale_items }}">
-          {% case settings.sale_items %}
+        (  {% case settings.sale_items %}
             {% when 'percentage' %}
               {% assign discount = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price %}
               {% assign discount = discount | round | append: '%' %}
@@ -79,7 +79,7 @@
               {{ 'products.general.savings' | t: savings: discount }}
             {% when 'icon' %}
               {{ 'products.general.sale' | t }}
-          {% endcase %}
+          {% endcase %})
         </div><!-- /.sale-item -->
       </span>
       <span class="price__badge price__badge--sold-out">
