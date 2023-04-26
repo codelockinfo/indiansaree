@@ -13959,6 +13959,9 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .collection__page-product input#addToCart {
     width: 90%;
 }
+#slider .flickity-viewport {
+    height: 500px!important;
+}
   @media screen and (max-width: 740px) {
     button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     width: 100%;
