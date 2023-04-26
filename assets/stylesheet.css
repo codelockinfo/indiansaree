@@ -13825,5 +13825,9 @@ ul.shopping__cart-links li svg {
 }
 
 .carousel-nav.thumb-slider-slides.slides.product-single__thumbnails-template--18816811073834__main.js-thumb-carousel-nav{
-max-height:700px!important;
+max-height:800px!important;
+}
+img[data-sizes="auto"]{
+      max-height: 800px;
+    min-height: 800px;
 }
