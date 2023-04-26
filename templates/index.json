@@ -5,7 +5,6 @@
       "blocks": {
         "1625671734793532ca-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/crop1.jpg",
             "overlay": false,
@@ -113,7 +112,7 @@
         "image": "shopify:\/\/shop_images\/Asritasilk-1_360x_f45759e9-e29b-49e2-904b-eaebc29826a4.webp",
         "image_position": "left",
         "image_size": "medium",
-        "title": "RAW SILK SAREES",
+        "title": "Raw silk sarees",
         "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
         "button_text": "Button",
         "link": "",
