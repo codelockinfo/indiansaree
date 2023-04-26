@@ -938,7 +938,7 @@
     "focus_border_style": "dotted",
     "focus_border_weight": 1,
     "product_image_size": "portrait",
-    "vendor": true,
+    "vendor": false,
     "show_rating": false,
     "product_border": false,
     "icon_style": "rectangle_icon",
