@@ -13969,14 +13969,14 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     .div_evowap_btn {
     width: 100%;
 }
-    .product__section-container #slider .flickity-viewport {
+/*     .product__section-container #slider .flickity-viewport {
     height: 800px!important;
-}
+} */
   }
- @media screen and (max-width: 520px) {
+/*  @media screen and (max-width: 520px) {
    .product__section-container #slider .flickity-viewport {
     height: 500px!important;
-}
+} */
  }
 /* cls015 end */
 /* cls003 */
