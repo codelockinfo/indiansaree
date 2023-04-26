@@ -13807,7 +13807,7 @@ margin-bottom: 10px;
   font-size: 24px;
   text-align: center;
     margin-bottom: 20px;
-     text-transform: inherit;
+     text-transform: capitalize;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: sans-serif;
@@ -13883,6 +13883,13 @@ button.slideout__trigger-search.js-slideout-open.button-as-link{
 .col-swatch ul.color.options {
 height: 409px;
     overflow: scroll;}
+#shopify-section-template--18816811630890__1625671777dd905141 h3{
+text-transform: capitalize;
+}
+.section-title.span-12.auto h2 {
+    text-transform: capitalize;
+}
+
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
