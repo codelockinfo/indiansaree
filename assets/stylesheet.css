@@ -13836,6 +13836,7 @@ width: 200px!important;
 
 label.swatches__form--label{
     width: 100px!important;
+      background-position: top;
     height: 100px!important;}
 p.swatches__option-name.h5 {
     display: none;
