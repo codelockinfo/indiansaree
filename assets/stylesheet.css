@@ -13898,4 +13898,9 @@ height: 409px;
       padding: 14px 25px 14px 25px;
 }
  }
+ @media screen and (max-width: 1100px) {
+   .navigation__menulink{
+         padding: 0 10px !important;
+   }
+ }
 /* end by cls003 */
