@@ -13865,12 +13865,12 @@ p.swatches__option-name.h5 {
 }
 .product__section-contentWrapper .product__section-contentWrapper .span.price-item.price-item--sale{
     font-size: 22px;
-    color: #333333!important;
+     color: #bbb;!important;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: 600;}
 
 .product__section-contentWrapper span.price-item.price-item--sale{
-    color: #bbb;!important;
+   color: #333333!important;
       font-weight: 400;
   font-size: 22px;
 }
