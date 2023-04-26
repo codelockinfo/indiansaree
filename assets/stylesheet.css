@@ -14000,6 +14000,10 @@ span.js-cart-count.device-hide{
     display: flex;
     align-items: center;
 }
+.product__section-content .qty-selection {
+    width: 30%;}
+.product__section-content .product__section--buttons.product-add{
+width: 100%;}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
