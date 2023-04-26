@@ -18,7 +18,7 @@
       <div class="thumb-slider-wrapper {{ js_class }} js-thumb-wrapper" id="thumb-slider-wrapper">
         <div class="carousel-nav thumb-slider-slides slides product-single__thumbnails-{{ section.id }} js-thumb-carousel-nav"style="max-height: 600px!important;">
           {% for media in product.media %}
-            {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            {% assign img_url = media | img_url: '1x1' | replace: '_1x1.'%}
             <div class="{{ media.media_type }}-thumbnail product-single__thumbnails-item carousel-cell {% if forloop.first %}is-nav-selected{% endif %} js-thumb-item" data-slide-index="{{ forloop.index0 }}"
             data-image-id="{{ media.id }}" tabindex="0">
               <div class="product-single__thumbnail product-single__thumbnail--{{ section.id }} js-thumb-item-img-wrap" data-thumbnail-id="product-template-{{ media.id }}">
