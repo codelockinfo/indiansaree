@@ -14030,14 +14030,14 @@ font-size: 16px;
 }
 /* cls015 end */
 /* cls003 */
-.headerformsearch{
+/* .headerformsearch{
   position: relative;
 }
 .headersearch{
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
     padding: 14px 44px 14px 25px;
     border: 1px solid #460c0c91;
-}
+} */
  @media screen and (max-width: 1193px) {
 .headersearch{
       padding: 14px 25px 14px 25px;
