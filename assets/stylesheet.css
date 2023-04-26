@@ -13885,4 +13885,7 @@ button.slideout__trigger-search.js-slideout-open.button-as-link{
     position: absolute;
     right: 0;
     top: 15px;}
+.col-swatch ul.color.options {
+height: 409px;
+    overflow: scroll;}
 /* cls015 end */
