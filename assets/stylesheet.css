@@ -13956,6 +13956,9 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     font-size: 16px;}
 .collection__page-products .product-info{
     padding-bottom: 45px;}
+.collection__page-product input#addToCart {
+    width: 90%;
+}
   @media screen and (max-width: 740px) {
     button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     width: 100%;
