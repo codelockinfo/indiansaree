@@ -13854,4 +13854,9 @@ h1.product__section-title.product-title {
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+.price-item--sale{
+    font-size: 22px;
+    color: #333333!important;
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    font-weight: 600;}
 /* cls015 end */
