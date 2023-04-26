@@ -257,7 +257,7 @@ endif
                     <input id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit {% if settings.show_payment_button and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" {{ is_preorder }} value="{{ call_to_action }}" {% unless current_variant.available %}disabled{% endunless %} />
 
                     {% if settings.show_payment_button %}
-                     dsdsdsds{{ form | payment_button }}
+                     {{ form | payment_button }}
                     {% endif %}
                   {%-  endform -%}
                 </div>
