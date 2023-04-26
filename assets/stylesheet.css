@@ -13869,4 +13869,10 @@ h1.product__section-title.product-title {
     font-size: 22px;
     color: #ff905a;
 }
+.product__section--desc.product__description-container.rte h3 {
+    color: #000000;
+    font-size: 16px;
+   font-family: "Arimo", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
 /* cls015 end */
