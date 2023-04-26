@@ -13924,7 +13924,7 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
  }
  @media screen and (max-width: 1100px) {
    .navigation__menulink{
-         padding: 0 10px !important;
+         padding: 0 5px !important;
    }
    .gridlock .header-wrapper .navigation__menu{
          margin-left: unset;
