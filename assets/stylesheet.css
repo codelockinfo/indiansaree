@@ -13887,10 +13887,10 @@ p.swatches__option-name.h5 {
     font-weight: 500;
   margin: 20px 0;
 }
-button.slideout__trigger-search.js-slideout-open.button-as-link{
+/* button.slideout__trigger-search.js-slideout-open.button-as-link{
     position: absolute;
     right: 5px;
-    top: 12px;}
+    top: 12px;} */
 .collection__page-product .col-swatch ul.color.options {
 height: 409px;
     overflow: scroll;}
