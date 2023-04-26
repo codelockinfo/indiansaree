@@ -14021,10 +14021,12 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 margin-top:0;}
  .clsshopify-payment-button  .shopify-payment-button__button div{
 font-size: 16px;
+   font-weight: 400;
     text-transform: capitalize;}
 .product__section--buttons input#addToCart {
     text-transform: capitalize;
     font-size: 16px;
+  font-weight: 400;
 }
 /* cls015 end */
 /* cls003 */
