@@ -13838,7 +13838,7 @@ ul.shopping__cart-links li svg {
 max-height:800px!important;
 }
 .product-image-container img[data-sizes="auto"]{
-      height: 800px!important;
+      height: 800px;
 }
 img.lazyload-fade.js-thumb-item-img.lazyautosizes.lazyloaded{
 width: 200px!important;
