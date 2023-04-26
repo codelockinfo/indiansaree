@@ -13857,7 +13857,7 @@ p.swatches__option-name.h5 {
     color: #7C0101;
     text-transform: capitalize;
 }
-h1.product__section-title.product-title {
+.product-image-container h1.product__section-title.product-title {
     font-size: 34px;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: 500;
