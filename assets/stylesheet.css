@@ -13857,12 +13857,12 @@ p.swatches__option-name.h5 {
     color: #7C0101;
     text-transform: capitalize;
 }
-.product-image-container h1.product__section-title.product-title {
+.product__section-contentWrapper h1.product__section-title.product-title {
     font-size: 34px;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-.price-item--sale{
+.product__section-contentWrapper .price-item--sale{
     font-size: 22px;
     color: #333333!important;
     font-family: "Arimo", Arial, Helvetica, sans-serif;
