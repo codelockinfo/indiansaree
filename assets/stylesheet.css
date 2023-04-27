@@ -14102,6 +14102,7 @@ span.blog__post-date.posted {
     color: #6058bc;
 font-size: .66667rem;
     line-height: 1.17;
+      margin: 10px 0;
     letter-spacing: 2px;
     text-transform: uppercase;}
 /* .header-section ul.megamenu.row.grid__wrapper{
