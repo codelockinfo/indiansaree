@@ -14096,7 +14096,12 @@ label.swatches__form--label {
     width: 60%;
 }
  }
-
+ @media screen and (max-width: 1100px) {
+.product__section-content .disflex{
+  display:flex;
+  flex-wrap:wrap;
+}
+ }
   @media screen and (max-width: 981px) and (min-width: 740px) {
  .headerformsearch {
     position: relative;
