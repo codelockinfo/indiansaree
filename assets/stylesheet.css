@@ -14061,6 +14061,9 @@ font-size: 16px;
 .header-section ul.megamenu.row.grid__wrapper{
     display: flex;
     width: 100%;}
+.header-section  span.span-3.auto.tablet-hide.mm-image{
+    width: 40%;
+    order: 2;}
 /* div#shopify-section-announcement-bar{
     position: sticky;
     top: 0;
