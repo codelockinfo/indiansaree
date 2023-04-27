@@ -142,6 +142,22 @@
             "text_align": "center"
           }
         },
+        "162567173863ea5075-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo1672136653.jpg",
+            "overlay": true,
+            "image_width": "33%",
+            "link": "shopify:\/\/collections\/chanderi",
+            "title_text": "Chanderi",
+            "hidden_text": "<p>Shop Now<\/p>",
+            "text_color": "#ffffff",
+            "text_position": "on_image",
+            "caption_vertical": 80,
+            "caption_horizontal": 50,
+            "text_align": "center"
+          }
+        },
         "162567173863ea5075-1": {
           "type": "image",
           "settings": {
@@ -157,28 +173,12 @@
             "caption_horizontal": 50,
             "text_align": "center"
           }
-        },
-        "162567173863ea5075-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_1024x1024_6deeb0ed-9de0-4f57-99b4-b21b0e6b757f.jpg",
-            "overlay": true,
-            "image_width": "33%",
-            "link": "shopify:\/\/collections\/chanderi",
-            "title_text": "Chanderi",
-            "hidden_text": "<p>Shop Now<\/p>",
-            "text_color": "#ffffff",
-            "text_position": "on_image",
-            "caption_vertical": 80,
-            "caption_horizontal": 50,
-            "text_align": "center"
-          }
         }
       },
       "block_order": [
         "162567173863ea5075-0",
-        "162567173863ea5075-1",
-        "162567173863ea5075-2"
+        "162567173863ea5075-2",
+        "162567173863ea5075-1"
       ],
       "custom_css": [
         ".haddingtextual a {}"
