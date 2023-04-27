@@ -13975,7 +13975,8 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
     width: 90%;
 }
 @media  screen and(max-width: 981px) {
-  .headerformsearch {
+ .headerformsearch {
+    position: relative;
     margin-left: -50%;
 }
 }
