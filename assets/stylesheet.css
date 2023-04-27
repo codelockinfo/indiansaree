@@ -14078,6 +14078,21 @@ font-size: 16px;
 .blog__post-content:hover{
     box-shadow: 0 4px 7px rgba(0,0,0,.35);
 }
+.blog__post-content{
+display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 7px rgba(145,145,145,.35);
+    transition: all .25s ease-in-out;
+    z-index: 1;
+}}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
