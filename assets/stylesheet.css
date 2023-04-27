@@ -14085,12 +14085,6 @@ font-size: 16px;
     border-radius: 5px;
     box-shadow: 0 2px 7px rgba(145,145,145,.35);
 }
-span.blog__post-date.posted {
-    display: none;
-}
-.blog__wrapper .blog__post-content .blog__post-button.readmore {
-    display: none;
-}
 .blog__wrapper .blog__post-content .blog__post-title h3 a{
     font-size: 17px;
     line-height: 1.35;
