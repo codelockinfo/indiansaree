@@ -14126,6 +14126,9 @@ font-size: .66667rem;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
+.blog__post-content .box-ratio img:hover .content-overlay{
+  opacity:1;
+}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
