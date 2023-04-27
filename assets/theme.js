@@ -654,8 +654,7 @@ WAU.Slideout = (function () {
 	 * @description - Initializes the plugin by adding all of the appropriate event listeners.
 	 */
 	function init(name) {
-console.log(name);
-      console.log('.......');
+
 		if (typeof name === "undefined") {
 			console.log("The Slideout must have an associated name.");
 			return;
