@@ -14040,6 +14040,8 @@ font-size: 16px;
     font-size: 16px;
   font-weight: 400;
 }
+.gridlock .row [class*="tablet-"]{
+    width: 90%;}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
