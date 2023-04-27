@@ -13921,7 +13921,7 @@ a#evowap_btn {
     align-items: center;
 }
 .announcflex {
-  width: 1600px;
+/*   width: 1600px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
