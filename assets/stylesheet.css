@@ -14095,6 +14095,9 @@ span.blog__post-date.posted {
     font-size: 17px;
     line-height: 1.35;
     margin-bottom: 15px;}
+.blog__post-details {
+    padding: 5% 5%;
+}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
