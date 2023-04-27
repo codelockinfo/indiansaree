@@ -1041,6 +1041,7 @@
           },
           "2b8ca15c-459b-47ec-9056-914ecaa35a01": {
             "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "Sarees",
               "nav_image": "shopify:\/\/shop_images\/photo1678361479.jpg",
