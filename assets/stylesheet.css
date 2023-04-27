@@ -14062,6 +14062,14 @@ font-size: 16px;
     margin: 0;
     padding: 0;
 }
+.blink-soft {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
