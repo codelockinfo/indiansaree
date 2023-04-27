@@ -31,7 +31,8 @@
 <ul class="shopping__cart-links">
   <li class="seeks">
       <form class="form-search headerformsearch" method="get" action="/search">
-            <input type="search" name="search" placeholder="search  here" class="headersearch">
+  <input type="text" name="q" id="searchbox-" class="searchbox__input headersearch" placeholder="Search" value="" role="combobox" aria-expanded="false" aria-owns="predictive-search-results-list" aria-controls="predictive-search-results-list" aria-haspopup="listbox" aria-autocomplete="list" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">
+<!--             <input type="search" name="search" placeholder="search  here" class="headersearch"> -->
             <button class="slideout__trigger-search js-slideout-open button-as-link" data-wau-slideout-target="search-sidebar" data-slideout-direction="right" aria-label="Open Search" tabindex="0" type="button" name="button">
              {% render 'snip-icons',
                wrapper: '.search__toggle',
