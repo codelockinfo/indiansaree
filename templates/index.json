@@ -161,11 +161,11 @@
         "162567173863ea5075-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_27_1024x1024_87332a32-81bd-4a7a-af64-8af094b199cd.jpg",
+            "image": "shopify:\/\/shop_images\/photo1653326899.jpg",
             "overlay": true,
             "image_width": "33%",
             "link": "shopify:\/\/collections\/printed",
-            "title_text": "Kanjivaram",
+            "title_text": "Bandhani",
             "hidden_text": "<p>Shop Now<\/p>",
             "text_color": "#ffffff",
             "text_position": "on_image",
