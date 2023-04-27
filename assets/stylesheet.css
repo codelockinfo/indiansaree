@@ -14087,7 +14087,15 @@ label.swatches__form--label {
          margin-right: unset;
    }
  }
-
+ @media screen and (max-width: 1500px) and (min-width: 1100px) {
+   .product__section-content .qty-selection {
+    width: 40%;
+}
+   .div_evowap_btn {
+    margin-right:28px;
+    width: 60%;
+}
+ }
 
   @media screen and (max-width: 981px) and (min-width: 740px) {
  .headerformsearch {
