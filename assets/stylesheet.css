@@ -14070,4 +14070,7 @@ font-size: 16px;
 .collection__page-products .color.options::-webkit-scrollbar {
     display: none;
 }
+label.swatches__form--label {
+    background-color: transparent!important;
+}
 /* end by cls003 */
