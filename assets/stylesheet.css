@@ -14088,6 +14088,9 @@ font-size: 16px;
 span.blog__post-date.posted {
     display: none;
 }
+.blog__wrapper .blog__post-content .blog__post-button.readmore {
+    display: none;
+}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
