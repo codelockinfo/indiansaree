@@ -43,7 +43,7 @@
 
             {% for sub_link in link.links %}
               {% if sub_link.links != blank %}
-                <li class="megamenu__listcontainer span-3 auto">
+                <li class="megamenu__listcontainer span-4 auto">
                   {% if block.settings.show_images %}
                     {% if sub_link.type == 'collection_link' %}
                       {% assign collection = sub_link.object %}
