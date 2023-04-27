@@ -1033,8 +1033,17 @@
           "b051c45c-bf5c-4992-899b-6e9ce0cf1226": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "New Arrivals",
+              "menu_item": "Bridal",
               "nav_image": "shopify:\/\/shop_images\/31-314455_indian-saree-models-png.png",
+              "link": "",
+              "show_images": true
+            }
+          },
+          "2b8ca15c-459b-47ec-9056-914ecaa35a01": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Sarees",
+              "nav_image": "shopify:\/\/shop_images\/photo1678361479.jpg",
               "link": "",
               "show_images": true
             }
@@ -1042,7 +1051,8 @@
         },
         "block_order": [
           "3272587b-24ab-41e5-936d-c6a2ed376b73",
-          "b051c45c-bf5c-4992-899b-6e9ce0cf1226"
+          "b051c45c-bf5c-4992-899b-6e9ce0cf1226",
+          "2b8ca15c-459b-47ec-9056-914ecaa35a01"
         ],
         "settings": {
           "nav_style": "inline",
