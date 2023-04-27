@@ -37,23 +37,19 @@
         tabindex="0"
         type="button"
         name="button">
-    <form class="form-search headerformsearch" method="get" action="/search">
-
-  <input value="Search" name="submit" id="search_button" class="button" type="submit" />
-    </svg>
-            </button>
-            <input name="q" type="text" placeholder="Search here"/>
-  <label>
-    <input type="submit" />
- {% render 'snip-icons',
-           wrapper: '.search__toggle',
-           type: 'testament-theme',
-           icon: 'search',
-           classes: 'vib-center',
-           size: '14px',
-           fill: 'var(--header-link-color)',
-           hover: 'var(--header-link-color)' %}
-  </label>
+        <form class="form-search headerformsearch" method="get" action="/search">
+           <input value="Search" name="submit" id="search_button" class="button" type="submit" />
+           <input name="q" type="text" placeholder="Search here"/>
+            <label><input type="submit" />
+               {% render 'snip-icons',
+                     wrapper: '.search__toggle',
+                     type: 'testament-theme',
+                     icon: 'search',
+                     classes: 'vib-center',
+                     size: '14px',
+                     fill: 'var(--header-link-color)',
+                     hover: 'var(--header-link-color)' %}
+            </label>
         </form>
        
       </button>
