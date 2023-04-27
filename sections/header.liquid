@@ -31,7 +31,12 @@
 <ul class="shopping__cart-links">
   <li class="seeks">
      <button class="slideout__trigger-search js-slideout-open button-as-link"
-      >
+        data-wau-slideout-target=""
+        data-slideout-direction="right"
+        aria-label="Open Search"
+        tabindex="0"
+        type="button"
+        name="button">
         <form class="form-search headerformsearch" method="get" action="/search">
            <input value="Search" name="submit" id="search_button" class="button" type="submit" />
            <input name="q" type="text" placeholder="Search here"/>
