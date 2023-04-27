@@ -13974,12 +13974,7 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .collection__page-product input#addToCart {
     width: 90%;
 }
-@media  screen and(max-width: 981px) {
- .headerformsearch {
-    position: relative;
-    margin-left: -50%!important;
-}
-}
+
 
   @media screen and (max-width: 740px) {
     button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
@@ -14092,5 +14087,11 @@ font-size: 16px;
 }
 label.swatches__form--label {
     background-color: transparent!important;
+}
+@media  screen and(max-width: 981px) and(max-width: 740px) {
+ .headerformsearch {
+    position: relative;
+    margin-left: -50%!important;
+}
 }
 /* end by cls003 */
