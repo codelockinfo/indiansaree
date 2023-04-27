@@ -245,6 +245,9 @@
         "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-1",
         "template--18816811630890__a316756c-0344-4e62-8e85-7a9e02825b0b-1681984380e1840913-2"
       ],
+      "custom_css": [
+        ".grid__wrapper.row {grid-gap:0;}"
+      ],
       "settings": {
         "title": "sarees shopping  online",
         "center_align": false,
