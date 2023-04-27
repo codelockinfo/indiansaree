@@ -50,7 +50,7 @@
            {{ section.settings.announcement_text }}
         </div>
       <div class="aannimg">
-        {{ section.settings.announimg}}
+        <img src="{{ section.settings.announimg | img_url:'500x'  }}" >
       </div>
       {% endif %}
       <ul class="cart-links__wrapper {% if announcement %}span-4 {% else %}span-6{% endif %} auto sm-hide v-center a-right">
