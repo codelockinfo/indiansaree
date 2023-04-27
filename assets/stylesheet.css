@@ -2330,7 +2330,7 @@ header .fa-2x {
 #logo {
   line-height: initial;
   position: relative;
-  margin-bottom: 10px;
+/*   margin-bottom: 10px; */
   margin-top: 10px;
 }
 
