@@ -1,11 +1,10 @@
 <div class="article-index blog__post-container" id="article-{{ article.id }}" data-alpha="{{ article.title }}">
   <div class="blog__post-content">
-        <div class="blog__post-details
+        <div class="blog__post-details">
            {% if section.settings.show_author %}
           <span class="blog__post-author posted">{{ article.author }}</span>
         {% endif %}
         <div class="blog__post-title">
-          
           <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
         </div>
        
