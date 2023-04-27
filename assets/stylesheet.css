@@ -14101,6 +14101,9 @@ label.swatches__form--label {
   display:flex;
   flex-wrap:wrap;
 }
+   .product__section-content .qty-selection {
+    width: 100%;
+}
  }
   @media screen and (max-width: 981px) and (min-width: 740px) {
  .headerformsearch {
