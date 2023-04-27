@@ -14088,7 +14088,7 @@ font-size: 16px;
 label.swatches__form--label {
     background-color: transparent!important;
 }
-@media  screen and(max-width: 981px) {
+@media  screen and(max-width: 981px)  and(min-width: 740px){
  .headerformsearch {
     position: relative;
     margin-left: -50%!important;
