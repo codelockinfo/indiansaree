@@ -14071,6 +14071,13 @@ font-size: 16px;
     opacity: 0;
   }
 }
+.blog__post-content {
+   
+    padding: 5px 10px 35px;
+}
+.blog__post-content:hover{
+    box-shadow: 0 4px 7px rgba(0,0,0,.35);
+}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
