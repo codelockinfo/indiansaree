@@ -655,6 +655,7 @@ WAU.Slideout = (function () {
 	 */
 	function init(name) {
 console.loe(name);
+      console.log('.......');
 		if (typeof name === "undefined") {
 			console.log("The Slideout must have an associated name.");
 			return;
