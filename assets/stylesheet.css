@@ -13974,7 +13974,7 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .collection__page-product input#addToCart {
     width: 90%;
 }
-@media  (max-width: 981px) and (max-width: 740px) {
+@media  screen and(max-width: 981px) {
   .headerformsearch {
     margin-left: -50%;
 }
