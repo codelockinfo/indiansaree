@@ -14091,6 +14091,10 @@ span.blog__post-date.posted {
 .blog__wrapper .blog__post-content .blog__post-button.readmore {
     display: none;
 }
+.blog__wrapper .blog__post-content .blog__post-title h3 a{
+    font-size: 17px;
+    line-height: 1.35;
+    margin-bottom: 15px;}
 /* .header-section ul.megamenu.row.grid__wrapper{
    float:left;
     width: 100%;}
