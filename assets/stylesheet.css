@@ -13917,6 +13917,14 @@ a#evowap_btn {
     transition: all .3s !important;
     align-items: center;
 }
+.announcflex {
+  width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 30px;
+}
 input#addToCart {
     width: 50%;
 }
