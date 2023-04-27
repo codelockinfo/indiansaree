@@ -14054,6 +14054,7 @@ font-size: 16px;
 }
 .aannimg {
     width: 100%;
+  color: #e29b11d6;
 }
 .megamenu .megamenu__imagecontainer .box-ratio {
 /*     width: 72%; */
@@ -14063,7 +14064,7 @@ font-size: 16px;
     padding: 0;
 }
 .blink-soft {
-  animation: blinker 1.5s linear infinite;
+  animation: blinker 2s linear infinite;
 }
 @keyframes blinker {
   50% {
