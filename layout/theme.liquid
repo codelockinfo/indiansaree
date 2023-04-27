@@ -85,66 +85,6 @@
 
   </div>
 
-<!--   <aside class="slideout slideout__drawer-right search-sidebar"
-    data-wau-slideout="search-sidebar"
-    id="slideout-search-sidebar">
-    <div class="slideout__trigger--close">
-      <button class="slideout__trigger-search-sidebar js-slideout-close"
-        data-slideout-direction="right"
-        aria-label="Close sidebar"
-        tabindex="0"
-        type="button"
-        name="button">
-        <div class="icn-close"></div>
-      </button>
-    </div>
-    <div class="sidebar__search-container">
-      <form action="{{ routes.search_url }}" method="get">
-        {%- if settings.predictive_search_enabled -%}
-        <predictive-search
-          data-routes="{{ routes.predictive_search_url | default: '/search/suggest' }}"
-          data-show-only-products="{{ settings.search_show_products_only | default: 'false' }}"
-          data-results-per-resource="6"
-          data-input-selector='input[name="q"]'
-          data-results-selector="#predictive-search"
-          >
-        {%- endif -%}
-          <input
-            type="text"
-            name="q"
-            id="searchbox-{{ section.id }}"
-            class="searchbox__input"
-            placeholder="{{ 'sections.search.placeholder' | t }}"
-            value="{{ search.terms | escape }}"
-            {%- if settings.predictive_search_enabled -%}
-              role="combobox"
-              aria-expanded="false"
-              aria-owns="predictive-search-results-list"
-              aria-controls="predictive-search-results-list"
-              aria-haspopup="listbox"
-              aria-autocomplete="list"
-              autocorrect="off"
-              autocomplete="off"
-              autocapitalize="off"
-              spellcheck="false"
-            {%- endif -%}>
-          <input value="{{ 'sections.search.submit' | t }}" name="submit" id="search_button" class="button" type="submit">
-
-          <input name="options[prefix]" type="hidden" value="last">
-
-          {% if settings.search_show_products_only %}
-            <input type="hidden" name="type" value="product">
-          {% endif %}
-
-          {%- if settings.predictive_search_enabled -%}
-            <div id="predictive-search" class="predictive-search" tabindex="-1"></div>
-          {%- endif -%}
-      </form>
-      {%- if settings.predictive_search_enabled -%}
-      </predictive-search>
-      {%- endif -%}
-    </div>
-  </aside> -->
 
   {%- if settings.cart_type == 'drawer' -%}
     <aside class="slideout slideout__drawer-right mini-cart" data-wau-slideout="ajax-cart" id="slideout-ajax-cart">
