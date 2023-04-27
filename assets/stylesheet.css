@@ -14055,6 +14055,9 @@ font-size: 16px;
 .aannimg {
     width: 100%;
 }
+.megamenu .megamenu__imagecontainer .box-ratio {
+    width: 72%;
+padding-bottom:0;}
 /* div#shopify-section-announcement-bar{
     position: sticky;
     top: 0;
