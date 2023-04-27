@@ -2233,6 +2233,7 @@ header {
   position: relative;
   z-index: 6;
   color: var(--announcement-text);
+      padding: 8px 0;
 }
 
 ul#social-icons {
