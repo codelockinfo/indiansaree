@@ -14098,7 +14098,7 @@ span.blog__post-date.posted {
 .blog__post-details {
     padding: 5% 5%;
 }
-.blog__wrapper blog__post-author posted {
+.blog__wrapper .blog__post-author.posted {
     color: #6058bc;
 font-size: .66667rem;
     line-height: 1.17;
