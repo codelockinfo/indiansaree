@@ -13974,6 +13974,11 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
 .collection__page-product input#addToCart {
     width: 90%;
 }
+@media screen and (max-width: 981px) and (max-width: 740px) {
+  .headerformsearch {
+    margin-left: -50%;
+}
+}
 
   @media screen and (max-width: 740px) {
     button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
