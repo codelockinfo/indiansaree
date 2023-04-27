@@ -49,6 +49,9 @@
         <div id="hello" class=" fundamental span-4 auto sm-span-12 v-center">
            {{ section.settings.announcement_text }}
         </div>
+      <div class="aannimg">
+        {{ section.settings.announimg}}
+      </div>
       {% endif %}
       <ul class="cart-links__wrapper {% if announcement %}span-4 {% else %}span-6{% endif %} auto sm-hide v-center a-right">
         {%- if hd_locale_selector -%}
@@ -296,6 +299,11 @@
       "type": "header",
       "content": "Announcement Bar"
     },
+     {
+        "type": "image_picker",
+        "id": "announimg",
+        "label": "Image"
+      },
     {
       "type": "richtext",
       "id": "announcement_text",
