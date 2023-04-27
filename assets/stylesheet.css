@@ -14103,9 +14103,10 @@ label.swatches__form--label {
 }
    .product__section-content .qty-selection {
     width: 100%;
+     margin-top:20px;
 }
    .div_evowap_btn{
-width: 100%;}
+width: 92%;}
  }
   @media screen and (max-width: 981px) and (min-width: 740px) {
  .headerformsearch {
