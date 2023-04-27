@@ -1051,7 +1051,7 @@
           "mobile_logo_max_width": 45,
           "cart_icon": "bag",
           "main_nav": "saree-menu",
-          "nav_height": 60,
+          "nav_height": 50,
           "nav_top_border_height": 1,
           "nav_bottom_border_height": 1
         }
