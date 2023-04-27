@@ -11507,7 +11507,7 @@ span.popup_content_link button {
 
 .blog__article-container {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 25px;
 }
 
 .blog__article-container.list-layout {
