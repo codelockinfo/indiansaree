@@ -37,7 +37,15 @@
         tabindex="0"
         type="button"
         name="button">
-        {% render 'snip-icons',
+    <form class="form-search headerformsearch" method="get" action="/search">
+
+  <input value="Search" name="submit" id="search_button" class="button" type="submit" />
+    </svg>
+            </button>
+            <input name="q" type="text" placeholder="Search for products"/>
+  <label>
+    <input type="submit" />
+ {% render 'snip-icons',
            wrapper: '.search__toggle',
            type: 'testament-theme',
            icon: 'search',
@@ -45,6 +53,9 @@
            size: '14px',
            fill: 'var(--header-link-color)',
            hover: 'var(--header-link-color)' %}
+  </label>
+        </form>
+       
       </button>
   </li>
   {% if shop.customer_accounts_enabled %}
