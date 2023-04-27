@@ -1133,6 +1133,7 @@
         "type": "announcement-bar",
         "settings": {
           "full_width_header": false,
+          "announimg": "shopify:\/\/shop_images\/cash-on-delivery-icon-12.png",
           "announcement_text": "<p>Free shipping up to Rs.500<\/p>",
           "announcement_text_size": 13,
           "show_locale_selector": false,
