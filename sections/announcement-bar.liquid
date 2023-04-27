@@ -51,7 +51,7 @@
            {{ section.settings.announcement_text }}
         </div>
       <div class="aannimg">
-        <img src="{{ section.settings.announimg | img_url:'500x'  }}" >
+     {{ section.settings.announcementtext2 }}
       </div>
         </div>
       {% endif %}
@@ -302,9 +302,9 @@
       "content": "Announcement Bar"
     },
      {
-        "type": "image_picker",
-        "id": "announimg",
-        "label": "Image"
+        "type": "text",
+        "id": "announcementtext2",
+        "label": "Label"
       },
     {
       "type": "richtext",
