@@ -16,7 +16,7 @@
       "settings": {
         "text": "<p>Add some descriptive text to your Blog page.<\/p>",
         "center_align": true,
-        "grid": 3,
+        "grid": 4,
         "show_date": false,
         "show_author": true,
         "show_tags": true,
