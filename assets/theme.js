@@ -6041,14 +6041,9 @@ theme.CollectionFilters = {
 			});
 
 			document.addEventListener('click', (evt) => {
-              console.log("click");
 				const isDropdown = dropdown.contains(evt.target);
 				const isInput = inputField.contains(evt.target);
-              if(inputField.classList.contains("active")){
-                console.log("close");
-                // inputField.classList.remove('active');
-                // dropdown.classList.remove('open');
-              }
+              console.log(inputField.classList.contains("active"));
 				if (!isDropdown && !isInput) {
 					dropdown.classList.remove('open');
 				}
