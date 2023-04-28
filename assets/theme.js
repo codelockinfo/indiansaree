@@ -6475,6 +6475,7 @@ theme.SearchFilters = {
 			}
 
 			inputField.addEventListener('input', () => {
+              console.log("Input");
 				dropdown.classList.add('open');
 				let inputValue = inputField.value.toLowerCase();
 				let valueSubstring;
