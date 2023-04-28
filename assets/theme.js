@@ -6025,6 +6025,7 @@ theme.CollectionFilters = {
 			})
 
 			inputField.addEventListener('focus', () => {
+              console.log("Focussss");
 				 inputField.placeholder = inputField.dataset.genericPlaceholder;
 				 inputField.classList.add('active');
 				 dropdown.classList.add('open');
