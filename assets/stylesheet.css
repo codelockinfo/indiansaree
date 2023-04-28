@@ -14043,7 +14043,8 @@ width: 100%;}
     display: none;
 }
 .product__section-contentWrapper .product__section-content .product__section--buttons.product-add {
-    width: 93%;
+/*     width: 93%; */
+      width: 100%;
 }
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     width: 100%;
