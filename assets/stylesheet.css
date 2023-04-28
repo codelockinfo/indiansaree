@@ -10275,6 +10275,9 @@ h1.page-title {
     flex-wrap: wrap !important;
     width: 100% !important;
   }
+  .georgesimage .collection__page-product{
+    border-bottom: unset;
+  }
 }
 
 .collection__page-products.product-loop .product-index,
