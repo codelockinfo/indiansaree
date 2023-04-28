@@ -6027,6 +6027,7 @@ theme.CollectionFilters = {
 			inputField.addEventListener('focus', () => {
               console.log("Focussss");
 				 inputField.placeholder = inputField.dataset.genericPlaceholder;
+              console.log(inputField.classList.contains("active"));
 				 inputField.classList.add('active');
 				 dropdown.classList.add('open');
 				 dropdownArray.forEach(dropdown => {
@@ -6041,16 +6042,11 @@ theme.CollectionFilters = {
 			});
 
 			document.addEventListener('click', (evt) => {
-              console.log("click");
 				const isDropdown = dropdown.contains(evt.target);
 				const isInput = inputField.contains(evt.target);
-              console.log("isDropdown");
-              console.log("isInput");
 				if (!isDropdown && !isInput) {
 					dropdown.classList.remove('open');
-				}else{
-                  console.log("close");
-                }
+				}
 			});
 		});
     // Show / hide dropdown filters
