@@ -14210,6 +14210,9 @@ width: 92%;}
     position: relative;
     margin-left: -50%!important;
 }
+    .collection__filter-toggleWrapper .sort__filter--triggers {
+    display: block;
+}
 }
 @media screen and (max-width: 739px) {
    .georgesimage .collection__page-product{
