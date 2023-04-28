@@ -6046,7 +6046,9 @@ theme.CollectionFilters = {
 				const isInput = inputField.contains(evt.target);
 				if (!isDropdown && !isInput) {
 					dropdown.classList.remove('open');
-				}
+				}else{
+                  console.log("close");
+                }
 			});
 		});
     // Show / hide dropdown filters
