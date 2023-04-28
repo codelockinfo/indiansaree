@@ -6046,6 +6046,7 @@ theme.CollectionFilters = {
 				const isInput = inputField.contains(evt.target);
               if(inputField.classList.contains("active")){
                 console.log("close");
+                inputField.classList.remove('active');
                 dropdown.classList.remove('closed');
               }
 				if (!isDropdown && !isInput) {
