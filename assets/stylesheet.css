@@ -14204,7 +14204,7 @@ width: 92%;}
    .georgesimage .collection__page-product{
     border-bottom: unset;
   }
-  .collection__page-products form.product__form-buttons {
+ .template-collection .collection__page-products form.product__form-buttons {
         bottom: -15px;
   }
 }
