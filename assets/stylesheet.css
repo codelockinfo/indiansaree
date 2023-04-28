@@ -10274,10 +10274,7 @@ h1.page-title {
     display: flex !important;
     flex-wrap: wrap !important;
     width: 100% !important;
-  }
-  .georgesimage .collection__page-product{
-    border-bottom: unset;
-  }
+  } 
 }
 
 .collection__page-products.product-loop .product-index,
@@ -14202,5 +14199,10 @@ width: 92%;}
     position: relative;
     margin-left: -50%!important;
 }
+}
+@media screen and (max-width: 739px) {
+   .georgesimage .collection__page-product{
+    border-bottom: unset;
+  }
 }
 /* end by cls003 */
