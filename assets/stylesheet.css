@@ -14209,3 +14209,8 @@ width: 92%;}
   }
 }
 /* end by cls003 */
+
+/* cls013 start */
+#predictive-search .hovermg.prod-colors {
+    display: none;
+}
