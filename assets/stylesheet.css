@@ -13993,7 +13993,7 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
   @media screen and (max-width: 740px) {
     .image__with-textSection.section-template--18816811630890__da60578f-bb7b-449b-acd0-4cb4e894885b {
 /*     background: #f3cfe1; */
-      background-image: linear-gradient(to bottom, transparent 0%, transparent 68vw,  #f3cfe1 20vw,  #f3cfe1 100%);
+      background-image:  linear-gradient(to bottom, transparent 0%, transparent 24vw, #f3cfe1 20vw, #f3cfe1 100%) !important;
 }
     button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     width: 100%;
