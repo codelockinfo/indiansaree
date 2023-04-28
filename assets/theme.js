@@ -6041,6 +6041,8 @@ theme.CollectionFilters = {
 			});
 
 			document.addEventListener('click', (evt) => {
+              console.log("click");
+              console.log(inputField.classList.contains("active"));
 				const isDropdown = dropdown.contains(evt.target);
 				const isInput = inputField.contains(evt.target);
               if(!inputField.classList.contains("active")){
