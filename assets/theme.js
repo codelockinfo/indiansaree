@@ -6043,8 +6043,9 @@ theme.CollectionFilters = {
 			document.addEventListener('click', (evt) => {
 				const isDropdown = dropdown.contains(evt.target);
 				const isInput = inputField.contains(evt.target);
-              
-              console.log(inputField.classList.contains("active"));
+              if(!inputField.classList.contains("active")){
+                dropdown.classList.remove('closed');
+              }
 				if (!isDropdown && !isInput) {
 					dropdown.classList.remove('open');
 				}
