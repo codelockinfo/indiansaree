@@ -6540,6 +6540,7 @@ theme.SearchFilters = {
 			});
 
 			document.addEventListener('click', (evt) => {
+              console.log("hghghggghgh");
 				const isDropdown = dropdown.contains(evt.target);
 				const isInput = inputField.contains(evt.target);
 				if (!isDropdown && !isInput) {
