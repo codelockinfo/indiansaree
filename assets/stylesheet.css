@@ -14229,6 +14229,14 @@ width: 100%;
   div#bottom-footer #copy p {
     text-align: center;
 }
+.product__section--buttons input#addToCart
+{
+position: fixed;
+    bottom: 3px;
+    width: 79%;
+    / float: left; /
+    left: 0;
+}
 }
 /* end by cls003 */
 
