@@ -13435,7 +13435,7 @@ input[type="search"]#Search::-webkit-search-results-decoration {
 
 .text__icons-section .text__icons-container .text__block {
     display: flex;
-    justify-content: center;
+/*     justify-content: center; */
     column-gap: 10px;
     align-items: center;
 }
