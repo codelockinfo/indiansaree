@@ -6533,6 +6533,7 @@ theme.SearchFilters = {
 			});
 
 			inputField.addEventListener('blur', () => {
+               console.log("blur");
 				inputField.placeholder = inputField.dataset.placeholder;
 				inputField.classList.remove('active');
 				dropdown.classList.remove('open');
