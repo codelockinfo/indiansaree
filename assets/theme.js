@@ -6523,6 +6523,7 @@ theme.SearchFilters = {
 			})
 
 			inputField.addEventListener('focus', () => {
+              console.log("focus");
 				 inputField.placeholder = inputField.dataset.genericPlaceholder;
 				 inputField.classList.add('active');
 				 dropdown.classList.add('open');
