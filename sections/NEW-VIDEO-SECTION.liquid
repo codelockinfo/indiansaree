@@ -9,16 +9,18 @@
     <div class="video-carasol videoslid">
       {% for block in section.blocks %}
         <div class="mainslider">
-          <figure>
-            <video class="bgv" id="video" muted loop autoplay>
-              <source src="{{ block.settings.video_url }}" type="video/mp4">
-            </video>
-          </figure>
-          <div class="prodiv">
-            <img src="{{ block.settings.imgmain | img_url: '200x200' }}">
-            {%- assign product = block.settings.product -%}
-            <h2>{{ product.title }}</h2>
-            <h3>Rs.{{ product.price }}</h3>
+          <div class="mainvideo">
+            <figure>
+              <video class="bgv" id="video" muted loop autoplay>
+                <source src="{{ block.settings.video_url }}" type="video/mp4">
+              </video>
+            </figure>
+            <div class="prodiv">
+              <img src="{{ block.settings.imgmain | img_url: '200x200' }}">
+              {%- assign product = block.settings.product -%}
+              <h2>{{ product.title }}</h2>
+              <h3>Rs.{{ product.price }}</h3>
+            </div>
           </div>
         </div>
       {% endfor %}
