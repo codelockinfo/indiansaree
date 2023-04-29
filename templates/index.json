@@ -567,12 +567,12 @@
     },
     "b008ab96-da19-44d9-8c3b-186a8248ac0a": {
       "type": "NEW-VIDEO-SECTION",
+      "disabled": true,
       "blocks": {
         "2974dbf0-a2a2-4ec9-8aa7-1b2486291951": {
           "type": "block",
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "imgmain": "shopify:\/\/shop_images\/photo1678361479.jpg",
             "product": "breathable-banarasi-silk-saree"
           }
         },
@@ -580,7 +580,6 @@
           "type": "block",
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "imgmain": "shopify:\/\/shop_images\/photo1676459775_2.jpg",
             "product": "breathable-banarasi-wedding-saree"
           }
         },
@@ -588,7 +587,6 @@
           "type": "block",
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "imgmain": "shopify:\/\/shop_images\/photo1608400426_3.jpg",
             "product": "experience-comfort-and-luxury-with-our-breathable-banarasi-silk-sarees"
           }
         },
@@ -596,7 +594,6 @@
           "type": "block",
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "imgmain": "shopify:\/\/shop_images\/photo1682326718.jpg",
             "product": "breathable-banarasi-wedding-saree"
           }
         },
@@ -604,7 +601,6 @@
           "type": "block",
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "imgmain": "shopify:\/\/shop_images\/photo1643990050.jpg",
             "product": "breathable-banarasi-wedding-saree"
           }
         },
@@ -612,7 +608,6 @@
           "type": "block",
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "imgmain": "shopify:\/\/shop_images\/photo1639658078.jpg",
             "product": "breathable-banarasi-wedding-saree"
           }
         }
