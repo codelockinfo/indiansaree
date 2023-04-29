@@ -16,11 +16,7 @@
           </figure>
           <div class="prodiv">
             <img src="{{ block.settings.imgmain | img_url: '200x200' }}">
-            {% for product in collection.products %}
-              {% for product in products %}
-                <p>{{ product.title }}</p>
-              {% endfor %}
-            {% endfor %}
+            {%- assign product = block.settings.product -%}
           </div>
         </div>
       {% endfor %}
@@ -47,7 +43,12 @@
       "id" : "imgmain",
       "type" : "image_picker",
       "label" : "product image"
-    }
+    },
+    {
+          "type": "product",
+          "id": "product",
+          "label": " Product "
+        }
   ]
   }
   ],
