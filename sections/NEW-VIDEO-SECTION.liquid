@@ -17,6 +17,8 @@
           <div class="prodiv">
             <img src="{{ block.settings.imgmain | img_url: '200x200' }}">
             {%- assign product = block.settings.product -%}
+            <h2>{{ product.title }}</h2>
+            <h3>{{ product.price }}</h3>
           </div>
         </div>
       {% endfor %}
