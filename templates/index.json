@@ -609,6 +609,34 @@
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
             "product": "breathable-banarasi-wedding-saree"
           }
+        },
+        "f8d1ad05-0177-4243-bdff-1637ee076428": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
+            "product": "breathable-banarasi-wedding-saree"
+          }
+        },
+        "89869fdf-6cc3-4786-979f-dc0c05a2c931": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
+            "product": "experience-comfort-and-luxury-with-our-breathable-banarasi-silk-sarees"
+          }
+        },
+        "845af2d7-c527-4d93-8df3-6a44cd52ff2e": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
+            "product": "experience-comfort-and-luxury-with-our-breathable-banarasi-silk-sarees"
+          }
+        },
+        "4a4845c7-73ea-4055-93f1-4122d09142ff": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
+            "product": "breathable-banarasi-wedding-saree"
+          }
         }
       },
       "block_order": [
@@ -617,7 +645,11 @@
         "a9ac9322-5227-4179-9a42-46483f784bbe",
         "8aea7cee-c435-400b-8782-7ca37eaad371",
         "3de93757-2e05-455d-8d73-8813fe30e213",
-        "c27fd564-9de0-445f-be1a-a6b44eafd096"
+        "c27fd564-9de0-445f-be1a-a6b44eafd096",
+        "f8d1ad05-0177-4243-bdff-1637ee076428",
+        "89869fdf-6cc3-4786-979f-dc0c05a2c931",
+        "845af2d7-c527-4d93-8df3-6a44cd52ff2e",
+        "4a4845c7-73ea-4055-93f1-4122d09142ff"
       ],
       "settings": {
       }
