@@ -1,3 +1,111 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    
+<div class="video-slider">
+        <div class="container016">
+            <div class="video-carasol videoslid">
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video2"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress2" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video3"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress3" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video4"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress4" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video5"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress5" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video6"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                   <!--  <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress6" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video7"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress7" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+                <div class="mainslider">
+                    <figure>
+                    <video   class="bgv" id="video8"  muted loop autoplay>
+                  
+                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                    </video>
+                    <!-- <figcaption>
+                        <label id="timer" for="progress" role="timer"></label>
+                        <progress id="progress8" max="100" value="0">Progress</progress>
+                        </figcaotion> -->
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
 {% schema %}
   {
     "name": "Section name",
@@ -7,6 +115,45 @@
 
 {% stylesheet %}
 {% endstylesheet %}
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 {% javascript %}
+
+  $('.videoslid').slick({
+      arrows: true,
+       dots: false,
+    infinite: false ,
+    slidesToShow: 5,
+      speed: 1000,
+    slidesToScroll: 1,
+       autoplay: false,
+      prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+              nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+           responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1  ,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
 {% endjavascript %}
