@@ -11,7 +11,7 @@
                 <div class="mainslider">
                     <figure>
                   <video   class="bgv" id="video"  muted loop autoplay>
-                      <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                      <source src="{{ block.settings.video_url }}" type="video/mp4">
                   </video>
                     </figure>
                 </div>
@@ -25,6 +25,19 @@
     "settings": [
       
     ],
+        "blocks":[
+  {
+  "name":"block",
+  "type":"block",
+  "settings":[
+        {
+      "id" : "video_url",
+      "type" : "text",
+      "label" : "Video link"
+    }
+  ]
+  }
+  ],
     "presets": [
   {
     "name": "new video section"
