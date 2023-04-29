@@ -7,109 +7,25 @@
 <div class="video-slider">
         <div class="container016">
             <div class="video-carasol videoslid">
+              {% for block in section.blocks %}
                 <div class="mainslider">
                     <figure>
-                    <video   class="bgv" id="video"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
+                  <video   class="bgv" id="video"  muted loop autoplay>
+                
+                      <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
+                  </video>
                     </figure>
                 </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video2"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress2" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video3"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress3" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video4"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress4" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video5"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress5" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video6"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                   <!--  <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress6" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video7"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress7" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
-                <div class="mainslider">
-                    <figure>
-                    <video   class="bgv" id="video8"  muted loop autoplay>
-                  
-                        <source src="https://video.gumlet.io/621770ca1c8b821b05d7035a/640ad8e51ea4e52901dfb8b1/main.mp4" type="video/mp4">
-                    </video>
-                    <!-- <figcaption>
-                        <label id="timer" for="progress" role="timer"></label>
-                        <progress id="progress8" max="100" value="0">Progress</progress>
-                        </figcaotion> -->
-                    </figure>
-                </div>
+               {% endfor %}
             </div>
         </div>
     </div>
 {% schema %}
   {
     "name": "Section name",
-    "settings": [],
+    "settings": [
+      
+    ],
     "presets": [
   {
     "name": "new video section"
