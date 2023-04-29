@@ -57,9 +57,9 @@
 
   {{ content_for_header }}
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script> -->
   
 </head>
 <body class="gridlock template-{{ template | handleize }} {% if template contains 'product' %}product{% elsif template contains 'collection' %}collection{% else %}{{ template | handleize }}{% endif %} js-slideout-toggle-wrapper js-modal-toggle-wrapper product-variant-type--{{ settings.product_variants }} {% if settings.image_hover_scale %}theme-image-effect{% endif %} {% if settings.button_corners == 'curved' %}theme-buttons-curved{% endif %} {% if settings.switch_image or settings.alternate_colors %}theme-image-hover{% endif %} {% if settings.product_border %}theme-border{% endif %}">
