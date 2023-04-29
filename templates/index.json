@@ -567,6 +567,52 @@
     },
     "b008ab96-da19-44d9-8c3b-186a8248ac0a": {
       "type": "NEW-VIDEO-SECTION",
+      "blocks": {
+        "2974dbf0-a2a2-4ec9-8aa7-1b2486291951": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+          }
+        },
+        "5f7e7016-7105-48a5-ba73-dc5717455f9f": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+          }
+        },
+        "a9ac9322-5227-4179-9a42-46483f784bbe": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+          }
+        },
+        "8aea7cee-c435-400b-8782-7ca37eaad371": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+          }
+        },
+        "3de93757-2e05-455d-8d73-8813fe30e213": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+          }
+        },
+        "c27fd564-9de0-445f-be1a-a6b44eafd096": {
+          "type": "block",
+          "settings": {
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "2974dbf0-a2a2-4ec9-8aa7-1b2486291951",
+        "5f7e7016-7105-48a5-ba73-dc5717455f9f",
+        "a9ac9322-5227-4179-9a42-46483f784bbe",
+        "8aea7cee-c435-400b-8782-7ca37eaad371",
+        "3de93757-2e05-455d-8d73-8813fe30e213",
+        "c27fd564-9de0-445f-be1a-a6b44eafd096"
+      ],
       "settings": {
       }
     }
