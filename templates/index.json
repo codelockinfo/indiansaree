@@ -571,7 +571,8 @@
         "2974dbf0-a2a2-4ec9-8aa7-1b2486291951": {
           "type": "block",
           "settings": {
-            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4"
+            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
+            "imgmain": "shopify:\/\/shop_images\/photo1678361479.jpg"
           }
         },
         "5f7e7016-7105-48a5-ba73-dc5717455f9f": {
