@@ -34,9 +34,7 @@
 
   <title>{{ page_title }}{% if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif %}{% if current_page != 1 %} &ndash; Page {{ current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
   {% if page_description %}<meta name="description" content="{{ page_description | escape }}" />{% endif %}
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+
   {% render 'structured-data' %}
   {% render 'social-meta-tags' %}
   {% render 'css-variables' %}
@@ -54,6 +52,11 @@
 
   {{ content_for_header }}
 
+  
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+  
 </head>
 <body class="gridlock template-{{ template | handleize }} {% if template contains 'product' %}product{% elsif template contains 'collection' %}collection{% else %}{{ template | handleize }}{% endif %} js-slideout-toggle-wrapper js-modal-toggle-wrapper product-variant-type--{{ settings.product_variants }} {% if settings.image_hover_scale %}theme-image-effect{% endif %} {% if settings.button_corners == 'curved' %}theme-buttons-curved{% endif %} {% if settings.switch_image or settings.alternate_colors %}theme-image-hover{% endif %} {% if settings.product_border %}theme-border{% endif %}">
   <div class="js-slideout-overlay site-overlay"></div>
