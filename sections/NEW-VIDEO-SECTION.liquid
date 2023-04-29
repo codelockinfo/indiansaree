@@ -16,11 +16,13 @@
               </video>
             </figure>
             {%- assign product = block.settings.product -%}
-            <div class="prodiv">
-              <img src="{{ product.featured_image| img_url: '200x200' }}">
-              <h2>{{ product.title }}</h2>
-              <h3>Rs.{{ product.price }}</h3>
-            </div>
+            <a href="{{ product.url }}">
+              <div class="prodiv">
+                <img src="{{ product.featured_image| img_url: '200x200' }}">
+                <h2>{{ product.title }}</h2>
+                <h3>Rs.{{ product.price }}</h3>
+              </div>
+            </a>
           </div>
         </div>
       {% endfor %}
