@@ -14,7 +14,7 @@
                       <source src="{{ block.settings.video_url }}" type="video/mp4">
                   </video>
                     </figure>
-                  <img src="{{ block.settings.imgmain }}">
+                  <img src="{{ block.settings.imgmain | img_url: '200x200' }}">
                 </div>
                {% endfor %}
             </div>
