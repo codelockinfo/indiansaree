@@ -14251,4 +14251,7 @@ position: fixed;
   .announcflex{
      flex-wrap: wrap;
    }
+  #hello{
+     margin-right: unset;
+  }
 }
