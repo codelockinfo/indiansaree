@@ -23,7 +23,7 @@
       </div>
       {% endif %}
       <div class="image__overlay-caption">
-        <h3>{{ section.settings.heading  | escape }}</h3>
+        <h2>{{ section.settings.heading  | escape }}</h2>
         <div class="rte">
           {{ section.settings.subheading_text }}
         </div>
@@ -56,7 +56,7 @@
     .image__overlay-section.section-{{ section.id }} .image__overlay-container {
       height: {{ section.settings.height }}px;
     }
-    .image__overlay-section.section-{{ section.id }} .image__overlay-caption h3 {
+    .image__overlay-section.section-{{ section.id }} .image__overlay-caption h2 {
       font-size: {{ section.settings.heading_font_size }}px;
       color: {{ section.settings.text_color }};
     }
@@ -83,7 +83,7 @@
       .image__overlay-section.section-{{ section.id }} .image__overlay-container {
         height: {{ section.settings.mobile_height }}px;
       }
-      .image__overlay-section.section-{{ section.id }} .image__overlay-caption h3 {
+      .image__overlay-section.section-{{ section.id }} .image__overlay-caption h2 {
         font-size: calc({{ section.settings.subheading_font_size }}px - ({{ section.settings.subheading_font_size }}px * 0.15))
       }
       .image__overlay-section.section-{{ section.id }} .image__overlay-caption p {
