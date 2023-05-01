@@ -11820,6 +11820,9 @@ li.article__section-comment {
     max-height: unset;
     overflow-y: unset;
   }
+  .image__with-textCaption h3,.image__with-textCaption p{
+    text-align: center;
+  }
 }
 .modal__inner-wrapper .loading-wrapper {
   height: 100%;
