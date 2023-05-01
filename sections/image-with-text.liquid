@@ -54,7 +54,7 @@
         {%- endif -%}
       </div>
 
-      <div class="image__with-textCaption {% if section.settings.center_align %} center{% endif %} span-{{ offset }} text-center">
+      <div class="image__with-textCaption {% if section.settings.center_align %} center{% endif %} span-{{ offset }} sm-span-12 auto">
         {%- if has_title -%}
           <h3>{{ section.settings.title | escape }}</h3>
         {%- endif -%}
