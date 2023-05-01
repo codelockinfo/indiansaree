@@ -112,7 +112,7 @@
         "image": "shopify:\/\/shop_images\/photo1668847727.jpg",
         "image_position": "left",
         "image_size": "medium",
-        "title": "Raw silk sarees",
+        "title": "Raw Silk Sarees",
         "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
         "button_text": "Button",
         "link": "",
@@ -182,7 +182,7 @@
         ".haddingtextual a {}"
       ],
       "settings": {
-        "coltitle": "Celebrty choice",
+        "coltitle": "Celebrty Choice",
         "full_width": false,
         "promo_size": 22,
         "hidden_size": 14,
@@ -291,7 +291,7 @@
         "4a4845c7-73ea-4055-93f1-4122d09142ff"
       ],
       "settings": {
-        "mainhed": "Video section",
+        "mainhed": "Video Section",
         "ptectr": ""
       }
     },
@@ -338,7 +338,7 @@
         ".grid__wrapper.row {grid-gap: 0px 30px;}"
       ],
       "settings": {
-        "title": "Sarees shopping  online",
+        "title": "Sarees Shopping  Online",
         "center_align": false,
         "section_space": "top_and_bottom"
       }
@@ -488,7 +488,7 @@
         "1625671777dd905141-0": {
           "type": "text",
           "settings": {
-            "title_text": "Our collections",
+            "title_text": "Our Collections",
             "text": "<p>Add text blocks to call out features, updates and more.<\/p>",
             "center_align": false,
             "column_size": 2
