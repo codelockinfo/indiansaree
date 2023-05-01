@@ -14,7 +14,7 @@
             <div class="imgcontaint {{ block.settings.contentside }}">
               <h6>{{ block.settings.sarititle }}</h6>
               <p>{{ block.settings.sarsubititle }}</p>
-              <a>{{ block.settings.komtag }}</a>
+              {% if block.settings.viwbtn != blank %}<a href="{{ block.settings.viwbtn }}">{{ block.settings.komtag }}</a>{% endif %}
             </div>
       	</div>
         {% endfor %}	
