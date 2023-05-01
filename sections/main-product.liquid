@@ -275,9 +275,9 @@ endif
             </div>
               {%- when 'product_description' -%}
 
-                <div class="product__section--desc product__description-container rte {% if accordion_active %}hide{% endif %}" {{ block.shopify_attributes }}>
+                <div class="more product__section--desc product__description-container rte {% if accordion_active %}hide{% endif %}" {{ block.shopify_attributes }}>
                 <h3>PRODUCT BREIF</h3>
-           <p class="more">{{ product.description }}</p>
+           <p>{{ product.description }}</p>
                 </div>
 
               {%- when 'social_sharing' -%}
