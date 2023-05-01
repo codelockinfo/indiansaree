@@ -699,7 +699,7 @@
           "type": "image",
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6262387859365407508_y.jpg",
-            "imgwidth": "none",
+            "imgwidth": "wide",
             "sarititle": "",
             "sarsubititle": "",
             "komtag": "",
@@ -711,7 +711,7 @@
           "type": "image",
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6093823690216158047_y.jpg",
-            "imgwidth": "none",
+            "imgwidth": "tall",
             "sarititle": "",
             "sarsubititle": "",
             "komtag": "",
