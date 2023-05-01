@@ -723,7 +723,7 @@
           "type": "image",
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6203798488198785790_x.jpg",
-            "imgwidth": "none",
+            "imgwidth": "big",
             "sarititle": "",
             "sarsubititle": "",
             "komtag": "",
@@ -736,6 +736,18 @@
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6147758923151684360_y.jpg",
             "imgwidth": "none",
+            "sarititle": "",
+            "sarsubititle": "",
+            "komtag": "",
+            "viwbtn": "",
+            "contentside": "left"
+          }
+        },
+        "e51aabd6-4ce2-444f-a5cf-9d04a2ee537a": {
+          "type": "image",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/photo_6150010722965369764_y.jpg",
+            "imgwidth": "tall",
             "sarititle": "",
             "sarsubititle": "",
             "komtag": "",
@@ -759,18 +771,6 @@
           "type": "image",
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo1653325690_2.jpg",
-            "imgwidth": "none",
-            "sarititle": "",
-            "sarsubititle": "",
-            "komtag": "",
-            "viwbtn": "",
-            "contentside": "left"
-          }
-        },
-        "e51aabd6-4ce2-444f-a5cf-9d04a2ee537a": {
-          "type": "image",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/photo_6150010722965369764_y.jpg",
             "imgwidth": "none",
             "sarititle": "",
             "sarsubititle": "",
@@ -812,9 +812,9 @@
         "ee25374e-f1d5-406b-ab6b-01e080106713",
         "21119132-61f2-49d2-825e-ca5696250ae9",
         "3cab5154-bafd-47f4-bf18-eeafda47275f",
+        "e51aabd6-4ce2-444f-a5cf-9d04a2ee537a",
         "ac28b508-e574-4acd-8666-33b90727496a",
         "fb5852ed-4520-47cf-a653-6bde140b07bd",
-        "e51aabd6-4ce2-444f-a5cf-9d04a2ee537a",
         "13670908-b0a3-400d-8784-8364c9b076c7",
         "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb"
       ],
