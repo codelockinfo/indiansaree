@@ -14242,3 +14242,10 @@ position: fixed;
 #predictive-search .hovermg.prod-colors {
     display: none;
 }
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
