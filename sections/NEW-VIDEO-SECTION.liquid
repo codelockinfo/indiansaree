@@ -20,7 +20,7 @@
             <a href="{{ product.url }}">
               <div class="prodiv">
                 <img src="{{ product.featured_image| img_url: '200x200' }}">
-                <h2>{{ product.title }}</h2>
+                <h2>{{ product.title | truncate: 10 }}</h2>
                 <h3>Rs.{{ product.price }}</h3>
               </div>
             </a>
