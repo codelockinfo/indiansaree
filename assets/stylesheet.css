@@ -14252,6 +14252,7 @@ position: fixed;
      flex-wrap: wrap;
    }
   #hello{
+     text-align: center;
      margin-right: unset;
   }
 }
