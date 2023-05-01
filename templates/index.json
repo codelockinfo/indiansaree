@@ -5,9 +5,8 @@
       "blocks": {
         "1625671734793532ca-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/crop1.jpg",
+            "image": "shopify:\/\/shop_images\/Banner1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -29,9 +28,8 @@
         },
         "1625671734793532ca-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/crop6.jpg",
+            "image": "shopify:\/\/shop_images\/Banner2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -54,7 +52,7 @@
         "e3feb807-3a1b-4c80-a832-76383d011961": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/crop7_20c9c697-6bd4-46c3-9574-8a96677c1cfd.jpg",
+            "image": "shopify:\/\/shop_images\/Banner3.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
