@@ -13958,13 +13958,13 @@ button.slideout__trigger-mobile-menu.js-mini-cart-trigger.js-slideout-open{
   text-align:center;
 }
 .image__with-textCaption.span-6.sm-span-12.auto h3 {
-    font-size: 24px;
+    font-size: 25px;
     text-align: left;
     margin-bottom: 20px;
     text-transform: capitalize;
-    font-weight: 600;
+/*     font-weight: 600; */
     letter-spacing: 0.5px;
-    font-family: sans-serif;
+/*     font-family: sans-serif; */
 }
 .collection__page-products form#product-form-buttons-template--18816811073834__main {
     position: absolute;
