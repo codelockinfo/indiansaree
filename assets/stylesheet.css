@@ -14247,3 +14247,8 @@ position: fixed;
 .morelink {
     display: block;
 }
+@media screen and (max-width: 474px) {
+  .announcflex{
+     flex-wrap: wrap;
+   }
+}
