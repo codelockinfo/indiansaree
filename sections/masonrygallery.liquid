@@ -1,14 +1,22 @@
-<div class="grid-wrapper" id="{{ section.id }}">   
-  {% for block in section.blocks %}
-	<div class="{{ block.settings.imgwidth }}">
-       <img src="{{block.settings.kome | img_url:'master'}}" alt="">
-      <div class="imgcontaint {{ block.settings.contentside }}">
-        <h6>{{ block.settings.sarititle }}</h6>
-        <p>{{ block.settings.sarsubititle }}</p>
-        <a>{{ block.settings.komtag }}</a>
-      </div>
-	</div>
-  {% endfor %}	
+<div class="grid-wrapper" id="{{ section.id }}">  
+    <div class="section-header row">
+            <div class="section-title text-center">
+              <h2>Subscribe to our newsletter</h2>
+            </div>
+            <div class="rte">
+              <p>Signup for our newsletter to stay up to date on sales and events.</p>
+            </div>
+    </div>
+    {% for block in section.blocks %}
+  	<div class="{{ block.settings.imgwidth }}">
+         <img src="{{block.settings.kome | img_url:'master'}}" alt="">
+        <div class="imgcontaint {{ block.settings.contentside }}">
+          <h6>{{ block.settings.sarititle }}</h6>
+          <p>{{ block.settings.sarsubititle }}</p>
+          <a>{{ block.settings.komtag }}</a>
+        </div>
+  	</div>
+    {% endfor %}	
 </div>
 
 <style>
