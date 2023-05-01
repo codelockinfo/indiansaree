@@ -687,7 +687,7 @@
           "type": "image",
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6150010722965369896_y.jpg",
-            "imgwidth": "none",
+            "imgwidth": "tall",
             "sarititle": "",
             "sarsubititle": "",
             "komtag": "",
