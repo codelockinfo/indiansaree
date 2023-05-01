@@ -31,7 +31,7 @@
         "product_description": {
           "type": "product_description",
           "settings": {
-            "default_open_accordion": true
+            "default_open_accordion": false
           }
         },
         "contact_popup": {
