@@ -28,11 +28,6 @@
 <section class="imageText__column-section section-{{ section.id }} global__section{{ section_space_class }}" data-section-id="{{ section.id }}">
 
     {% if section.settings.title != blank %}
-        <div class="section-header row">
-              <div class="section-title text-center">
-                <h2>{{ section.settings.title }}</h2>
-              </div>
-      </div>
     <div class="section-title {% if settings.section_titles == 'lines' %}lines {% elsif settings.section_titles == 'btm_border' %}btm_border {% endif %} text-center"><h2>{{ section.settings.title | escape }}</h2></div>
     {% endif %}
   <div class="row grid__wrapper">
