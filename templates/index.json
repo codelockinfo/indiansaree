@@ -793,6 +793,7 @@
         },
         "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6213226723097556057_y.jpg",
             "imgwidth": "none",
