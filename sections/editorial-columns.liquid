@@ -29,7 +29,7 @@
 
   <div class="row grid__wrapper">
     {% if section.settings.title != blank %}
-    <div class="section-title {% if settings.section_titles == 'lines' %}lines {% elsif settings.section_titles == 'btm_border' %}btm_border {% endif %} span-12 auto"><h2>{{ section.settings.title | escape }}</h2></div>
+    <div class="section-title {% if settings.section_titles == 'lines' %}lines {% elsif settings.section_titles == 'btm_border' %}btm_border {% endif %} text-center"><h2>{{ section.settings.title | escape }}</h2></div>
     {% endif %}
 
     {% for block in section.blocks %}
