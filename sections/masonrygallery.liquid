@@ -7,7 +7,7 @@
                 <p>{{ section.settings.masonrysubtitel }}</p>
               </div>
       </div>
-    <div class="grid-wrapper">  
+    <div class="grid-wrapperm">  
         {% for block in section.blocks %}
       	<div class="{{ block.settings.imgwidth }}">
              <img src="{{block.settings.kome | img_url:'master'}}" alt="">
@@ -29,20 +29,20 @@
     padding-right: 55px;
     padding-left: 55px;
   }
-.grid-wrapper > div {
+.grid-wrapperm > div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
     position:relative;
 }
-.grid-wrapper > div > img {
+.grid-wrapperm > div > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	border-radius: 5px;
 }
 
-.grid-wrapper {
+.grid-wrapperm {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -51,25 +51,25 @@
       padding: 30px 15px 30px 15px;
 
 }
-.grid-wrapper .wide {
+.grid-wrapperm .wide {
 	grid-column: span 2;
 }
-.grid-wrapper .tall {
+.grid-wrapperm .tall {
 	grid-row: span 2;
 }
-.grid-wrapper .big {
+.grid-wrapperm .big {
 	grid-column: span 2;
 	grid-row: span 2;
 }
-.grid-wrapper .imgcontaint{
+.grid-wrapperm .imgcontaint{
     position: absolute;
     font-weight: 700;
 }
-.grid-wrapper  .imgcontaint.left{
+.grid-wrapperm  .imgcontaint.left{
     left:10px;
     text-align: left;
   }
-  .grid-wrapper  .imgcontaint.right{
+  .grid-wrapperm  .imgcontaint.right{
     right:10px;
     text-align: right;
   }
