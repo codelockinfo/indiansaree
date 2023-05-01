@@ -7,6 +7,7 @@
               <p>{{ section.settings.masonrysubtitel }}</p>
             </div>
     </div>
+  <div>
     {% for block in section.blocks %}
   	<div class="{{ block.settings.imgwidth }}">
          <img src="{{block.settings.kome | img_url:'master'}}" alt="">
@@ -17,6 +18,7 @@
         </div>
   	</div>
     {% endfor %}	
+    </div>
 </div>
 
 <style>
