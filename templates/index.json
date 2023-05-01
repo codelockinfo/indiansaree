@@ -529,17 +529,6 @@
         "section_space": "bottom"
       }
     },
-    "1625671845c9538e1f": {
-      "type": "newsletter",
-      "settings": {
-        "heading": "Subscribe to our newsletter",
-        "newsletter_subheading": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>",
-        "newsletter_gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time",
-        "color": "#000000",
-        "background_color": "#f7f7f7",
-        "section_space": "top_and_bottom"
-      }
-    },
     "7c49b0bd-32e4-4386-baac-185d5f974b16": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -653,6 +642,17 @@
       ],
       "settings": {
       }
+    },
+    "1625671845c9538e1f": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Subscribe to our newsletter",
+        "newsletter_subheading": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>",
+        "newsletter_gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time",
+        "color": "#000000",
+        "background_color": "#f7f7f7",
+        "section_space": "top_and_bottom"
+      }
     }
   },
   "order": [
@@ -670,8 +670,8 @@
     "1625671777dd905141",
     "84240439-d13d-49ac-8114-395a7ed2864a",
     "89a826cf-856c-47e7-be1b-0e4199833e94",
-    "1625671845c9538e1f",
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
-    "b008ab96-da19-44d9-8c3b-186a8248ac0a"
+    "b008ab96-da19-44d9-8c3b-186a8248ac0a",
+    "1625671845c9538e1f"
   ]
 }
