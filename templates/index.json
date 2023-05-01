@@ -655,6 +655,11 @@
         "background_color": "#f7f7f7",
         "section_space": "top_and_bottom"
       }
+    },
+    "7ed47828-28bc-4e64-818c-d64ba9036fca": {
+      "type": "masonrygallery",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -674,6 +679,7 @@
     "84240439-d13d-49ac-8114-395a7ed2864a",
     "89a826cf-856c-47e7-be1b-0e4199833e94",
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
-    "1625671845c9538e1f"
+    "1625671845c9538e1f",
+    "7ed47828-28bc-4e64-818c-d64ba9036fca"
   ]
 }
