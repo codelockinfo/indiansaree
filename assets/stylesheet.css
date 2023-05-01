@@ -14266,7 +14266,7 @@ position: fixed;
   .image__with-textCaption.span-6.sm-span-12.auto h3,.image__with-textCaption p{
     text-align: center;
   }
- #footer-wrapper div#bottom-footer #copy p{
+ #footer-wrapper #bottom-footer #copy p{
         text-align: center;
   }
 }
