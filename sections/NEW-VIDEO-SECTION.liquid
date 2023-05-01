@@ -4,7 +4,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="video-slider">
-  <h2>1231</h2>
+  <h2>{{ section.settings.mainhed }}</h2>
+  <p>{{ section.settings.ptectr }}</p>
   <div class="container016">
     <div class="video-carasol videoslid responsive">
       {% for block in section.blocks %}
@@ -34,7 +35,16 @@
   {
     "name": "Section name",
     "settings": [
-
+ {
+      "id" : "mainhed",
+      "type" : "text",
+      "label" : "Heading"
+    },
+       {
+      "id" : "ptectr",
+      "type" : "text",
+      "label" : "sub heading"
+    }
     ],
         "blocks":[
   {
