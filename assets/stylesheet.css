@@ -14116,6 +14116,9 @@ filter: brightness(0.6);
   .aannimg ,#hello p{
     font-size: 16px;
   }
+   .imageText__column-btn-wrapper {
+    margin-bottom: 15px;
+}
  }
  @media screen and (max-width: 420px) {
    .image__with-textSection.section-template--18816811630890__da60578f-bb7b-449b-acd0-4cb4e894885b {
