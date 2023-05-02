@@ -41,6 +41,8 @@
               {{ 'products.general.savings' | t: savings: discount }}
             {% when 'icon' %}
               {{ 'products.general.sale' | t }}
+            {% when 'percentage' %}
+
           {% endcase %}
         </div>
         <!-- /.sale-item.icn -->
@@ -125,7 +127,7 @@
   </div>
   <!-- /.js-product-image -->
 
-  <div class="product-info fg">
+  <div class="product-info">
     <div class="product-info-inner">
       <a href="{{ product.url | within: collection }}">
         {% if settings.vendor -%}
