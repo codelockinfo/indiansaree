@@ -14113,9 +14113,7 @@ font-size: .66667rem;
 filter: brightness(0.6);
 }
  @media screen and (max-width: 768px) {
-   .product__section--buttons {
-    margin: -20px 0 10px 0;
-}
+
   .aannimg ,#hello p{
     font-size: 16px;
   }
@@ -14123,6 +14121,11 @@ filter: brightness(0.6);
     margin-bottom: 15px;
 }
  }
+@media screen and (max-width: 739px){ 
+     .product__section--buttons {
+    margin: -20px 0 10px 0;
+}
+}
  @media screen and (max-width: 420px) {
    .image__with-textSection.section-template--18816811630890__da60578f-bb7b-449b-acd0-4cb4e894885b {
     /* background: #f3cfe1; */
