@@ -97,8 +97,6 @@
     </dd>
   </dl>
 </div>
-<div class="price__badges">
-      <span class="price__badge price__badge--sale" aria-hidden="true">
         <div class="sale-item--{{ settings.sale_items }}">
         (  {% case settings.sale_items %}
             {% when 'percentage' %}
@@ -112,5 +110,4 @@
               {{ 'products.general.sale' | t }}
           {% endcase %})
         </div>
-      </span>
-    </div>
+    
