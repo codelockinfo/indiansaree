@@ -14251,6 +14251,12 @@ position: fixed;
     left: 0;
 }
 }
+.collection__page-product span.prod-title {
+    min-height: 48px;
+}
+.collection__page-product .sale-item--percentage{
+      padding-bottom: 5%;
+}
 /* end by cls003 */
 
 /* cls013 start */
