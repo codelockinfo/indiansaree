@@ -258,7 +258,7 @@ endif
                       <b>{{ 'cart.general.cart_error' | t }}</b>&nbsp;&nbsp;&nbsp;{{ 'cart.general.update_qty_error' | t }}
                     </div>
 
-                    <input  id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit {% if settings.show_payment_button and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" {{ is_preorder }} value="{{ call_to_action }} {{ variant.price  }}" {% unless current_variant.available %}disabled{% endunless %} />
+                    <input  id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit {% if settings.show_payment_button and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" {{ is_preorder }} value="{{ call_to_action }} {{ product_upsell.selected_or_first_available_variant.price }}" {% unless current_variant.available %}disabled{% endunless %} />
               <div class="clsflex">
                     {% if settings.show_payment_button %}
                       <div class="clsshopify-payment-button">
