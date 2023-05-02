@@ -14294,7 +14294,7 @@ position: fixed;
  #bottom-footer #copy p{
         text-align: center !important;
   }
-  div#bottom-footer{
+  #footer-wrapper  div#bottom-footer{
         padding-top: 0;
   }
 }
