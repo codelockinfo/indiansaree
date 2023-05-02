@@ -4,14 +4,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="video-slider">
-   <div class="section-header row">
-              <div class="section-title text-center">
-                <h2>{{ section.settings.mainhed }}</h2>
-              </div>
-              <div class="rte  text-center">
-                <p>{{ section.settings.ptectr }}</p>
-              </div>
-      </div>
+  <div class="section-header row">
+    <div class="section-title text-center">
+      <h2>{{ section.settings.mainhed }}</h2>
+    </div>
+    <div class="rte  text-center">
+      <p>{{ section.settings.ptectr }}</p>
+    </div>
+  </div>
   <div class="container016">
     <div class="video-carasol videoslid responsive">
       {% for block in section.blocks %}
@@ -27,7 +27,6 @@
               <div class="prodiv">
                 <img src="{{ product.featured_image| img_url: '200x200' }}">
                 <h2>{{ product.title | truncate: 60 }}</h2>
-                <h3>Rs.{{ product.price }}</h3>
               </div>
             </a>
           </div>
