@@ -14125,6 +14125,10 @@ filter: brightness(0.6);
      .product__section--buttons {
     margin: -20px 0 10px 0;
 }
+  .product__section-contentWrapper .product__section-content{
+        padding: 0px;
+    border: unset;
+  }
 }
  @media screen and (max-width: 420px) {
    .image__with-textSection.section-template--18816811630890__da60578f-bb7b-449b-acd0-4cb4e894885b {
