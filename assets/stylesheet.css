@@ -9975,7 +9975,7 @@ ul.megamenu__ulcontainer {
 /* ---- Product form ---- */
 
 .product__section--buttons {
-    margin: 0px 0 10px 0;
+    margin: -20px 0 10px 0;
 }
 
 .product__section--buttons button,
