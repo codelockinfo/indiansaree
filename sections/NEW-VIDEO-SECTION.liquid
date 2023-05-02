@@ -16,22 +16,22 @@
     <div class="video-carasol videoslid responsive">
       {% for block in section.blocks %}
         {%- assign product = block.settings.product -%}
-        <div class="mainslider">
-          <div class="mainvideo">
-            <figure>
-              <video class="bgv" id="video" muted loop autoplay>
-                <source src="{{ block.settings.video_url }}" type="video/mp4">
-              </video>
-            </figure>
+        <a href="{{ product.url }}">
+          <div class="mainslider">
+            <div class="mainvideo">
+              <figure>
+                <video class="bgv" id="video" muted loop autoplay>
+                  <source src="{{ block.settings.video_url }}" type="video/mp4">
+                </video>
+              </figure>
 
-            <a href="{{ product.url }}">
               <div class="prodiv">
                 <img src="{{ product.featured_image| img_url: '200x200' }}">
                 <h2>{{ product.title | truncate: 60 }}</h2>
               </div>
-            </a>
+            </div>
           </div>
-        </div>
+        </a>
       {% endfor %}
     </div>
   </div>
