@@ -14126,8 +14126,8 @@ filter: brightness(0.6);
     margin: -20px 0 10px 0;
 }
   .product__section-contentWrapper .product__section-content{
-        padding: 0px;
-    border: unset;
+        padding: 0px !important;
+    border: unset  !important;
   }
   
 }
