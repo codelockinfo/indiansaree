@@ -9975,7 +9975,7 @@ ul.megamenu__ulcontainer {
 /* ---- Product form ---- */
 
 .product__section--buttons {
-    margin: -20px 0 10px 0;
+    margin: 0px 0 10px 0;
 }
 
 .product__section--buttons button,
@@ -14113,6 +14113,9 @@ font-size: .66667rem;
 filter: brightness(0.6);
 }
  @media screen and (max-width: 768px) {
+   .product__section--buttons {
+    margin: -20px 0 10px 0;
+}
   .aannimg ,#hello p{
     font-size: 16px;
   }
