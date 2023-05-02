@@ -15,6 +15,7 @@
   <div class="container016">
     <div class="video-carasol videoslid responsive">
       {% for block in section.blocks %}
+        {%- assign product = block.settings.product -%}
         <div class="mainslider">
           <div class="mainvideo">
             <figure>
@@ -22,7 +23,7 @@
                 <source src="{{ block.settings.video_url }}" type="video/mp4">
               </video>
             </figure>
-            {%- assign product = block.settings.product -%}
+
             <a href="{{ product.url }}">
               <div class="prodiv">
                 <img src="{{ product.featured_image| img_url: '200x200' }}">
