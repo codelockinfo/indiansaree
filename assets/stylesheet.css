@@ -13885,12 +13885,14 @@ p.swatches__option-name.h5 {
       font-weight: 400;
   font-size: 22px;
 }
-.product__section-contentWrapper .price__badge--sale, .sale-item--percentage{
+.product__section-contentWrapper .price__badge--sale{
     border: none;
     font-size: 22px;
     color: #460C0C;
 }
-.sale-item--percentage{}
+.sale-item--percentage{
+    color: #460C0C;
+}
 .product__section--desc.product__description-container.rte h3 {
     color: #000000;
     font-size: 16px;
