@@ -244,6 +244,7 @@
         },
         "c27fd564-9de0-445f-be1a-a6b44eafd096": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a4b947e362374f69ba28b129e801a302.mp4",
             "product": "breathable-banarasi-wedding-saree"
@@ -265,6 +266,7 @@
         },
         "845af2d7-c527-4d93-8df3-6a44cd52ff2e": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/86c4705ee80742fb9b4177b391aff827.mp4",
             "product": "experience-comfort-and-luxury-with-our-breathable-banarasi-silk-sarees"
@@ -272,6 +274,7 @@
         },
         "4a4845c7-73ea-4055-93f1-4122d09142ff": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
             "product": "breathable-banarasi-wedding-saree"
