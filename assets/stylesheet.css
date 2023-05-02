@@ -14257,7 +14257,9 @@ position: fixed;
 #predictive-search .hovermg.prod-colors {
     display: none;
 }
-
+.product-recommendations input#addToCart {
+     width: 100%;
+}
 .morecontent span {
     display: none;
 }
