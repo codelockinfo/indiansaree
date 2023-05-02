@@ -13849,7 +13849,7 @@ input[type="submit"] {
 max-height:800px!important;
 }
 .product-image-container img[data-sizes="auto"]{
-      height: 800px;
+      height: 100%;
 }
  
 img.lazyload-fade.js-thumb-item-img.lazyautosizes.lazyloaded{
