@@ -195,7 +195,7 @@
     "162567175551040fc5": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; font-size: 24px; letter-spacing: 0.5px; font-family: sans-serif;}"
+
       ],
       "settings": {
         "title": "Featured collection",

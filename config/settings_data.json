@@ -937,6 +937,7 @@
     "keyboard_focus": "#f3f3f3",
     "focus_border_style": "dotted",
     "focus_border_weight": 1,
+    "predictive_search_enabled": true,
     "product_image_size": "portrait",
     "vendor": false,
     "show_rating": false,
