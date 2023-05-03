@@ -51,7 +51,7 @@
         "social_sharing": {
           "type": "social_sharing",
           "settings": {
-            "show_twitter": true,
+            "show_twitter": false,
             "show_facebook": true,
             "show_pinterest": true
           }
