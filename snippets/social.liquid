@@ -52,7 +52,23 @@
          fill: 'var(--text-color)',
          hover: 'var(--text-color)' %}
     </a>
-   
+{% endif %}
+{% if show_youtube %}
+     <a
+      title="{{ 'social.icons.youtube' | t }}"
+      href="https://www.instagram.com/?url={{ shop.url | append: share_permalink }}{% if template contains 'blog' or template == 'article' %}{{ article.url }}{% else %}{{ product.url }}{% endif %}"
+      title="Share on youtube"
+      target="_blank"
+      class="social-icons--icon">
+      {% render 'snip-icons',
+         wrapper: '.share-icons',
+         type: 'social',
+         icon: 'youtube',
+         classes: 'share-icons--icon',
+         size: '20px',
+         fill: 'var(--text-color)',
+         hover: 'var(--text-color)' %}
+    </a>
 {% endif %}
 
   {% if show_pinterest %}
