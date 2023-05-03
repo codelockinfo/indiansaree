@@ -106,24 +106,6 @@
         "padding": 90
       }
     },
-    "da60578f-bb7b-449b-acd0-4cb4e894885b": {
-      "type": "image-with-text",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/photo1668847727.jpg",
-        "image_position": "left",
-        "image_size": "medium",
-        "title": "Raw Silk Sarees",
-        "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
-        "button_text": "Button",
-        "link": "",
-        "center_align": false,
-        "text_color": "#000000",
-        "background_color": "#f3cfe1"
-      }
-    },
     "162567173863ea5075": {
       "type": "gallery",
       "blocks": {
@@ -190,6 +172,24 @@
         "promo_size": 22,
         "hidden_size": 14,
         "section_space": "top_and_bottom"
+      }
+    },
+    "da60578f-bb7b-449b-acd0-4cb4e894885b": {
+      "type": "image-with-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo1668847727.jpg",
+        "image_position": "left",
+        "image_size": "medium",
+        "title": "Raw Silk Sarees",
+        "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of <a href=\"https:\/\/www.bharatsthali.com\/raw-silk-fabric\" target=\"_blank\" title=\"Raw silk fabric\">raw silk fabric<\/a> is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
+        "button_text": "Button",
+        "link": "",
+        "center_align": false,
+        "text_color": "#000000",
+        "background_color": "#f3cfe1"
       }
     },
     "162567175551040fc5": {
@@ -832,8 +832,8 @@
   "order": [
     "1625671734793532ca",
     "a18a2913-7419-4757-984d-22aa496ad2dc",
-    "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567173863ea5075",
+    "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567175551040fc5",
     "b008ab96-da19-44d9-8c3b-186a8248ac0a",
     "a316756c-0344-4e62-8e85-7a9e02825b0b",
