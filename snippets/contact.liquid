@@ -1,4 +1,4 @@
-{% comment %} {% form 'contact' %}
+{% form 'contact' %}
 <div id="contactFormWrapper">
   <div class="desktop-12 tablet-6 mobile-3">
     <p>
@@ -47,7 +47,7 @@
 {% endform %}
 
 <div class="clear"></div>
- {% endcomment %}
+
  <div class="container">  
   <form id="contact" action="" method="post">
     <h3>Write Us</h3>
@@ -68,7 +68,7 @@
       <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button name="submit" type="submit" id="contact-submit contactFormSubmit" data-submit="...Sending">Submit</button>
     </fieldset>
 
   </form>
