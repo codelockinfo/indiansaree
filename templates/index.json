@@ -6,7 +6,7 @@
         "1625671734793532ca-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner1.webp",
+            "image": "shopify:\/\/shop_images\/Banner1.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -30,7 +30,7 @@
         "1625671734793532ca-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner2.webp",
+            "image": "shopify:\/\/shop_images\/Banner2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
