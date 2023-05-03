@@ -748,6 +748,7 @@
         },
         "e51aabd6-4ce2-444f-a5cf-9d04a2ee537a": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "kome": "shopify:\/\/shop_images\/photo_6298304720946707839_y.jpg",
             "imgwidth": "tall",
@@ -755,6 +756,18 @@
             "sarsubititle": "FOR ELEGANT LOOK",
             "komtag": "View All",
             "viwbtn": "\/",
+            "contentside": "left"
+          }
+        },
+        "22bfc346-f751-49f6-a292-fc5293204a4c": {
+          "type": "image",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/msg-1179690379-10711_2_564x_1.jpg",
+            "imgwidth": "tall",
+            "sarititle": "Kanjiveram",
+            "sarsubititle": "FOR PARTY WEAR",
+            "komtag": "View All",
+            "viwbtn": "shopify:\/\/collections\/kanjiveram-sarees",
             "contentside": "left"
           }
         },
@@ -806,18 +819,6 @@
             "viwbtn": "\/",
             "contentside": "left"
           }
-        },
-        "22bfc346-f751-49f6-a292-fc5293204a4c": {
-          "type": "image",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/msg-1179690379-10711_2_564x_1.jpg",
-            "imgwidth": "tall",
-            "sarititle": "Kanjiveram",
-            "sarsubititle": "FOR PARTY WEAR",
-            "komtag": "View All",
-            "viwbtn": "shopify:\/\/collections\/kanjiveram-sarees",
-            "contentside": "left"
-          }
         }
       },
       "block_order": [
@@ -829,11 +830,11 @@
         "21119132-61f2-49d2-825e-ca5696250ae9",
         "3cab5154-bafd-47f4-bf18-eeafda47275f",
         "e51aabd6-4ce2-444f-a5cf-9d04a2ee537a",
+        "22bfc346-f751-49f6-a292-fc5293204a4c",
         "ac28b508-e574-4acd-8666-33b90727496a",
         "fb5852ed-4520-47cf-a653-6bde140b07bd",
         "13670908-b0a3-400d-8784-8364c9b076c7",
-        "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb",
-        "22bfc346-f751-49f6-a292-fc5293204a4c"
+        "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb"
       ],
       "settings": {
         "masonrytitel": "Shop By Collection",
