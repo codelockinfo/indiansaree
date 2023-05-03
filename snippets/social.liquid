@@ -94,7 +94,7 @@
       <a
         title="{{ 'social.icons.pinterest' | t }}"
         target="blank"
-        href="//pinterest.com/pin/create/button/?url={{ shop.url | append: share_permalink }}{{ product.url }}&amp;media={{ product.featured_media |img_url: '1024x1024' | prepend: 'http:' }}"
+        href="{{ settings.pinterest_url }}"
         title="Pin this"
         class="pinterest">
         {% render 'snip-icons',
