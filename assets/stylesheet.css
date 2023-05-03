@@ -14306,4 +14306,6 @@ div#contactFormWrapper fieldset label {
     font-size: 26px;
     text-align: center;
 }
+#contactFormWrapper input[type="submit"]{
+display:block;}
 /* contact form end */
