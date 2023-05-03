@@ -14150,6 +14150,9 @@ filter: brightness(0.6);
 .collection__page-products .product-index-inner .sale-item.sale-item--percentage.icn.rectangle_icon {
     display: none;
 }
+.product-recommendations  .product-loop .sale-item.sale-item--percentage.icn.rectangle_icon {
+    display: none;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
