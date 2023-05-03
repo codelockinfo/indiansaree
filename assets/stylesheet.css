@@ -14147,18 +14147,9 @@ filter: brightness(0.6);
 }
   
  }
-/* .header-section ul.megamenu.row.grid__wrapper{
-   float:left;
-    width: 100%;}
-.header-section  span.span-3.auto.tablet-hide.mm-image{
-    width: 40%;
-    order: 2;} */
-/* div#shopify-section-announcement-bar{
-    position: sticky;
-    top: 0;
-    z-index: 9999;} */
-/* .gridlock .row [class*="tablet-"]{
-    width: 90%;} */
+.collection__page-products .product-index-inner .sale-item.sale-item--percentage.icn.rectangle_icon {
+    display: none;
+}
 /* cls015 end */
 /* cls003 */
 .headerformsearch{
