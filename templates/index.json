@@ -806,6 +806,18 @@
             "viwbtn": "\/",
             "contentside": "left"
           }
+        },
+        "22bfc346-f751-49f6-a292-fc5293204a4c": {
+          "type": "image",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/msg-1179690379-10711_2_564x_1.jpg",
+            "imgwidth": "tall",
+            "sarititle": "Kanjiveram",
+            "sarsubititle": "FOR PARTY WEAR",
+            "komtag": "View All",
+            "viwbtn": "shopify:\/\/collections\/kanjiveram-sarees",
+            "contentside": "left"
+          }
         }
       },
       "block_order": [
@@ -820,7 +832,8 @@
         "ac28b508-e574-4acd-8666-33b90727496a",
         "fb5852ed-4520-47cf-a653-6bde140b07bd",
         "13670908-b0a3-400d-8784-8364c9b076c7",
-        "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb"
+        "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb",
+        "22bfc346-f751-49f6-a292-fc5293204a4c"
       ],
       "settings": {
         "masonrytitel": "Shop By Collection",
