@@ -6,33 +6,36 @@
 
 {% form 'contact' %}
   <div id="contactFormWrapper">
-    <div class="desktop-12 tablet-6 mobile-3">
-      <p>
-        <label for="contactFormName">{{ 'sections.contact_form.name' | t }}</label>
-        <input type="text" id="contactFormName" name="contact[name]" placeholder="{{ 'sections.contact_form.name' | t }}" />
-      </p>
+    <h3>Write Us</h3>
+  <div class="desktop-12 tablet-6 mobile-3">
+    <fieldset>
+      <label for="contactFormName">{{ 'sections.contact_form.name' | t }}</label>
+      <input type="text" id="contactFormName" name="contact[name]" placeholder="{{ 'sections.contact_form.name' | t }}" />
+    </fieldset>
+  </div>
+  <div class="desktop-12 tablet-6 mobile-3">
+    <fieldset>
+      <label for="contactFormEmail">{{ 'sections.contact_form.email' | t }}</label>
+      <input type="email" id="contactFormEmail" name="contact[email]" placeholder="{{ 'sections.contact_form.email' | t }}" />
+    </fieldset>
+  </div>
+  <div class="desktop-12 tablet-6 mobile-3">
+    <fieldset>
+      <label for="contactFormTelephone">{{ 'sections.contact_form.phone' | t }}</label>
+      <input type="text" id="contactFormTelephone" name="contact[phone]" placeholder="{{ 'sections.contact_form.phone' | t }}" />
+    </fieldset>
+  </div>
+  <div class="desktop-12 tablet-6 mobile-3">
+    <fieldset>
+      <label for="contactFormMessage">{{ 'sections.contact_form.message' | t }}</label>
+      <textarea rows="15" cols="90" id="contactFormMessage" name="contact[body]" placeholder="{{ 'sections.contact_form.message' | t }}"></textarea>
+    </fieldset>
     </div>
-    <div class="desktop-12 tablet-6 mobile-3">
-      <p>
-        <label for="contactFormEmail">{{ 'sections.contact_form.email' | t }}</label>
-        <input type="email" id="contactFormEmail" name="contact[email]" placeholder="{{ 'sections.contact_form.email' | t }}" />
-      </p>
-    </div>
-    <div class="desktop-12 tablet-6 mobile-3">
-      <p>
-        <label for="contactFormTelephone">{{ 'sections.contact_form.phone' | t }}</label>
-        <input type="text" id="contactFormTelephone" name="contact[phone]" placeholder="{{ 'sections.contact_form.phone' | t }}" />
-      </p>
-    </div>
-    <div class="desktop-12 tablet-6 mobile-3">
-      <p>
-        <label for="contactFormMessage">{{ 'sections.contact_form.message' | t }}</label>
-        <textarea rows="15" cols="90" id="contactFormMessage" name="contact[body]" placeholder="{{ 'sections.contact_form.message' | t }}"></textarea>
-      </p>
-      <p>
-        <input type="submit" id="contactFormSubmit" class="secondary button" value="{{ 'sections.contact_form.send' | t }}" />
-      </p>
-    </div>
+      <div class="desktop-12 tablet-6 mobile-3">
+    <button>
+      <input type="submit" id="contactFormSubmit" class="secondary button" value="{{ 'sections.contact_form.send' | t }}"placeholder="submit" />
+    </button>
+  </div>
   </div>
 
   <div class="clear"></div>
@@ -168,4 +171,5 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+  
 </style>
