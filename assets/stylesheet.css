@@ -14292,6 +14292,9 @@ position: fixed;
         padding-top: 0;
   }
 }
+.sale-item.sale-item--percentage.icn.rectangle_icon {
+    display: none;
+}
 /* contact form start */
 .contact__page-form {
     background: #F9F9F9;
