@@ -1,4 +1,4 @@
-{% comment %} <section class="global__section contact__form-section section-{{ section.id }} row">
+<section class="global__section contact__form-section section-{{ section.id }} row">
 
   {% if section.settings.title != blank %}
   <div class="section-title {% if settings.section_titles == 'lines' %}lines {% elsif settings.section_titles == 'btm_border' %}btm_border {% endif %} desktop-12 tablet-6 mobile-3"><h2>{{ section.settings.title | escape }}</h2></div>
@@ -59,7 +59,7 @@
 </style>
 
 </section>
- {% endcomment %}
+
  <div class="container">  
   <form id="contact" action="" method="post">
     <h3>Colorlib Contact Form</h3>
