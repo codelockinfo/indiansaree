@@ -53,7 +53,9 @@
           "settings": {
             "show_twitter": false,
             "show_facebook": true,
-            "show_pinterest": true
+            "show_pinterest": true,
+            "show_instagram": true,
+            "show_youtube": true
           }
         },
         "6dc2ae7c-6d05-4829-a17a-c0b19d6b4afb": {
