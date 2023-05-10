@@ -7,7 +7,7 @@
                 <p>{{ section.settings.masonrysubtitel }}</p>
               </div>
       </div>
-    <div class="grid-wrapperm imgwithslider">  
+    <div class="grid-wrapperm">  
         {% for block in section.blocks %}
       	<div class="mobielimg {{ block.settings.imgwidth }}">
              <img src="{{block.settings.kome | img_url:'master'}}" alt="">
@@ -33,6 +33,17 @@
       	</div>
         {% endfor %}	
     </div> -->
+    <div class="Containers">
+  <div class="withflex">
+    <div class="imgwithblock width-45">
+      <div class="imgwithslider">
+        {% for block in section.blocks %}
+   <p>abc1</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
    .masonrygallery{    
