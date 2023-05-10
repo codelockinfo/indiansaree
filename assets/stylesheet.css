@@ -12058,7 +12058,9 @@ section.cart-page.main__section {
 .ajax-cart__page-wrapper .ajax-cart__header-wrapper {
   padding: 20px 0;
 }
-
+.ajax-cart__page-wrapper .ajax-cart__button-view_cart {
+  display: none;
+}
 @media (min-width: 740px ) {
   .ajax-cart__page-wrapper .ajax-cart__item-image,
   .ajax-cart__page-wrapper .ajax-cart__item-price,
