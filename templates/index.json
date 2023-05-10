@@ -650,6 +650,7 @@
     },
     "1625671845c9538e1f": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "heading": "Subscribe To Our Newsletter",
         "newsletter_subheading": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>",
