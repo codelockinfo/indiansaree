@@ -14243,9 +14243,13 @@ width: 100%;
 }
 .product__section--buttons input#addToCart
 {
-position: fixed;
+/*     position: fixed;
     bottom: 3px;
+    left: 0; */
+    position: fixed;
+    bottom: 0px;
     left: 0;
+    z-index: 1;
 }
 }
 
