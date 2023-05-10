@@ -843,7 +843,6 @@
     },
     "d854995b-a1b5-4ecc-9dd2-5d94047b590a": {
       "type": "slick_slider_demo",
-      "disabled": true,
       "blocks": {
         "782838a5-ebf2-4c46-91d1-fecf3a05dd24": {
           "type": "shredding",
