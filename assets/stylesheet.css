@@ -14315,4 +14315,7 @@ div#contactFormWrapper fieldset label {
 }
 #contactFormWrapper input[type="submit"]{
 display:block;}
+.ajax-cart__free-shipping {
+    display: none;
+}
 /* contact form end */
