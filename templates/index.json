@@ -661,7 +661,6 @@
     },
     "7ed47828-28bc-4e64-818c-d64ba9036fca": {
       "type": "masonrygallery",
-      "disabled": true,
       "blocks": {
         "328cbea7-99e1-4ca3-9103-0dd5064f1e64": {
           "type": "image",
@@ -844,6 +843,7 @@
     },
     "d854995b-a1b5-4ecc-9dd2-5d94047b590a": {
       "type": "slick_slider_demo",
+      "disabled": true,
       "blocks": {
         "782838a5-ebf2-4c46-91d1-fecf3a05dd24": {
           "type": "shredding",
@@ -885,9 +885,9 @@
       "settings": {
         "heading": "",
         "text": "",
-        "title1": "",
-        "title2": "",
-        "title3": "",
+        "title1": "tab one",
+        "title2": "tab two",
+        "title3": "tab three",
         "bgimage": "shopify:\/\/shop_images\/photo_6131947331763942826_y.jpg"
       }
     }

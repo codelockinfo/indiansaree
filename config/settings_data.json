@@ -1061,8 +1061,8 @@
         "settings": {
           "nav_style": "inline",
           "logo": "shopify:\/\/shop_images\/Indian_Sarees-removebg-preview_2f2fcde8-3b85-43e6-92d4-732204f10c22.png",
-          "logo_max_width": 55,
-          "mobile_logo_max_width": 50,
+          "logo_max_width": 85,
+          "mobile_logo_max_width": 80,
           "cart_icon": "bag",
           "main_nav": "saree-menu",
           "nav_height": 60,
