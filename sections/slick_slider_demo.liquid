@@ -3,56 +3,7 @@
     <div class="imgwithblock width-45">
       <div class="imgwithslider">
         {% for block in section.blocks %}
-          <div class="block1">
-            <div class="parterslideimg ">
-              <div class="ratinconain ">
-                <div class="reviestep">
-                  <div class="customerdetail">
-                    <i class="fa fa-quote-right" aria-hidden="true"></i>
-                    <h1 class="confirmedetail">{{ block.settings.confimed }}</h1>
-                    <div class="stardiv">
-                      {% if block.settings.rating == 5 %}
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                      {% endif %}
-                      {% if block.settings.rating == 4 %}
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star "></span>
-                      {% endif %}
-                      {% if block.settings.rating == 3 %}
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                      {% endif %}
-                      {% if block.settings.rating == 2 %}
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                      {% endif %}
-                      {% if block.settings.rating == 1 %}
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                      {% endif %}
-                    </div>
-                    <p class="">{{ block.settings.confimedp }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+   <p>abc1</p>
         {% endfor %}
       </div>
     </div>
