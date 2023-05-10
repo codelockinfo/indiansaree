@@ -2349,7 +2349,7 @@ header .fa-2x {
 
 .main__section {
   position: relative;
-  z-index: 0;
+/*   z-index: 0; */
 }
 
 body:not(.template-index) .main__section {
