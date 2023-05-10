@@ -14318,7 +14318,7 @@ display:block;}
     border: 1px solid #e6e6e6;
     /* opacity: 0.5; */
 }
-.ajax-cart__page-wrapper .ajax-cart__button-view_cart {
-  display: none;
+.ajax-cart__free-shipping {
+    display: none;
 }
 /* contact form end */
