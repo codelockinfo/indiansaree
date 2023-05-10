@@ -14313,5 +14313,9 @@ div#contactFormWrapper fieldset label {
 }
 #contactFormWrapper input[type="submit"]{
 display:block;}
-
+.ajax-cart__cart-items.span-12.auto {
+    box-shadow: 8px 8px 16px rgba(0,0,0,.09);
+    border: 1px solid #e6e6e6;
+    /* opacity: 0.5; */
+}
 /* contact form end */
