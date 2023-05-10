@@ -840,6 +840,62 @@
         "masonrytitel": "Shop By Collection",
         "masonrysubtitel": "From Over 1000+ Attributes To Find The Best Saree For You"
       }
+    },
+    "7b499a1e-ec7f-462c-b457-8c8ab0bb3cb4": {
+      "type": "slick_slider_demo",
+      "blocks": {
+        "35be9049-a189-4c5e-8e52-303d8b7af7db": {
+          "type": "collection",
+          "settings": {
+            "rating": 1,
+            "confimed": "abc",
+            "confimedp": "bcd"
+          }
+        },
+        "d6ee7f9c-ed7d-4965-ae89-0e5c85ad3423": {
+          "type": "collection",
+          "settings": {
+            "rating": 5,
+            "confimed": "dsdsdsds",
+            "confimedp": "dsds"
+          }
+        },
+        "ca7c7fa5-1852-498d-9a1c-89e6ee0e36e8": {
+          "type": "collection",
+          "settings": {
+            "rating": 5,
+            "confimed": "sdsdss",
+            "confimedp": "dsd"
+          }
+        },
+        "ab8b8b53-45dd-4aed-b2b3-7f9331b94af2": {
+          "type": "collection",
+          "settings": {
+            "rating": 5,
+            "confimed": "dsdsdsds",
+            "confimedp": "ddd"
+          }
+        },
+        "9edd0641-a52a-4c80-b813-0c674c0d03e8": {
+          "type": "collection",
+          "settings": {
+            "rating": 5,
+            "confimed": "sdsdssd",
+            "confimedp": "dd"
+          }
+        }
+      },
+      "block_order": [
+        "35be9049-a189-4c5e-8e52-303d8b7af7db",
+        "d6ee7f9c-ed7d-4965-ae89-0e5c85ad3423",
+        "ca7c7fa5-1852-498d-9a1c-89e6ee0e36e8",
+        "ab8b8b53-45dd-4aed-b2b3-7f9331b94af2",
+        "9edd0641-a52a-4c80-b813-0c674c0d03e8"
+      ],
+      "settings": {
+        "slidewith": "shopify:\/\/shop_images\/photo_6242154770945127949_y.jpg",
+        "imglink": "shopify:\/\/collections"
+      }
     }
   },
   "order": [
@@ -860,6 +916,7 @@
     "89a826cf-856c-47e7-be1b-0e4199833e94",
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
     "1625671845c9538e1f",
-    "7ed47828-28bc-4e64-818c-d64ba9036fca"
+    "7ed47828-28bc-4e64-818c-d64ba9036fca",
+    "7b499a1e-ec7f-462c-b457-8c8ab0bb3cb4"
   ]
 }
