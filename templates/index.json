@@ -661,6 +661,7 @@
     },
     "7ed47828-28bc-4e64-818c-d64ba9036fca": {
       "type": "masonrygallery",
+      "disabled": true,
       "blocks": {
         "328cbea7-99e1-4ca3-9103-0dd5064f1e64": {
           "type": "image",
@@ -849,13 +850,25 @@
           "settings": {
             "heading": "heading",
             "text": "",
+            "image": "shopify:\/\/shop_images\/photo_6098392581936362840_y.jpg",
+            "transform": "",
+            "transformurl": ""
+          }
+        },
+        "e844623c-823b-47da-a0fa-538a1bc1bffb": {
+          "type": "shredding",
+          "settings": {
+            "heading": "t",
+            "text": "",
+            "image": "shopify:\/\/shop_images\/photo_6242154770945127949_y.jpg",
             "transform": "",
             "transformurl": ""
           }
         }
       },
       "block_order": [
-        "782838a5-ebf2-4c46-91d1-fecf3a05dd24"
+        "782838a5-ebf2-4c46-91d1-fecf3a05dd24",
+        "e844623c-823b-47da-a0fa-538a1bc1bffb"
       ],
       "settings": {
         "heading": "",
