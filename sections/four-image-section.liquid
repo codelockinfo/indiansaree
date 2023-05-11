@@ -159,7 +159,11 @@
     font-size: 24px;
 }
     }
-  
+       @media(max-width: 767px){
+           a.button-default {
+    margin-bottom: 30px;
+           }
+       }
 {% endstylesheet %}
 {% schema %}
   {
@@ -289,10 +293,6 @@
       "type" : "text",
       "label" : "user id"
     },
-
-
-
-      
       {
       "id" : "subtitel",
       "type" : "text",
@@ -321,8 +321,3 @@
   ]
   }
 {% endschema %}
-
-
-
-{% javascript %}
-{% endjavascript %}
