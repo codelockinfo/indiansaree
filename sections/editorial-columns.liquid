@@ -30,7 +30,7 @@
     {% if section.settings.title != blank %}
     <div class="section-title {% if settings.section_titles == 'lines' %}lines {% elsif settings.section_titles == 'btm_border' %}btm_border {% endif %} text-center"><h2>{{ section.settings.title | escape }}</h2></div>
     {% endif %}
-  <div class="row grid__wrapper display_block_desktop">  ">
+  <div class="row grid__wrapper display_block_desktop">
 
     {% for block in section.blocks %}
       {%- assign img_url = block.settings.image | img_url: image_size -%}
