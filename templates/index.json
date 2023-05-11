@@ -206,6 +206,39 @@
         "section_space": "top_and_bottom"
       }
     },
+    "9a8361c9-18a2-4548-8db3-a368334d195c": {
+      "type": "four-image-section",
+      "settings": {
+        "instaimg": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-15.jpg",
+        "instanameurl": "",
+        "instaname": "",
+        "instaimg1": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-14.jpg",
+        "instanameurl1": "",
+        "instaname1": "",
+        "instaimg2": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-12.jpg",
+        "instanameurl2": "",
+        "instaname2": "",
+        "instaimg3": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-17.jpg",
+        "instanameurl3": "",
+        "instaname3": "",
+        "instaimg4": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-23.jpg",
+        "instanameurl4": "",
+        "instaname4": "",
+        "instaimg11": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-21.jpg",
+        "instanameurl11": "",
+        "instaname11": "",
+        "instaimg21": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-19.jpg",
+        "instanameurl21": "",
+        "instaname21": "",
+        "instaimg31": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-18.jpg",
+        "instanameurl31": "",
+        "instaname31": "",
+        "subtitel": "To amp up your daily wear collection",
+        "heading": "Show Stoppers",
+        "alink": "shopify:\/\/collections",
+        "atext": "Shop"
+      }
+    },
     "b008ab96-da19-44d9-8c3b-186a8248ac0a": {
       "type": "NEW-VIDEO-SECTION",
       "blocks": {
@@ -883,39 +916,6 @@
         "no_space": true,
         "section_space": "top_and_bottom"
       }
-    },
-    "9a8361c9-18a2-4548-8db3-a368334d195c": {
-      "type": "four-image-section",
-      "settings": {
-        "instaimg": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-15.jpg",
-        "instanameurl": "",
-        "instaname": "",
-        "instaimg1": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-14.jpg",
-        "instanameurl1": "",
-        "instaname1": "",
-        "instaimg2": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-12.jpg",
-        "instanameurl2": "",
-        "instaname2": "",
-        "instaimg3": "shopify:\/\/shop_images\/photo_2023-04-18_12-03-17.jpg",
-        "instanameurl3": "",
-        "instaname3": "",
-        "instaimg4": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-23.jpg",
-        "instanameurl4": "",
-        "instaname4": "",
-        "instaimg11": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-21.jpg",
-        "instanameurl11": "",
-        "instaname11": "",
-        "instaimg21": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-19.jpg",
-        "instanameurl21": "",
-        "instaname21": "",
-        "instaimg31": "shopify:\/\/shop_images\/photo_2023-04-18_12-13-18.jpg",
-        "instanameurl31": "",
-        "instaname31": "",
-        "subtitel": "To amp up your daily wear collection",
-        "heading": "Show Stoppers",
-        "alink": "shopify:\/\/collections",
-        "atext": "Shop"
-      }
     }
   },
   "order": [
@@ -924,6 +924,7 @@
     "162567173863ea5075",
     "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567175551040fc5",
+    "9a8361c9-18a2-4548-8db3-a368334d195c",
     "b008ab96-da19-44d9-8c3b-186a8248ac0a",
     "a316756c-0344-4e62-8e85-7a9e02825b0b",
     "16256717602b44b536",
@@ -937,7 +938,6 @@
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
     "1625671845c9538e1f",
     "7ed47828-28bc-4e64-818c-d64ba9036fca",
-    "6ad661c0-731f-467a-8fca-79a86c56d40c",
-    "9a8361c9-18a2-4548-8db3-a368334d195c"
+    "6ad661c0-731f-467a-8fca-79a86c56d40c"
   ]
 }
