@@ -840,6 +840,48 @@
         "masonrytitel": "Shop By Collection",
         "masonrysubtitel": "From Over 1000+ Attributes To Find The Best Saree For You"
       }
+    },
+    "6ad661c0-731f-467a-8fca-79a86c56d40c": {
+      "type": "collage",
+      "blocks": {
+        "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-20220918-WA0231.jpg",
+            "image_size": "none",
+            "link": "",
+            "column_size": 2
+          }
+        },
+        "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-0": {
+          "type": "text",
+          "settings": {
+            "title_text": "Show Stoppers",
+            "text": "<p>To amp up your daily wear collection<\/p>",
+            "center_align": true,
+            "column_size": 2
+          }
+        },
+        "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-20220918-WA0208.jpg",
+            "image_size": "none",
+            "link": "",
+            "column_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-1",
+        "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-0",
+        "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-2"
+      ],
+      "settings": {
+        "display_wide": false,
+        "no_space": false,
+        "section_space": "top_and_bottom"
+      }
     }
   },
   "order": [
@@ -860,6 +902,7 @@
     "89a826cf-856c-47e7-be1b-0e4199833e94",
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
     "1625671845c9538e1f",
-    "7ed47828-28bc-4e64-818c-d64ba9036fca"
+    "7ed47828-28bc-4e64-818c-d64ba9036fca",
+    "6ad661c0-731f-467a-8fca-79a86c56d40c"
   ]
 }
