@@ -843,6 +843,7 @@
     },
     "6ad661c0-731f-467a-8fca-79a86c56d40c": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-1": {
           "type": "image",
