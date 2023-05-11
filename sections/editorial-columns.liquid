@@ -69,6 +69,14 @@
   </div>
 
 
+  {% if section.blocks.size == 0 %}
+    {% render 'no-blocks' %}
+  {% endif %}
+
+</section>
+
+<div class="clear"></div>
+
   <div class="imgwithslider display_block_mobile">  
          <div class="row grid__wrapper">
 
@@ -108,16 +116,6 @@
     {% endfor %}
   </div>
   </div>
-
-  {% if section.blocks.size == 0 %}
-    {% render 'no-blocks' %}
-  {% endif %}
-
-</section>
-
-<div class="clear"></div>
-
-
 {% schema %}
 {
   "name": "Editorial columns",
