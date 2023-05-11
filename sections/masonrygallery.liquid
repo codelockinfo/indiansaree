@@ -21,7 +21,7 @@
     </div>
 </div>
 
-    <div class="imgwithslider display_block_mobile">  
+    <div class="imgwithslider display_block_mobile pos_relative_">  
         {% for block in section.blocks %}
       	<div class="mobielimg {{ block.settings.imgwidth }} img_main_div_">
              <img src="{{block.settings.kome | img_url:'master'}}" alt="">
@@ -93,6 +93,9 @@
       width: 94%;
       margin: 0 auto;
     }
+    .pos_relative_{
+          position: relative;
+    }
     .masonrygallery{
        padding: 30px 15px 30px 15px; 
     }
@@ -126,7 +129,8 @@
       }
       .cintext_main_{
     position: absolute;
-    bottom: 30px;
+    top: 17px;
+    right: 31px;
     transform: translate(10px, 10px);
       }
     }
