@@ -879,7 +879,7 @@
       ],
       "settings": {
         "display_wide": false,
-        "no_space": false,
+        "no_space": true,
         "section_space": "top_and_bottom"
       }
     }
