@@ -14122,6 +14122,16 @@ filter: brightness(0.6);
    .imageText__column-btn-wrapper {
     margin-bottom: 15px;
 }
+   .product__section--buttons input#addToCart
+{
+/*     position: fixed;
+    bottom: 3px;
+    left: 0; */
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 5;
+}
  }
 @media screen and (max-width: 739px){ 
      .product__section--buttons {
