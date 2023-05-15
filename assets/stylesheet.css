@@ -7240,7 +7240,7 @@ https://flickity.metafizzy.co
   pointer-events: none;
   z-index: 0;
 }
-
+ 
 .flickity-enabled.is-fade .flickity-slider > .is-selected {
   pointer-events: auto;
   z-index: 1;
