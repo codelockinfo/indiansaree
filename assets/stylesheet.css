@@ -14352,4 +14352,7 @@ display:block;}
   .image__overlay-caption {
     display: none;
 }
+  .textWithImage__column-container {
+    display: block;
+}
 }
