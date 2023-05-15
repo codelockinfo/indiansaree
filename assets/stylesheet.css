@@ -524,7 +524,7 @@
     width: 14.58333333%;
   }
   .gridlock .row .desktop-3 {
-    width: 16.91666667%;
+    width: 22.91666667%;
   }
   .gridlock .row .desktop-4 {
     width: 31.25%;
@@ -542,7 +542,7 @@
     width: 64.58333333%;
   }
   .gridlock .row .desktop-9 {
-    width: 78.91666667%;
+    width: 72.91666667%;
   }
   .gridlock .row .desktop-10 {
     width: 81.25%;
@@ -7240,7 +7240,7 @@ https://flickity.metafizzy.co
   pointer-events: none;
   z-index: 0;
 }
- 
+
 .flickity-enabled.is-fade .flickity-slider > .is-selected {
   pointer-events: auto;
   z-index: 1;
@@ -13681,8 +13681,7 @@ body{
 .hovermg.prod-colors {
     position: absolute;
     bottom: 0px;
-/*     z-index: 9; */
-  z-index: 4;
+    z-index: 9;
     top: -419px;
   transition: transform .5s ease,opacity .1s;
   transform: translate(-4rem,0rem); 
