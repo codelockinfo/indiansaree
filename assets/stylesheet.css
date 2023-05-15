@@ -13917,7 +13917,8 @@ height: 409px;
     overflow: scroll;}
 .div_evowap_btn {
     margin: 20px 0px;
-      width: 68%;
+/*       width: 68%; */
+    width: 75%;
 }
 a#evowap_btn {
     padding: 10px 10px;
