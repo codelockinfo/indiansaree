@@ -10809,7 +10809,8 @@ span.filter__count {
     align-items: center;
     padding-bottom: 10px;
     position: relative;
-    z-index: 6;
+/*     z-index: 6; */
+        z-index: 1;
 }
 
 .sort__filter--triggers {
