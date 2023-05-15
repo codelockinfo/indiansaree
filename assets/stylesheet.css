@@ -8895,10 +8895,16 @@ ul.megamenu__ulcontainer {
 }
 
 .featured__collection-carousel .flickity-prev-next-button.next {
-  right: -50px;
+/*   right: -50px; */
+  background: #00000042;
+    color: white;
+    border-radius: 50%;
 }
 .featured__collection-carousel .flickity-prev-next-button.previous {
-  left: -50px;
+/*   left: -50px; */
+  background: #00000042;
+    color: white;
+    border-radius: 50%;
 }
 
 
