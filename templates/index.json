@@ -376,8 +376,8 @@
         ".grid__wrapper.row {grid-gap: 0px 30px;}"
       ],
       "settings": {
-        "title": "Sarees Shopping  Online",
-        "center_align": false,
+        "title": "Sarees",
+        "center_align": true,
         "section_space": "top_and_bottom"
       }
     },
