@@ -14258,7 +14258,7 @@ width: 100%;
     position: fixed;
     bottom: 0px;
     left: 0;
-    z-index: 1;
+    z-index: 5;
 }
 }
 
