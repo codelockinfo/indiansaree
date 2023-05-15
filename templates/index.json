@@ -183,8 +183,8 @@
         "image": "shopify:\/\/shop_images\/photo1668847727.jpg",
         "image_position": "left",
         "image_size": "medium",
-        "title": "Raw Silk Sarees",
-        "text": "<p>The raw silk is soft, lustrous and also has vibrant colour, but less lucid in nature. Also known as silk spun fibre, the weight of raw silk fabric  is also less than by at least 30 percent, making it suitable for everyday use and carry it easily.<\/p>",
+        "title": "Indian Sarees",
+        "text": "<p>\"Discover the epitome of elegance with our stunning collection of Indian beautiful sarees and ethnic wear. Indulge in the timeless charm of intricately designed sarees, crafted with love and precision, showcasing the rich heritage of Indian textiles. Explore a wide range of vibrant colors, exquisite patterns, and luxurious fabrics that effortlessly blend tradition with contemporary styles. Each piece tells a unique story, adorning you with grace and sophistication on every occasion. Elevate your ethnic wardrobe and embrace your cultural roots with our handpicked collection. Shop now and experience the allure of Indian sarees and ethnic wear, designed to make you look and feel extraordinary.\"<\/p>",
         "button_text": "Button",
         "link": "",
         "center_align": false,
@@ -916,6 +916,30 @@
         "no_space": true,
         "section_space": "top_and_bottom"
       }
+    },
+    "b91b059e-ba60-463d-b9b5-0111f5c376b8": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--18816811630890__b91b059e-ba60-463d-b9b5-0111f5c376b8-1684138268769069a6-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Welcome to Indian Sarees",
+            "text": "<p>\"Discover the epitome of elegance with our stunning collection of Indian beautiful sarees and ethnic wear. Indulge in the timeless charm of intricately designed sarees, crafted with love and precision, showcasing the rich heritage of Indian textiles. Explore a wide range of vibrant colors, exquisite patterns, and luxurious fabrics that effortlessly blend tradition with contemporary styles. Each piece tells a unique story, adorning you with grace and sophistication on every occasion. Elevate your ethnic wardrobe and embrace your cultural roots with our handpicked collection. Shop now and experience the allure of Indian sarees and ethnic wear, designed to make you look and feel extraordinary.\"<\/p>",
+            "page": "",
+            "center": true,
+            "block_width": 75
+          }
+        }
+      },
+      "block_order": [
+        "template--18816811630890__b91b059e-ba60-463d-b9b5-0111f5c376b8-1684138268769069a6-0"
+      ],
+      "settings": {
+        "padding": 60,
+        "text_color": "#000000",
+        "background_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -938,6 +962,7 @@
     "7c49b0bd-32e4-4386-baac-185d5f974b16",
     "1625671845c9538e1f",
     "7ed47828-28bc-4e64-818c-d64ba9036fca",
-    "6ad661c0-731f-467a-8fca-79a86c56d40c"
+    "6ad661c0-731f-467a-8fca-79a86c56d40c",
+    "b91b059e-ba60-463d-b9b5-0111f5c376b8"
   ]
 }
