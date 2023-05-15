@@ -524,7 +524,8 @@
     width: 14.58333333%;
   }
   .gridlock .row .desktop-3 {
-    width: 22.91666667%;
+/*     width: 22.91666667%; */
+    width: 16.91666667%;
   }
   .gridlock .row .desktop-4 {
     width: 31.25%;
@@ -14342,6 +14343,3 @@ display:block;}
 
 /* cls016 */
 
-.gridlock .row .desktop-3 .newwithcolction {
-    width: 16% !important;
-}
