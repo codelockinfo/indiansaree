@@ -377,7 +377,7 @@
       ],
       "settings": {
         "title": "Sarees Shopping  Online",
-        "center_align": false,
+        "center_align": true,
         "section_space": "top_and_bottom"
       }
     },
