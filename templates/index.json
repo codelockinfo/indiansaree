@@ -84,8 +84,8 @@
       "settings": {
         "display_wide": true,
         "no_autoplay": true,
-        "slider_speed": 5,
-        "pager": "dots",
+        "slider_speed": 3,
+        "pager": "arrows",
         "slide_heading_size": 22,
         "subheading_size": 14,
         "cta_size": 14,
