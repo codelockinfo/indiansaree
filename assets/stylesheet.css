@@ -13681,7 +13681,8 @@ body{
 .hovermg.prod-colors {
     position: absolute;
     bottom: 0px;
-    z-index: 9;
+/*     z-index: 9; */
+  z-index: 4;
     top: -419px;
   transition: transform .5s ease,opacity .1s;
   transform: translate(-4rem,0rem); 
