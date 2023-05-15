@@ -486,7 +486,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/4_00514a1e-488f-4e15-a2f8-66090124954f.jpg",
-        "overlay": false,
+        "overlay": true,
         "background_attachment": "fixed",
         "height": 500,
         "mobile_height": 400,
