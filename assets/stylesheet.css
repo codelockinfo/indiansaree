@@ -13932,7 +13932,7 @@ a#evowap_btn {
     padding: 0 30px;
 }
 input#addToCart {
-    width: 50%;
+    width: 100%;
 }
 #predictive-search input#addToCart {
     width: 85%;
