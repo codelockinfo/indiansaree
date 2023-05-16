@@ -14354,5 +14354,6 @@ display:block;}
 }
   .textWithImage__column-container {
     display: block;
+    overflow-x: auto;
 }
 }
