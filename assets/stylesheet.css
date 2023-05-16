@@ -10385,7 +10385,7 @@ ul.collection__sidebar-menu li ul.nested {
 /* ---- Collection page sidebar & filters ---- */
 
 .collection__page-sidebar .filter ul {
-  max-height: 220px;
+/*   max-height: 220px; */
   overflow-y: auto;
   overflow-x: hidden;
   width: 100%;
