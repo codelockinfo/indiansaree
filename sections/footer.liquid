@@ -24,24 +24,15 @@
   endcase
 -%}
 <style>
-    .mar_top_11{
-      margin-top: 11px;
-    }
-      .mar_bottt_11{
-      margin-bottom: 17px;
-    }
-    .width70_per_{
-          width: 70%;
-    }
-    @media screen and (max-width: 768px){
-      .width70_per_ {
-      width: unset;
+  .mar_top_11{
+    margin-top: 11px;
   }
-
-      .text_centermobile{
-        text-align: center;
-      }
-    }
+    .mar_bottt_11{
+    margin-bottom: 17px;
+  }
+  .width70_per_{
+        width: 70%;
+  }
 </style>
 
 {% if locale_selector or country_selector %}
@@ -118,17 +109,24 @@
                         {% endif %}
                       {% endform %}
                       <style>
-                        @media (min-width: 980px) {
-                          .footer-block.block-{{ block.id }} {
-                            flex-grow: 2;
-                            flex-basis: 400px
-                          }
+                                              @media (min-width: 980px) {
+                                                .footer-block.block-{{ block.id }} {
+                                                  flex-grow: 2;
+                                                  flex-basis: 400px
+                                                }
+                                            .width70_per_ {
+                            width: unset;
                         }
-                        @media (max-width: 740px) {
-                          .footer-block.block-{{ block.id }} {
-                            margin-top: 40px;
-                          }
-                        }
+
+                            .text_centermobile{
+                              text-align: center;
+                            }
+                                              }
+                                              @media (max-width: 740px) {
+                                                .footer-block.block-{{ block.id }} {
+                                                  margin-top: 40px;
+                                                }
+                                              }
                       </style>
                     </div>
                   </div>
