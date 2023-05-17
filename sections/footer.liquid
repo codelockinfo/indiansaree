@@ -40,8 +40,8 @@
       style="background: url({{section.settings.kombg | img_url:'master' }});"
     >
       <div class="fotterlogo">
-        {% if section.settings.ftlogo!= blank %}
-        <img src="{{ section.settings.ftlogo | img_url:'master' }}" class="footerimage">
+        {% if section.settings.ftlogo != blank %}
+          <img src="{{ section.settings.ftlogo | img_url:'master' }}" class="footerimage">
         {% endif %}
       </div>
       <div class="footerdiscriptio">
@@ -50,53 +50,94 @@
 
       <div id="footer" class="footercontain row ">
         <div class="fotelogoflex">
-        {% for block in section.blocks %}
-          <section class="footer-block block-{{ block.id }}" {{ block.shopify_attributes }}>
-            {% case block.type %}
-              {% when 'menu' %}
-                <div class="footer-sect">
-                  <h3 class="h4">{{ block.settings.title | escape }}</h3>
-                  <ul>
-                    {% for link in linklists[block.settings.footer_nav].links %}
-                      <li>{{ link.title | link_to: link.url }}</li>
-                    {% endfor %}
-                  </ul>
-                  <style>
-                    @media (min-width: 980px) {
-                      .footer-block.block-{{ block.id }} {
-                        flex-grow: 1;
-                        flex-basis: 180px;
+          {% for block in section.blocks %}
+            <section class="footer-block block-{{ block.id }}" {{ block.shopify_attributes }}>
+              {% case block.type %}
+                {% when 'menu' %}
+                  <div class="footer-sect">
+                    <h3 class="h4">{{ block.settings.title | escape }}</h3>
+                    <ul>
+                      {% for link in linklists[block.settings.footer_nav].links %}
+                        <li>{{ link.title | link_to: link.url }}</li>
+                      {% endfor %}
+                    </ul>
+                    <style>
+                      @media (min-width: 980px) {
+                        .footer-block.block-{{ block.id }} {
+                          flex-grow: 1;
+                          flex-basis: 180px;
+                        }
                       }
-                    }
-                    @media (max-width: 740px) {
-                      .footer-block.block-{{ block.id }} {
-                        display: inline-block;
-                        width: 49%;
-                        margin-top: 40px;
+                      @media (max-width: 740px) {
+                        .footer-block.block-{{ block.id }} {
+                          display: inline-block;
+                          width: 49%;
+                          margin-top: 40px;
+                        }
                       }
-                    }
-                  </style>
-                </div>
-              {% when 'newsletter' %}
-                <div class="footer-sect">
-                  <h3 class="h4">{{ block.settings.title | escape }}</h3>
-                  {{ block.settings.mailing_subheading }}
-                  <div id="footer_signup">
-                    {% form 'customer' %}
-                      {{ form.errors | default_errors }}
-                      {% if form.posted_successfully? %}
-                        <p class="success">{{ 'general.password_page.thanks' | t }}</p>
-                      {% else %}
-                        <input type="hidden" name="contact[tags]" value="prospect, password page">
-                        <input
-                          type="email"
-                          name="contact[email]"
-                          id="footer-EMAIL"
-                          placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
-                        >
-                        <input type="submit" id="footer-subscribe" value="{{ 'general.newsletter_form.submit' | t }}">
-                      {% endif %}
-                    {% endform %}
+                    </style>
+                  </div>
+                {% when 'newsletter' %}
+                  <div class="footer-sect">
+                    <h3 class="h4">{{ block.settings.title | escape }}</h3>
+                    {{ block.settings.mailing_subheading }}
+                    <div id="footer_signup">
+                      {% form 'customer' %}
+                        {{ form.errors | default_errors }}
+                        {% if form.posted_successfully? %}
+                          <p class="success">{{ 'general.password_page.thanks' | t }}</p>
+                        {% else %}
+                          <input type="hidden" name="contact[tags]" value="prospect, password page">
+                          <input
+                            type="email"
+                            name="contact[email]"
+                            id="footer-EMAIL"
+                            placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
+                          >
+                          <input type="submit" id="footer-subscribe" value="{{ 'general.newsletter_form.submit' | t }}">
+                        {% endif %}
+                      {% endform %}
+                      <style>
+                        @media (min-width: 980px) {
+                          .footer-block.block-{{ block.id }} {
+                            flex-grow: 2;
+                            flex-basis: 400px
+                          }
+                        }
+                        @media (max-width: 740px) {
+                          .footer-block.block-{{ block.id }} {
+                            margin-top: 40px;
+                          }
+                        }
+                      </style>
+                    </div>
+                  </div>
+                {% when 'text' %}
+                  <div class="footer-sect">
+                    {%- if block.settings.title != blank -%}
+                      <h3 class="h4">{{ block.settings.title | escape }}</h3>
+                    {%- endif -%}
+                    {%- if block.settings.phone1 != blank -%}
+                      <h3 class="h4">{{ block.settings.phone1 | escape }}</h3>
+                    {%- endif -%}
+                    {%- if block.settings.email1 != blank -%}
+                      <h3 class="h4">{{ block.settings.email1 | escape }}</h3>
+                    {%- endif -%}
+                    {%- if block.settings.address1 != blank -%}
+                      <h3 class="h4">{{ block.settings.address1 | escape }}</h3>
+                    {%- endif -%}
+                    {%- if block.settings.bottom_logo != blank -%}
+                      <img
+                        class="logo-image"
+                        src="{{ block.settings.bottom_logo | img_url: '400x' }}"
+                        alt="{{ shop.name }}"
+                      >
+                    {%- endif -%}
+                    {%- if block.settings.footer_text != blank -%}
+                      <div class="rte">
+                        {{ block.settings.footer_text }}
+                      </div>
+                    {%- endif -%}
                     <style>
                       @media (min-width: 980px) {
                         .footer-block.block-{{ block.id }} {
@@ -104,47 +145,15 @@
                           flex-basis: 400px
                         }
                       }
-                      @media (max-width: 740px) {
-                        .footer-block.block-{{ block.id }} {
-                          margin-top: 40px;
-                        }
+                      .footer-block.block-{{ block.id }} .logo-image {
+                        max-width: {{ block.settings.bottom_logo_max_width }}px;
+                        width: {{ block.settings.bottom_logo_max_width }}px;
                       }
                     </style>
                   </div>
-                </div>
-              {% when 'text' %}
-                <div class="footer-sect">
-                  {%- if block.settings.title != blank -%}
-                    <h3 class="h4">{{ block.settings.title | escape }}</h3>
-                  {%- endif -%}
-                  {%- if block.settings.bottom_logo != blank -%}
-                    <img
-                      class="logo-image"
-                      src="{{ block.settings.bottom_logo | img_url: '400x' }}"
-                      alt="{{ shop.name }}"
-                    >
-                  {%- endif -%}
-                  {%- if block.settings.footer_text != blank -%}
-                    <div class="rte">
-                      {{ block.settings.footer_text }}
-                    </div>
-                  {%- endif -%}
-                  <style>
-                    @media (min-width: 980px) {
-                      .footer-block.block-{{ block.id }} {
-                        flex-grow: 2;
-                        flex-basis: 400px
-                      }
-                    }
-                    .footer-block.block-{{ block.id }} .logo-image {
-                      max-width: {{ block.settings.bottom_logo_max_width }}px;
-                      width: {{ block.settings.bottom_logo_max_width }}px;
-                    }
-                  </style>
-                </div>
-            {% endcase %}
-          </section>
-        {% endfor %}
+              {% endcase %}
+            </section>
+          {% endfor %}
         </div>
       </div>
       <div id="bottom-footer" class="row">
@@ -658,6 +667,21 @@
           "id": "title",
           "label": "Text title",
           "default": "About"
+        },
+               {
+          "type": "text",
+          "id": "phone1",
+          "label": "Phone"
+        },
+               {
+          "type": "text",
+          "id": "email1",
+          "label": "Email"
+        },
+                  {
+          "type": "text",
+          "id": "address1",
+          "label": "Address"
         },
         {
           "id": "footer_text",
