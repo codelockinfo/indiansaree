@@ -14140,7 +14140,7 @@ filter: brightness(0.6);
     position: fixed;
     bottom: 0px;
     left: 0;
-    z-index: 5;
+    z-index: 2;
 }
  }
 @media screen and (max-width: 739px){ 
