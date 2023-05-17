@@ -23,6 +23,14 @@
       assign column_width = 'desktop-3 tablet-3 mobile-3'
   endcase
 -%}
+<style>
+  .mar_top_11{
+    margin-top: 11px;
+  }
+  .width70_per_{
+        width: 70%;
+  }
+</style>
 
 {% if locale_selector or country_selector %}
   {{ 'component-footer-disclosures.css' | asset_url | stylesheet_tag }}
@@ -115,7 +123,7 @@
                 {% when 'text' %}
                   <div class="footer-sect">
                     {%- if block.settings.title != blank -%}
-                      <h3 class="h4">{{ block.settings.title | escape }}</h3>
+                      <h3 class="h4 mar_top_11">{{ block.settings.title | escape }}</h3>
                     {%- endif -%}
                     {%- if block.settings.phone1 != blank -%}
                       <p>
@@ -130,7 +138,7 @@
                       </a>
                     {%- endif -%}
                     {%- if block.settings.address1 != blank -%}
-                      <p class="h4">{{ block.settings.address1 | escape }}</p>
+                      <p class="h4 mar_top_11 width70_per_">{{ block.settings.address1 | escape }}</p>
                     {%- endif -%}
                     {%- if block.settings.bottom_logo != blank -%}
                       <img
