@@ -14347,7 +14347,12 @@ display:block;}
 /* contact form end */
 
 /* cls016 */
-
+.gallery__item-caption.rte.galeryflx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 768px){
   .image__overlay-caption {
     display: none;
