@@ -14272,6 +14272,7 @@ width: 100%;
     bottom: 0px;
     left: 0;
     z-index: 2;
+  border-radius: 0;
 }
 }
 
