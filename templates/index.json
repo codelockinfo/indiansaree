@@ -115,8 +115,8 @@
             "image": "shopify:\/\/shop_images\/photo_6080396660376187742_w.jpg",
             "overlay": true,
             "image_width": "33%",
-            "link": "shopify:\/\/collections\/banarasi-sarees",
-            "title_text": "Banarasi Sarees",
+            "link": "shopify:\/\/collections\/party-sarees",
+            "title_text": "Party Sarees",
             "hidden_text": "<p>Shop Now<\/p>",
             "text_color": "#ffffff",
             "text_position": "on_image",
@@ -128,7 +128,7 @@
         "162567173863ea5075-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo1672136653.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsAppImage2023-05-13at11.48.07.jpg",
             "overlay": true,
             "image_width": "33%",
             "link": "shopify:\/\/collections\/chanderi",
@@ -144,7 +144,7 @@
         "162567173863ea5075-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo1653326899_1.jpg",
+            "image": "shopify:\/\/shop_images\/photo_6212803084703347863_y_1.jpg",
             "overlay": true,
             "image_width": "33%",
             "link": "shopify:\/\/collections\/printed",
