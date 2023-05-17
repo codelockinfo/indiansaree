@@ -1,1 +1,36 @@
-{"sections":{"banner":{"type":"banner-image","settings":{}},"breadcrumbs":{"type":"breadcrumbs","settings":{}},"main":{"type":"main-list-collections","settings":{"text":""}},"grid":{"type":"main-list-collections-all","settings":{"grid":3,"collection_count":true}}},"order":["banner","breadcrumbs","main","grid"]}
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+        "banner_height": 400
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "text": "",
+        "center_align": true
+      }
+    },
+    "grid": {
+      "type": "main-list-collections-all",
+      "settings": {
+        "grid": 3,
+        "title_position": "below",
+        "collection_count": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "breadcrumbs",
+    "main",
+    "grid"
+  ]
+}
