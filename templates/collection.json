@@ -38,8 +38,28 @@
         "1fa32b0e-6ad7-42af-8264-cf72251b1e60": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo_6230754265589200655_y_1.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify:\/\/shop_images\/photo_6253305519657825390_y_1_1024x_ba8b378e-5e68-4408-b05f-cbe384ddf1d7.jpg",
+            "link": "shopify:\/\/products\/printed-lehenga-choli-with-designer-details-for-a-high-end-style"
+          }
+        },
+        "efa37b0a-dff5-4524-a875-4855919eb612": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "93385ef6-d2f5-4f12-a3b4-12070e97216c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/indiansareesbanarasi47_1924x_1f8f45a6-0049-4f49-bdf2-0de7491507e1.webp",
+            "link": "shopify:\/\/products\/breathable-banarasi-wedding-saree"
+          }
+        },
+        "8b21b18f-e665-45ae-b8e6-6a3f7cc7d634": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_6098024687922687695_y_1023x_895001b6-8830-482f-b2ff-d8bfb44b522a.jpg",
+            "link": "shopify:\/\/products\/exquisite-soft-butterfly-net-gown-with-heavy-embroidery-work-and-full-flair-ruffles"
           }
         }
       },
@@ -47,7 +67,10 @@
         "34886250-a224-4b9f-8e9e-b5c2b723f0e4",
         "4fd2adf5-c623-4bc2-a8f5-6f2577559d20",
         "d369fd75-8e3a-4895-bb24-2759cef29356",
-        "1fa32b0e-6ad7-42af-8264-cf72251b1e60"
+        "1fa32b0e-6ad7-42af-8264-cf72251b1e60",
+        "efa37b0a-dff5-4524-a875-4855919eb612",
+        "93385ef6-d2f5-4f12-a3b4-12070e97216c",
+        "8b21b18f-e665-45ae-b8e6-6a3f7cc7d634"
       ],
       "settings": {
         "products_per_page": 30,
