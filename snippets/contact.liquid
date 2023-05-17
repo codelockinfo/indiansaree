@@ -1,136 +1,160 @@
 {% form 'contact' %}
-<div id="contactFormWrapper">
-  <h3>Write Us</h3>
-  <div class="desktop-12 tablet-6 mobile-3">
-    <fieldset>
-      <label for="contactFormName">{{ 'sections.contact_form.name' | t }}</label>
-      <input type="text" id="contactFormName" name="contact[name]" placeholder="{{ 'sections.contact_form.name' | t }}" />
-    </fieldset>
-  </div>
-  <div class="desktop-12 tablet-6 mobile-3">
-    <fieldset>
-      <label for="contactFormEmail">{{ 'sections.contact_form.email' | t }}</label>
-      <input type="email" id="contactFormEmail" name="contact[email]" placeholder="{{ 'sections.contact_form.email' | t }}" />
-    </fieldset>
-  </div>
-  <div class="desktop-12 tablet-6 mobile-3">
-    <fieldset>
-      <label for="contactFormTelephone">{{ 'sections.contact_form.phone' | t }}</label>
-      <input type="text" id="contactFormTelephone" name="contact[phone]" placeholder="{{ 'sections.contact_form.phone' | t }}" />
-    </fieldset>
-  </div>
-  <div class="desktop-12 tablet-6 mobile-3">
-    <fieldset>
-      <label for="contactFormMessage">{{ 'sections.contact_form.message' | t }}</label>
-      <textarea rows="15" cols="90" id="contactFormMessage" name="contact[body]" placeholder="{{ 'sections.contact_form.message' | t }}"></textarea>
-    </fieldset>
+  <div id="contactFormWrapper">
+    <h3>Contact Us</h3>
+    <div class="desktop-12 tablet-6 mobile-3">
+      <fieldset>
+        <label for="contactFormName">{{ 'sections.contact_form.name' | t }}</label>
+        <input
+          type="text"
+          id="contactFormName"
+          name="contact[name]"
+          placeholder="{{ 'sections.contact_form.name' | t }}"
+        >
+      </fieldset>
     </div>
-      <div class="desktop-12 tablet-6 mobile-3">
-    <button>
-      <input type="submit" id="contactFormSubmit" class="secondary button" value="{{ 'sections.contact_form.send' | t }}"placeholder="submit" />
-    </button>
+    <div class="desktop-12 tablet-6 mobile-3">
+      <fieldset>
+        <label for="contactFormEmail">{{ 'sections.contact_form.email' | t }}</label>
+        <input
+          type="email"
+          id="contactFormEmail"
+          name="contact[email]"
+          placeholder="{{ 'sections.contact_form.email' | t }}"
+        >
+      </fieldset>
+    </div>
+    <div class="desktop-12 tablet-6 mobile-3">
+      <fieldset>
+        <label for="contactFormTelephone">{{ 'sections.contact_form.phone' | t }}</label>
+        <input
+          type="text"
+          id="contactFormTelephone"
+          name="contact[phone]"
+          placeholder="{{ 'sections.contact_form.phone' | t }}"
+        >
+      </fieldset>
+    </div>
+    <div class="desktop-12 tablet-6 mobile-3">
+      <fieldset>
+        <label for="contactFormMessage">{{ 'sections.contact_form.message' | t }}</label>
+        <textarea
+          rows="15"
+          cols="90"
+          id="contactFormMessage"
+          name="contact[body]"
+          placeholder="{{ 'sections.contact_form.message' | t }}"
+        ></textarea>
+      </fieldset>
+    </div>
+    <div class="desktop-12 tablet-6 mobile-3">
+      <button>
+        <input
+          type="submit"
+          id="contactFormSubmit"
+          class="secondary button"
+          value="{{ 'sections.contact_form.send' | t }}"
+          placeholder="submit"
+        >
+      </button>
+    </div>
   </div>
-</div>
 
-<div class="clear"></div>
+  <div class="clear"></div>
 
+  {% if form.posted_successfully? %}
+    <div class="successForm feedback">
+      <p>{{ 'sections.contact_form.post_success' | t }}</p>
+    </div>
+  {% endif %}
 
-{% if form.posted_successfully? %}
-<div class="successForm feedback">
-  <p>{{ 'sections.contact_form.post_success' | t }}</p>
-</div>
-{% endif %}
-
-{% if form.errors %}
-<div class="errorForm feedback">
-  <p>{{ 'general.forms.post_error' | t }}</p>
-</div>
-{% endif %}
-
+  {% if form.errors %}
+    <div class="errorForm feedback">
+      <p>{{ 'general.forms.post_error' | t }}</p>
+    </div>
+  {% endif %}
 {% endform %}
 
 <div class="clear"></div>
 
- 
 <style>
- 
 
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
 
-#contactFormWrapper input[type="text"],
-#contactFormWrapper input[type="email"],
-#contactFormWrapper input[type="tel"],
-#contactFormWrapper input[type="url"],
-#contactFormWrapper textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-}
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
 
-#contactFormWrapper input[type="text"]:hover,
-#contactFormWrapper input[type="email"]:hover,
-#contactFormWrapper input[type="tel"]:hover,
-#contactFormWrapper input[type="url"]:hover,
-#contactFormWrapper textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
-}
+  #contactFormWrapper input[type="text"],
+  #contactFormWrapper input[type="email"],
+  #contactFormWrapper input[type="tel"],
+  #contactFormWrapper input[type="url"],
+  #contactFormWrapper textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
 
-#contactFormWrapper textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-}
+  #contactFormWrapper input[type="text"]:hover,
+  #contactFormWrapper input[type="email"]:hover,
+  #contactFormWrapper input[type="tel"]:hover,
+  #contactFormWrapper input[type="url"]:hover,
+  #contactFormWrapper textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
 
-#contactFormWrapper button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #430b0e;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
-}
+  #contactFormWrapper textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
 
-#contactFormWrapper button[type="submit"]:hover {
-  background: #430b0ed1;
-  transition: background-color 0.3s ease-in-out;
-}
+  #contactFormWrapper button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #430b0e;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
 
-#contactFormWrapper button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
+  #contactFormWrapper button[type="submit"]:hover {
+    background: #430b0ed1;
+    transition: background-color 0.3s ease-in-out;
+  }
 
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
-}
+  #contactFormWrapper button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
 
-::-webkit-input-placeholder {
-  color: #888;
-}
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
 
-:-moz-placeholder {
-  color: #888;
-}
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
 
-::-moz-placeholder {
-  color: #888;
-}
+  :-moz-placeholder {
+    color: #888;
+  }
 
-:-ms-input-placeholder {
-  color: #888;
-}
+  ::-moz-placeholder {
+    color: #888;
+  }
+
+  :-ms-input-placeholder {
+    color: #888;
+  }
 </style>
