@@ -209,20 +209,8 @@
     >
   </form>
 -->
-{%- if product_card_product.variants.size == 1 -%}
-  <form method="post" action="/cart/add" class="ContactForm center">
-    <input type="hidden" name="id" value="{{ product_card_product.variants.first.id }}">
-    <input min="1" type="hidden" id="quantity" name="quantity" value="1">
-    <input type="submit" value="Add to cart" class="button" style="margin-top:7px;">
-  </form>
-{%- else -%}
-  <div class="center">
-    <input
-      type="button"
-      class="button"
-      style="margin-top:7px;"
-      onclick="location.href='{{ product_card_product.url | default: '#' }}'"
-      value="View Options"
-    >
-  </div>
-{%- endif -%}
+<form method="post" action="/cart/add">
+  <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+  <input min="1" type="number" id="quantity" name="quantity" value="1">
+  <input type="submit" value="Add to cart" class="btn">
+</form>
