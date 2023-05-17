@@ -112,11 +112,11 @@
         "162567173863ea5075-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo_6080396660376187742_w.jpg",
+            "image": "shopify:\/\/shop_images\/photo_6242154770945127889_y.jpg",
             "overlay": true,
             "image_width": "33%",
-            "link": "shopify:\/\/collections\/party-sarees",
-            "title_text": "Party Sarees",
+            "link": "shopify:\/\/collections\/wedding",
+            "title_text": "Wedding Sarees",
             "hidden_text": "<p>Shop Now<\/p>",
             "text_color": "#ffffff",
             "text_position": "on_image",
