@@ -24,15 +24,23 @@
   endcase
 -%}
 <style>
-  .mar_top_11{
-    margin-top: 11px;
+    .mar_top_11{
+      margin-top: 11px;
+    }
+      .mar_bottt_11{
+      margin-bottom: 17px;
+    }
+    .width70_per_{
+          width: 70%;
+    }
+    @media screen and (max-width: 768px){
+      .width70_per_ {
+      width: unset;
   }
-    .mar_bottt_11{
-    margin-bottom: 17px;
-  }
-  .width70_per_{
-        width: 70%;
-  }
+      .text_centermobile{
+        text-align: center;
+      }
+    }
 </style>
 
 {% if locale_selector or country_selector %}
@@ -124,7 +132,7 @@
                     </div>
                   </div>
                 {% when 'text' %}
-                  <div class="footer-sect">
+                  <div class="footer-sect text_centermobile">
                     {%- if block.settings.title != blank -%}
                       <h3 class="h4 mar_bottt_11">{{ block.settings.title | escape }}</h3>
                     {%- endif -%}
