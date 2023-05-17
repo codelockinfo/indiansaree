@@ -1073,6 +1073,17 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "27ab948a-1556-4de6-b077-389855f82ac3": {
+            "type": "text",
+            "settings": {
+              "title": "Info",
+              "phone1": "9081270927",
+              "email1": "indiansarees07@gmail.com",
+              "address1": "Address: 93 Ram Nagar, Khodiyar Nagar Main Road, Varachha Surat 395006",
+              "footer_text": "",
+              "bottom_logo_max_width": 300
+            }
+          },
           "50069b64-25ef-4e95-8f6b-c841efaec4ea": {
             "type": "menu",
             "settings": {
@@ -1094,24 +1105,13 @@
               "footer_nav": "saree-menu",
               "title": "Explore"
             }
-          },
-          "27ab948a-1556-4de6-b077-389855f82ac3": {
-            "type": "text",
-            "settings": {
-              "title": "Info",
-              "phone1": "9081270927",
-              "email1": "indiansarees07@gmail.com",
-              "address1": "Address: 93 Ram Nagar, Khodiyar Nagar Main Road, Varachha Surat 395006",
-              "footer_text": "",
-              "bottom_logo_max_width": 300
-            }
           }
         },
         "block_order": [
+          "27ab948a-1556-4de6-b077-389855f82ac3",
           "50069b64-25ef-4e95-8f6b-c841efaec4ea",
           "1480352627697",
-          "09db4b25-0281-4d32-95c5-364395cf81c1",
-          "27ab948a-1556-4de6-b077-389855f82ac3"
+          "09db4b25-0281-4d32-95c5-364395cf81c1"
         ],
         "settings": {
           "footer_text_align": "left",
