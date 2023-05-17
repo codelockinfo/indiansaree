@@ -24,15 +24,24 @@
   endcase
 -%}
 <style>
-  .mar_top_11{
-    margin-top: 11px;
+    .mar_top_11{
+      margin-top: 11px;
+    }
+      .mar_bottt_11{
+      margin-bottom: 17px;
+    }
+    .width70_per_{
+          width: 70%;
+    }
+    @media screen and (max-width: 980px){
+      .width70_per_ {
+      width: unset;
   }
-    .mar_bottt_11{
-    margin-bottom: 17px;
-  }
-  .width70_per_{
-        width: 70%;
-  }
+
+      .text_centermobile{
+        text-align: center;
+      }
+    }
 </style>
 
 {% if locale_selector or country_selector %}
@@ -109,24 +118,17 @@
                         {% endif %}
                       {% endform %}
                       <style>
-                                              @media (min-width: 980px) {
-                                                .footer-block.block-{{ block.id }} {
-                                                  flex-grow: 2;
-                                                  flex-basis: 400px
-                                                }
-                                            .width70_per_ {
-                            width: unset;
+                        @media (min-width: 980px) {
+                          .footer-block.block-{{ block.id }} {
+                            flex-grow: 2;
+                            flex-basis: 400px
+                          }
                         }
-
-                            .text_centermobile{
-                              text-align: center;
-                            }
-                                              }
-                                              @media (max-width: 740px) {
-                                                .footer-block.block-{{ block.id }} {
-                                                  margin-top: 40px;
-                                                }
-                                              }
+                        @media (max-width: 740px) {
+                          .footer-block.block-{{ block.id }} {
+                            margin-top: 40px;
+                          }
+                        }
                       </style>
                     </div>
                   </div>
