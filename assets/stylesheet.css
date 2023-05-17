@@ -14142,6 +14142,7 @@ filter: brightness(0.6);
     left: 0;
     z-index: 2;
 }
+   
  }
 @media screen and (max-width: 739px){ 
      .product__section--buttons {
