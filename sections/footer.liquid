@@ -118,11 +118,11 @@
                       <h3 class="h4">{{ block.settings.title | escape }}</h3>
                     {%- endif -%}
                     {%- if block.settings.phone1 != blank -%}
-                      <li>
+                      <p>
                         <a href="tel:{{ block.settings.phone1 | escape }}" class="h4">
                           {{- block.settings.phone1 | escape -}}
                         </a>
-                      </li>
+                      </p>
                     {%- endif -%}
                     {%- if block.settings.email1 != blank -%}
                       <a href="mailto:{{ block.settings.email1 | escape }}" class="h4">
