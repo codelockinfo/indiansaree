@@ -37,6 +37,9 @@
       .width70_per_ {
       width: unset;
   }
+      .fs18_{
+        font-size: 18px;
+      }
 
       .text_centermobile{
         text-align: center;
@@ -139,18 +142,18 @@
                     {%- endif -%}
                     {%- if block.settings.phone1 != blank -%}
                       <p>
-                        <a href="tel:{{ block.settings.phone1 | escape }}" class="h4">
+                        <a class="fs18_" href="tel:{{ block.settings.phone1 | escape }}" class="h4">
                           {{- block.settings.phone1 | escape -}}
                         </a>
                       </p>
                     {%- endif -%}
                     {%- if block.settings.email1 != blank -%}
-                      <a href="mailto:{{ block.settings.email1 | escape }}" class="h4">
+                      <a class="fs18_" href="mailto:{{ block.settings.email1 | escape }}" class="h4">
                         {{- block.settings.email1 | escape -}}
                       </a>
                     {%- endif -%}
                     {%- if block.settings.address1 != blank -%}
-                      <p class="h4 mar_top_11 width70_per_">{{ block.settings.address1 | escape }}</p>
+                      <p class="h4 mar_top_11 width70_per_ fs18_">{{ block.settings.address1 | escape }}</p>
                     {%- endif -%}
                     {%- if block.settings.bottom_logo != blank -%}
                       <img
