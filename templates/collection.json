@@ -20,10 +20,18 @@
           "type": "side_filter",
           "settings": {
           }
+        },
+        "1fa32b0e-6ad7-42af-8264-cf72251b1e60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_6230754265589200655_y_1.jpg",
+            "link": "shopify:\/\/collections"
+          }
         }
       },
       "block_order": [
-        "4fd2adf5-c623-4bc2-a8f5-6f2577559d20"
+        "4fd2adf5-c623-4bc2-a8f5-6f2577559d20",
+        "1fa32b0e-6ad7-42af-8264-cf72251b1e60"
       ],
       "settings": {
         "products_per_page": 30,
