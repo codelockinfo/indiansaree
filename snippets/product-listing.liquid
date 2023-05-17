@@ -179,18 +179,27 @@
     {% endif %}
   </div>
 </div>
-<form method="post" action="/cart/add" id="product-form-buttons-template--18816811073834__main" accept-charset="UTF-8" class="product__form-buttons js-prod-form-submit relative" enctype="multipart/form-data" data-product-id="8218250608938"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-<input class="formVariantId" name="id" type="hidden" value="44759074668842">
-                    <input class="formQty" type="hidden" name="quantity" value="1">
-                    <div class="note note-success js-added-msg" style="display: none">
-                      <b>Added to Cart</b>&nbsp;&nbsp;&nbsp;<a class="underline" href="/cart">View Cart</a> or <a class="underline" href="/collections/all">Continue Shopping</a>.
-                    </div>
-                    <div class="note note-error js-error-msg" style="display: none">
-                      <b>Cart Error</b>&nbsp;&nbsp;&nbsp;Some items became unavailable. Update the quantity and try again.
-                    </div>
+<form
+  method="post"
+  action="/cart/add"
+  id="product-form-buttons-template--18816811073834__main"
+  accept-charset="UTF-8"
+  class="product__form-buttons js-prod-form-submit relative"
+  enctype="multipart/form-data"
+  data-product-id="8218250608938"
+>
+  <input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+  <input class="formVariantId" name="id" type="hidden" value="44759074668842">
+  <input class="formQty" type="hidden" name="quantity" value="1">
+  <div class="note note-success js-added-msg" style="display: none">
+    <b>Added to Cart</b>&nbsp;&nbsp;&nbsp;<a class="underline" href="/cart">View Cart</a> or
+    <a class="underline" href="/collections/all">Continue Shopping</a>.
+  </div>
+  <div class="note note-error js-error-msg" style="display: none">
+    <b>Cart Error</b>&nbsp;&nbsp;&nbsp;Some items became unavailable. Update the quantity and try again.
+  </div>
 
-                    <input id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit  secondary-button" value="Add to Cart">
-
-                    
-                    
-			</form>
+  <!--
+    <input id="addToCart" type="submit" name="button" class="add clearfix AddtoCart js-ajax-submit  secondary-button" value="Add to Cart">
+  -->
+</form>
