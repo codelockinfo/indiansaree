@@ -1082,6 +1082,7 @@
           },
           "1480352627697": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "footer_nav": "main-menu",
               "title": "Info"
@@ -1093,12 +1094,21 @@
               "footer_nav": "saree-menu",
               "title": "Explore"
             }
+          },
+          "27ab948a-1556-4de6-b077-389855f82ac3": {
+            "type": "text",
+            "settings": {
+              "title": "Info",
+              "footer_text": "<p>9081270927<\/p>",
+              "bottom_logo_max_width": 300
+            }
           }
         },
         "block_order": [
           "50069b64-25ef-4e95-8f6b-c841efaec4ea",
           "1480352627697",
-          "09db4b25-0281-4d32-95c5-364395cf81c1"
+          "09db4b25-0281-4d32-95c5-364395cf81c1",
+          "27ab948a-1556-4de6-b077-389855f82ac3"
         ],
         "settings": {
           "footer_text_align": "left",
