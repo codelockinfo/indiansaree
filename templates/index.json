@@ -200,7 +200,7 @@
       ],
       "settings": {
         "title": "Featured collection",
-        "collection": "silk-sarees",
+        "collection": "feature-col",
         "carousel": true,
         "grid": 4,
         "limit": 10,
