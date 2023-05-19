@@ -75,7 +75,7 @@
               </div>
             </div>
           </li>
-          <li class="ajax-cart__item-price v-center">
+<!--           <li class="ajax-cart__item-price v-center">
             {%- assign hasDiscount = false -%}
             {%- if item.original_price != item.final_price -%}
               {%- assign hasDiscount = true -%}
@@ -104,14 +104,14 @@
                 {%- comment -%}
                   Markup template for regular price item
                 {%- endcomment -%}
-<!--                 <div {% if hasDiscount %}class="hide" {% endif %}data-cart-item-regular-price-group>
+                <div {% if hasDiscount %}class="hide" {% endif %}data-cart-item-regular-price-group>
                   <dt>
                     <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
                   </dt>
                   <dd data-cart-item-regular-price>
                     {{ item.original_price | money }}
                   </dd>
-                </div> -->
+                </div>
 
                 {%- comment -%}
                   Markup template for unit price
@@ -163,7 +163,7 @@
                 </li>
               {%- endfor -%}
             </ul>
-          </li>
+          </li> -->
           <li class="ajax-cart__item-qty v-center js-item-quantity">
             <div class="ajax-cart__item-quantity a-left">
               <a data-ajax-qty-decrease="{{ item.id }}"
