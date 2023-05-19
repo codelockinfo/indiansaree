@@ -14370,6 +14370,9 @@ display:block;}
     /* border: 1px solid #eeeeee; */
     margin-bottom: 4%;
 }
+.shopify-policy__body {
+    margin-bottom: 4%;
+}
 @media screen and (max-width: 1100px){
     .collection__item-details p{
         font-size: 20px;
