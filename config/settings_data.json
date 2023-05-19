@@ -956,7 +956,7 @@
     "show_tax_note": true,
     "show_shipping_note": true,
     "show_cart_notes": true,
-    "show_shipping_calculator": true,
+    "show_shipping_calculator": false,
     "show_shipping_countdown": true,
     "free_shipping_threshold": "199",
     "free_shipping_bg": "#b79e8c",
