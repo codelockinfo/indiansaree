@@ -215,16 +215,16 @@
     >
   </form>
 -->
-{% if product.metafields.custom.reviewcount != blank %}
-  <div class="reviews txt_center_">
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    ({{ product.metafields.custom.reviewcount }})
-  </div>
-{% endif %}
+
+<div class="reviews txt_center_">
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  ({{ product.metafields.custom.reviewcount }})
+</div>
+
 <form method="post" action="/cart/add">
   <input type="hidden" name="id" value="{{ product.variants.first.id }}">
 
