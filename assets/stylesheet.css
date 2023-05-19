@@ -14367,4 +14367,8 @@ display:block;}
     display: block;
     overflow-x: auto;
 }
+  .collection__item-details p{
+        font-size: 18px;
+    line-height: 22px;
+  }
 }
