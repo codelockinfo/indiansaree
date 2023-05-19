@@ -12174,7 +12174,8 @@ section.cart-page.main__section {
 }
 .ajax-cart__drawer-wrapper .ajax-cart__item-price,
 .ajax-cart__drawer-wrapper .ajax-cart__item-line-price {
-  grid-column: auto / span 3;
+/*   grid-column: auto / span 3; */
+    grid-column: auto / span 5;
   width: 100%;
   text-align: center;
 }
