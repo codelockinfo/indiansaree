@@ -14403,3 +14403,8 @@ display:block;}
 .powerbytitle{
   cursor:pointer;
 }
+@media screen and (max-width: 738px){
+  .reviews.txt_center_.alin-left {
+    text-align: center;
+}
+}
