@@ -99,7 +99,16 @@ endif
             <h1 class="product__section-title product-title">{{ product.title }}</h1>
 
             {% render 'product-price', variant: current_variant, product: product %}
-
+              {% if product.metafields.custom.reviewcount != blank %}
+                <div class="reviews txt_center_">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  ({{ product.metafields.custom.reviewcount }})
+                </div>
+              {% endif -%}
             {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
               <div class="product__policies rte" data-product-policies>
                 {%- if cart.taxes_included -%}
