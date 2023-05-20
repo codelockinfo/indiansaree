@@ -352,9 +352,9 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/photo_6088902366364546803_y_f7a4ad66-6e5c-41e2-8297-df986b86988a.jpg",
-            "link": "shopify:\/\/collections\/feature-col",
-            "title_text": "Georgette",
-            "text": "<p>Georgette sarees are a popular type of Indian saree made from georgette fabric and flowy material that drapes beautifully. <\/p>",
+            "link": "https:\/\/indian-sarees.in\/collections\/silk-sarees",
+            "title_text": "Silk",
+            "text": "<p>Silk sarees are a luxurious and exquisite traditional garment that has been cherished for centuries in India<\/p>",
             "button_text": "Shop Now"
           }
         },
