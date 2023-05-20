@@ -73,7 +73,7 @@
         "8b21b18f-e665-45ae-b8e6-6a3f7cc7d634"
       ],
       "settings": {
-        "products_per_page": 30,
+        "products_per_page": 32,
         "products_per_row": 4,
         "sort_by": true,
         "show_image": false,
