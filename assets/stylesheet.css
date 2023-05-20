@@ -14379,6 +14379,9 @@ display:block;}
 .rte.desktop-12 {
     text-align: center;
 }
+.reviews.txt_center_.alin-left {
+    text-align: left;
+}
 @media screen and (max-width: 1100px){
     .collection__item-details p{
         font-size: 20px;
