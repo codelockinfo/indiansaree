@@ -13812,7 +13812,7 @@ body{
 .clsgallarytarget .gallery__item-caption h3, .collection__item-details p{
   font-size: 25px;
     line-height: 35px;
-    text-transform: uppercase;
+/*     text-transform: uppercase; */
     font-family: 'Poppins';
 margin-bottom: 10px;
 }
