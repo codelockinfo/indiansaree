@@ -109,6 +109,7 @@
     },
     "162567173863ea5075": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "162567173863ea5075-0": {
           "type": "image",
