@@ -1161,7 +1161,7 @@
         "settings": {
           "full_width_header": false,
           "announcementtext2": "Cash on delivery",
-          "announcement_text": "<p>Free shipping up to Rs.500<\/p>",
+          "announcement_text": "<p>Free shipping up to Rs.500, FIRST10<\/p>",
           "announcement_text_size": 13,
           "show_locale_selector": false,
           "show_country_selector": false
