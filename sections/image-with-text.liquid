@@ -48,7 +48,7 @@
           data_widths: '[180, 360, 540, 720, 900, 1080, 1296]'
         %}
         <noscript>
-          <img src="{{ section.settings.image | img_url: '800x' }}" alt="">
+          <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.image.alt }}">
         </noscript>
       {%- else -%}
         <div class="onboard">
