@@ -1,52 +1,66 @@
 <section data-section-id="{{ section.id }}" data-section-type="mailing-popup">
-<div class="js-popup newsletter__popup-container"
-     style="display:none"
-     data-popup-enabled={{ section.settings.popup | json }}
-     data-popup-delay={{ section.settings.popup_delay | json }}
-     data-popup-frequency={{ section.settings.popup_frequency | json }}>
-  <a class="js-popup-close newsletter__popup-container-close" href="">
-   {% render 'snip-icons',
-      wrapper: '.newsletter__popup-container-close',
-      type: 'apollo',
-      icon: 'close',
-      classes: 'popup-container-close--icon',
-      size: '14px',
-      fill: section.settings.popup_text_color,
-      hover: section.settings.popup_text_color %}
-  </a>
-  <div id="newsletter__popup-content">
-    {% if section.settings.email_image != blank %}
-    <div class="newsletter__popup-image">
-      {% render 'basic-responsive-image', type: section.settings.email_image, data_widths: '[180, 360, 540, 720, 900]' %}
-      <noscript>
-        <img src="{{ section.settings.email_image | img_url: '800x' }}" class="popup-image" alt="Newsletter popup image">
-      </noscript>
-    </div>
-    {% endif %}
-    <div class="newsletter__popup-text">
-      <h3>{{ section.settings.email_popup_title }}</h3>
-      <p>{{ section.settings.footer_signup_text }}</p>
-    </div>
-    <div class="clear"></div>
-    <div class="newsletter__popup-form">
-        {% form 'customer', id: 'mailing-popup-form' %}
-        {{ form.errors | default_errors }}
-        {% if form.posted_successfully? %}
-        <p class="success">{{ 'general.password_page.thanks' | t }}</p>
-        {% else %}
-        <input type="hidden" name="contact[tags]" value="prospect, newsletter">
-        <input type="email" name="contact[email]" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}">
-        <input type="submit" value="{{ 'general.newsletter_form.submit' | t }}">
-        {%- if section.settings.gdpr_text != blank -%}
-        <div class="gdpr_disclaimer rte small">
-          <span>{{ section.settings.gdpr_text | escape }}</span>
+  <div
+    class="js-popup newsletter__popup-container"
+    style="display:none"
+    data-popup-enabled="{{ section.settings.popup | json }}"
+    data-popup-delay="{{ section.settings.popup_delay | json }}"
+    data-popup-frequency="{{ section.settings.popup_frequency | json }}"
+  >
+    <a class="js-popup-close newsletter__popup-container-close" href="#0">
+      {% render 'snip-icons',
+        wrapper: '.newsletter__popup-container-close',
+        type: 'apollo',
+        icon: 'close',
+        classes: 'popup-container-close--icon',
+        size: '14px',
+        fill: section.settings.popup_text_color,
+        hover: section.settings.popup_text_color
+      %}
+    </a>
+    <div id="newsletter__popup-content">
+      {% if section.settings.email_image != blank %}
+        <div class="newsletter__popup-image">
+          {% render 'basic-responsive-image',
+            type: section.settings.email_image,
+            data_widths: '[180, 360, 540, 720, 900]'
+          %}
+          <noscript>
+            <img
+              src="{{ section.settings.email_image | img_url: '800x' }}"
+              class="popup-image"
+              alt="Newsletter popup image"
+            >
+          </noscript>
         </div>
-      {%- endif -%}
-        {% endif %}
+      {% endif %}
+      <div class="newsletter__popup-text">
+        <h3>{{ section.settings.email_popup_title }}</h3>
+        <p>{{ section.settings.footer_signup_text }}</p>
+      </div>
+      <div class="clear"></div>
+      <div class="newsletter__popup-form">
+        {% form 'customer', id: 'mailing-popup-form' %}
+          {{ form.errors | default_errors }}
+          {% if form.posted_successfully? %}
+            <p class="success">{{ 'general.password_page.thanks' | t }}</p>
+          {% else %}
+            <input type="hidden" name="contact[tags]" value="prospect, newsletter">
+            <input
+              type="email"
+              name="contact[email]"
+              placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
+            >
+            <input type="submit" value="{{ 'general.newsletter_form.submit' | t }}">
+            {%- if section.settings.gdpr_text != blank -%}
+              <div class="gdpr_disclaimer rte small">
+                <span>{{ section.settings.gdpr_text | escape }}</span>
+              </div>
+            {%- endif -%}
+          {% endif %}
         {% endform %}
+      </div>
     </div>
   </div>
-</div>
 </section>
 {% schema %}
 {
