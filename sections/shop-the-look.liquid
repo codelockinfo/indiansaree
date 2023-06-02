@@ -45,11 +45,11 @@
               {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
           {% endif %}
-          <div class="mobile_image">
+         
+        </div>
+         <div class="mobile_image">
                 <img src="{{ section.settings.mobile_image | img_url: '200x200'}}" alt="Indian-sarees,sari,banarasi,sari,women,fashion,new">
           </div>
-        </div>
-        
         {% for block in section.blocks %}
           {%- liquid
             assign product = all_products[block.settings.product]
