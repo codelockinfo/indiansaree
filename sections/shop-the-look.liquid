@@ -45,7 +45,11 @@
               {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
           {% endif %}
+          <div class="mobile_image">
+                <img src="{{ section.settings.mobile_image }}" alt="Indian-sarees,sari,banarasi,sari,women,fashion,new">
+          </div>
         </div>
+        
         {% for block in section.blocks %}
           {%- liquid
             assign product = all_products[block.settings.product]
@@ -161,6 +165,12 @@
       "label": "Image",
       "info": "1920px x 1000px recommended"
     },
+     {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile image",
+          "info": "800px x 1200px recommended"
+        },
     {
       "type": "checkbox",
       "id": "show_quickview",
