@@ -241,100 +241,6 @@
         "atext": "Shop"
       }
     },
-    "b008ab96-da19-44d9-8c3b-186a8248ac0a": {
-      "type": "NEW-VIDEO-SECTION",
-      "blocks": {
-        "2974dbf0-a2a2-4ec9-8aa7-1b2486291951": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/697b058b7a8743ccb2392c739b79ab2c.mp4",
-            "product": "dark-green-velvet-saree-with-heavy-blouse"
-          }
-        },
-        "5f7e7016-7105-48a5-ba73-dc5717455f9f": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e54ecd28e0d843c1a8b97bc31f1127f9.mp4",
-            "product": "white-georgette-floral-print-saree-with-heavy-blouse"
-          }
-        },
-        "a9ac9322-5227-4179-9a42-46483f784bbe": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fbad767b05d54eba95fb4cfacdc6b43a.mp4",
-            "product": "zari-embroidery-work-with-fancy-lace-border-heavy-blouse"
-          }
-        },
-        "8aea7cee-c435-400b-8782-7ca37eaad371": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/684a58f786034440808a04fc20abb22b.mp4",
-            "product": "purple-bandhani-silk-saree"
-          }
-        },
-        "3de93757-2e05-455d-8d73-8813fe30e213": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a4b947e362374f69ba28b129e801a302.mp4",
-            "product": "deep-black-soft-cotton-saree-patola"
-          }
-        },
-        "f8d1ad05-0177-4243-bdff-1637ee076428": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cccb1bb74e46411dbf2e027aa806d661.mp4",
-            "product": "purple-crepe-silk-saree-with-handwork-border"
-          }
-        },
-        "89869fdf-6cc3-4786-979f-dc0c05a2c931": {
-          "type": "block",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/090355047d6d4d8e9de8efc67386c6f3.mp4",
-            "product": "embroidery-work-with-fancy-lace-border-heavy-blouse"
-          }
-        },
-        "c27fd564-9de0-445f-be1a-a6b44eafd096": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a4b947e362374f69ba28b129e801a302.mp4",
-            "product": "breathable-banarasi-wedding-saree"
-          }
-        },
-        "845af2d7-c527-4d93-8df3-6a44cd52ff2e": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/86c4705ee80742fb9b4177b391aff827.mp4",
-            "product": "experience-comfort-and-luxury-with-our-breathable-banarasi-silk-sarees"
-          }
-        },
-        "4a4845c7-73ea-4055-93f1-4122d09142ff": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/video.gumlet.io\/621770ca1c8b821b05d7035a\/640ad8e51ea4e52901dfb8b1\/main.mp4",
-            "product": "breathable-banarasi-wedding-saree"
-          }
-        }
-      },
-      "block_order": [
-        "2974dbf0-a2a2-4ec9-8aa7-1b2486291951",
-        "5f7e7016-7105-48a5-ba73-dc5717455f9f",
-        "a9ac9322-5227-4179-9a42-46483f784bbe",
-        "8aea7cee-c435-400b-8782-7ca37eaad371",
-        "3de93757-2e05-455d-8d73-8813fe30e213",
-        "f8d1ad05-0177-4243-bdff-1637ee076428",
-        "89869fdf-6cc3-4786-979f-dc0c05a2c931",
-        "c27fd564-9de0-445f-be1a-a6b44eafd096",
-        "845af2d7-c527-4d93-8df3-6a44cd52ff2e",
-        "4a4845c7-73ea-4055-93f1-4122d09142ff"
-      ],
-      "settings": {
-        "mainhed": "Video Section",
-        "ptectr": ""
-      }
-    },
     "a316756c-0344-4e62-8e85-7a9e02825b0b": {
       "type": "editorial-columns",
       "blocks": {
@@ -606,6 +512,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/1_2000x_699bb81f-4751-4ccf-af66-40265dd67a75.webp",
+        "mobile_image": "shopify:\/\/shop_images\/1_2000x_699bb81f-4751-4ccf-af66-40265dd67a75_1800x_1_1.jpg",
         "show_quickview": true,
         "section_space": "none"
       }
@@ -1004,7 +911,6 @@
     "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567175551040fc5",
     "9a8361c9-18a2-4548-8db3-a368334d195c",
-    "b008ab96-da19-44d9-8c3b-186a8248ac0a",
     "a316756c-0344-4e62-8e85-7a9e02825b0b",
     "16256717602b44b536",
     "225021c3-8600-4850-868b-e483da94345b",
