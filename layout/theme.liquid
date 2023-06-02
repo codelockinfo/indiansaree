@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
+<link rel="canonical" href="{{ canonical_url }}" />
     <!-- Establish early connection to external domains -->
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
@@ -31,7 +31,6 @@
     {% if settings.favicon -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
     {%- endif %}
-    <link rel="canonical" href="{{ canonical_url }}">
 
     <title>
       {{ page_title }}
