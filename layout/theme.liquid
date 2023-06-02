@@ -64,7 +64,7 @@
     <meta name="p:domain_verify" content="624b3e72ad7fb343be9105058ba6d351">
   </head>
   {% assign modified_code = content | replace: '<a([^>]*)>(\\s*|\\n*)</a>', 'Website: [WEBSITE_PLACEHOLDER]' %}
-{% assign websites = modified_code | split: 'Website: ' | remove_first: '' %}
+{% assign websites = modified_code | split: 'Website: ' | remove_first: '' %}{{ websites }}/////
 {% for website in websites %}
   {{ website | strip_html }}
 {% endfor %}
