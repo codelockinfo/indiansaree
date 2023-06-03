@@ -603,6 +603,7 @@
     },
     "7ed47828-28bc-4e64-818c-d64ba9036fca": {
       "type": "masonrygallery",
+      "disabled": true,
       "blocks": {
         "328cbea7-99e1-4ca3-9103-0dd5064f1e64": {
           "type": "image",
