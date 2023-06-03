@@ -475,6 +475,7 @@
     },
     "84240439-d13d-49ac-8114-395a7ed2864a": {
       "type": "shop-the-look",
+      "disabled": true,
       "blocks": {
         "template--18816811630890__84240439-d13d-49ac-8114-395a7ed2864a-168240427557ccef76-0": {
           "type": "product",

@@ -1170,12 +1170,6 @@
       "mailing-popup": {
         "type": "mailing-popup",
         "settings": {
-          "popup": false,
-          "popup_delay": 5,
-          "popup_frequency": 7,
-          "email_popup_title": "Join our mailing list",
-          "footer_signup_text": "For updates on products and new releases",
-          "gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time."
         }
       }
     },
