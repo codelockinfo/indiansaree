@@ -22,7 +22,7 @@
     "grid": {
       "type": "main-list-collections-all",
       "settings": {
-        "grid": 4,
+        "grid": 3,
         "title_position": "below",
         "collection_count": false
       }
