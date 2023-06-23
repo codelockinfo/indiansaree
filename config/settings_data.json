@@ -1179,7 +1179,7 @@
     "blocks": {
       "9479599098496685844": {
         "type": "shopify:\/\/apps\/quick-upsell-mini-cart\/blocks\/qupsell-block\/3865979f-6136-4f4e-b1b4-060ae79ecb1f",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
