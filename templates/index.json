@@ -78,6 +78,7 @@
         },
         "a70db951-011b-48a6-a24a-67e1dae66a20": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsAppImage2023-06-24at11.07.35.jpg",
             "overlay": false,
