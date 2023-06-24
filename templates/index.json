@@ -78,9 +78,31 @@
         },
         "a70db951-011b-48a6-a24a-67e1dae66a20": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsAppImage2023-06-24at11.07.35.jpg",
+            "overlay": false,
+            "text_align": "left",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "cta_color": "#ffffff",
+            "cta_background": "#000000",
+            "caption_background": "transparent",
+            "caption_background_opacity": 20
+          }
+        },
+        "aef2173a-526e-4cc3-bd4c-95cff7cc6e7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsAppImage2023-06-24at11.07.29_1_1944x_2.jpg",
             "overlay": false,
             "text_align": "left",
             "caption_horizontal": 50,
@@ -105,7 +127,8 @@
         "1625671734793532ca-1",
         "1625671734793532ca-0",
         "e3feb807-3a1b-4c80-a832-76383d011961",
-        "a70db951-011b-48a6-a24a-67e1dae66a20"
+        "a70db951-011b-48a6-a24a-67e1dae66a20",
+        "aef2173a-526e-4cc3-bd4c-95cff7cc6e7c"
       ],
       "settings": {
         "display_wide": true,
