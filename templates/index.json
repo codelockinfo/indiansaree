@@ -96,7 +96,7 @@
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         },
@@ -120,7 +120,7 @@
             "slide_text_color": "#000000",
             "cta_color": "#ffffff",
             "cta_background": "#000000",
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "caption_background_opacity": 20
           }
         }
@@ -953,6 +953,72 @@
         "masonrytitel": "Shop By Collection",
         "masonrysubtitel": "From Over 1000+ Attributes To Find The Best Saree For You"
       }
+    },
+    "dcc0f5e7-0234-41ad-9fd1-9ee4e2007348": {
+      "type": "featured-product",
+      "blocks": {
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-0": {
+          "type": "product_variants",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-1": {
+          "type": "product_quantity",
+          "settings": {
+          }
+        },
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-2": {
+          "type": "product_sku",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-3": {
+          "type": "product_buttons",
+          "settings": {
+          }
+        },
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-4": {
+          "type": "product_availability",
+          "settings": {
+          }
+        },
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-5": {
+          "type": "social_sharing",
+          "disabled": true,
+          "settings": {
+            "show_twitter": true,
+            "show_facebook": true,
+            "show_pinterest": true
+          }
+        },
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-6": {
+          "type": "product_description",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-0",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-1",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-2",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-3",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-4",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-5",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-6"
+      ],
+      "settings": {
+        "heading": "Featured Product",
+        "featured_product": "ready-to-wear-patali-pallu-stitched-style-1-min-saree-with-full-stitch-color-wild-berry",
+        "product_page_border": "#f0f0f0",
+        "form_left": true,
+        "thumbnail_position": "right",
+        "click_to_enlarge": true,
+        "enable_video_looping": false,
+        "section_space": "top_and_bottom"
+      }
     }
   },
   "order": [
@@ -975,6 +1041,7 @@
     "1625671845c9538e1f",
     "7ed47828-28bc-4e64-818c-d64ba9036fca",
     "6ad661c0-731f-467a-8fca-79a86c56d40c",
-    "624e2253-5be1-42c2-a2d7-99c205cbb38e"
+    "624e2253-5be1-42c2-a2d7-99c205cbb38e",
+    "dcc0f5e7-0234-41ad-9fd1-9ee4e2007348"
   ]
 }
