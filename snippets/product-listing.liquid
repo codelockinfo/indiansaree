@@ -188,7 +188,7 @@
 <!--
   <form
     method="post"
-    action="/cart/add"
+    action="/cart/add" data-productid="{{ product.id }}"
     id="product-form-buttons-template--18816811073834__main"
     accept-charset="UTF-8"
     class="product__form-buttons js-prod-form-submit relative"
@@ -196,7 +196,7 @@
     data-product-id="8218250608938"
   >
     <input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-    <input class="formVariantId" name="id" type="hidden" value="44759074668842">
+    <input class="formVariantId" name="id" data-productid="{{ product.id }}" type="hidden" value="44759074668842">
     <input class="formQty" type="hidden" name="quantity" value="1">
     <div class="note note-success js-added-msg" style="display: none">
       <b>Added to Cart</b>&nbsp;&nbsp;&nbsp;<a class="underline" href="/cart">View Cart</a> or
@@ -226,8 +226,8 @@
   </div>
 {% endif -%}
 
-<form method="post" action="/cart/add">
-  <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+<form method="post" action="/cart/add" data-productid="{{ product.id }}">
+  <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.variants.first.id }}">
 
   <input class="add clearfix AddtoCart js-ajax-submit  secondary-button" type="submit" value="Add to cart" class="btn">
 </form>

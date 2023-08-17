@@ -59,7 +59,7 @@
       "color_swatch_shape": "circle",
       "color_swatch_style": "variant-image",
       "show_payment_button": false,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "show_tax_note": false,
       "show_shipping_note": true,
       "show_cart_notes": true,
@@ -225,12 +225,6 @@
         "mailing-popup": {
           "type": "mailing-popup",
           "settings": {
-            "popup": false,
-            "popup_delay": 5,
-            "popup_frequency": 7,
-            "email_popup_title": "Join our mailing list",
-            "footer_signup_text": "For updates on products and new releases",
-            "gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time."
           }
         }
       },
@@ -298,7 +292,7 @@
       "color_swatch_shape": "circle",
       "color_swatch_style": "variant-image",
       "show_payment_button": false,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "show_tax_note": false,
       "show_shipping_note": false,
       "show_cart_notes": true,
@@ -433,12 +427,6 @@
         "mailing-popup": {
           "type": "mailing-popup",
           "settings": {
-            "popup": false,
-            "popup_delay": 5,
-            "popup_frequency": 7,
-            "email_popup_title": "Join our mailing list",
-            "footer_signup_text": "For updates on products and new releases",
-            "gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time."
           }
         }
       },
@@ -653,12 +641,6 @@
         "mailing-popup": {
           "type": "mailing-popup",
           "settings": {
-            "popup": false,
-            "popup_delay": 5,
-            "popup_frequency": 7,
-            "email_popup_title": "Join our mailing list",
-            "footer_signup_text": "For updates on products and new releases",
-            "gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time."
           }
         }
       },
@@ -725,7 +707,7 @@
       "color_swatch_shape": "circle",
       "color_swatch_style": "variant-image",
       "show_payment_button": true,
-      "cart_type": "drawer",
+      "cart_type": "page",
       "show_tax_note": false,
       "show_shipping_note": false,
       "show_cart_notes": true,
@@ -878,12 +860,6 @@
         "mailing-popup": {
           "type": "mailing-popup",
           "settings": {
-            "popup": false,
-            "popup_delay": 5,
-            "popup_frequency": 7,
-            "email_popup_title": "Join our mailing list",
-            "footer_signup_text": "For updates on products and new releases",
-            "gdpr_text": "*By completing this form you're signing up to receive our emails and can unsubscribe at any time."
           }
         }
       },
@@ -952,7 +928,7 @@
     "use_swatch_images": true,
     "show_payment_button": true,
     "ca_returns_page": "return-exchange",
-    "cart_type": "drawer",
+    "cart_type": "page",
     "show_tax_note": true,
     "show_shipping_note": true,
     "show_cart_notes": true,
