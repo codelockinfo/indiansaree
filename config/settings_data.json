@@ -1000,6 +1000,7 @@
         "blocks": {
           "3272587b-24ab-41e5-936d-c6a2ed376b73": {
             "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "Sarees",
               "nav_image": "shopify:\/\/shop_images\/Kanjivaram_sarees.webp",
