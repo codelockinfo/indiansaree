@@ -285,7 +285,7 @@
         "product_page_border": "#f0f0f0",
         "form_left": true,
         "thumbnail_position": "bottom",
-        "click_to_enlarge": true,
+        "click_to_enlarge": false,
         "enable_video_looping": false,
         "section_space": "top_and_bottom"
       }
