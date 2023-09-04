@@ -159,7 +159,6 @@
     },
     "162567173863ea5075": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "162567173863ea5075-0": {
           "type": "image",
@@ -214,6 +213,7 @@
         "162567173863ea5075-2",
         "162567173863ea5075-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".haddingtextual a {}"
       ],
@@ -228,14 +228,13 @@
     "dcc0f5e7-0234-41ad-9fd1-9ee4e2007348": {
       "type": "featured-product",
       "blocks": {
-        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-0": {
-          "type": "product_variants",
-          "disabled": true,
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-1": {
+          "type": "product_quantity",
           "settings": {
           }
         },
-        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-1": {
-          "type": "product_quantity",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-0": {
+          "type": "product_variants",
           "settings": {
           }
         },
@@ -272,8 +271,8 @@
         }
       },
       "block_order": [
-        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-0",
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-1",
+        "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-0",
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-2",
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-3",
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-4",
@@ -406,7 +405,6 @@
     },
     "16256717602b44b536": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "16256717602b44b536-0": {
           "type": "featured_collection",
@@ -432,6 +430,7 @@
         "16256717602b44b536-1",
         "16256717602b44b536-2"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 24px; text-align: center; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-family: sans-serif;}"
       ],
@@ -453,7 +452,6 @@
     },
     "5c21fdd0-80ee-4491-9c44-8fd66b685e60": {
       "type": "accordion",
-      "disabled": true,
       "blocks": {
         "template--18700105023786__5c21fdd0-80ee-4491-9c44-8fd66b685e60-168196595687fddfb3-0": {
           "type": "accordion_pane",
@@ -498,6 +496,7 @@
         "0d2a0d9b-c98a-4de9-b9e3-4d520f5c20f7",
         "46276db8-0f69-4fb7-b53c-6402354d1714"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ",
         "max_width": 60,
@@ -558,7 +557,6 @@
         "1625671777dd905141-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo_6305089682647660719_y.jpg",
             "image_size": "medium",
             "link": "https:\/\/indian-sarees.in\/collections\/silk-sarees\/products\/beautiful-full-body-jaquard-design-saree-in-soft-lichi-silk-with-trendy-weaving",
             "column_size": 2
@@ -590,7 +588,6 @@
     },
     "84240439-d13d-49ac-8114-395a7ed2864a": {
       "type": "shop-the-look",
-      "disabled": true,
       "blocks": {
         "template--18816811630890__84240439-d13d-49ac-8114-395a7ed2864a-168240427557ccef76-0": {
           "type": "product",
@@ -625,6 +622,7 @@
         "template--18816811630890__84240439-d13d-49ac-8114-395a7ed2864a-168240427557ccef76-1",
         "template--18816811630890__84240439-d13d-49ac-8114-395a7ed2864a-168240427557ccef76-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/1_2000x_699bb81f-4751-4ccf-af66-40265dd67a75.webp",
@@ -718,7 +716,6 @@
     },
     "7ed47828-28bc-4e64-818c-d64ba9036fca": {
       "type": "masonrygallery",
-      "disabled": true,
       "blocks": {
         "328cbea7-99e1-4ca3-9103-0dd5064f1e64": {
           "type": "image",
@@ -894,6 +891,7 @@
         "13670908-b0a3-400d-8784-8364c9b076c7",
         "d615ecaf-e20a-49dc-bbf3-03f0e27f41bb"
       ],
+      "disabled": true,
       "settings": {
         "masonrytitel": "Shop By Collection",
         "masonrysubtitel": "From Over 1000+ Attributes To Find The Best Saree For You"
@@ -901,7 +899,6 @@
     },
     "6ad661c0-731f-467a-8fca-79a86c56d40c": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-1": {
           "type": "image",
@@ -936,6 +933,7 @@
         "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-0",
         "template--18816811630890__6ad661c0-731f-467a-8fca-79a86c56d40c-16837844813deeabd5-2"
       ],
+      "disabled": true,
       "settings": {
         "display_wide": false,
         "no_space": true,
@@ -944,7 +942,6 @@
     },
     "624e2253-5be1-42c2-a2d7-99c205cbb38e": {
       "type": "masonrygallery",
-      "disabled": true,
       "blocks": {
         "9966a461-2a2d-4912-9304-fcecde81e2f6": {
           "type": "image",
@@ -1014,6 +1011,7 @@
         "208df952-e945-48da-94fc-5612a9927593",
         "2ffe1b00-a692-4835-8102-0b55431d86b3"
       ],
+      "disabled": true,
       "settings": {
         "masonrytitel": "Shop By Collection",
         "masonrysubtitel": "From Over 1000+ Attributes To Find The Best Saree For You"
