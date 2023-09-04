@@ -246,6 +246,7 @@
         },
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-5": {
           "type": "social_sharing",
+          "disabled": true,
           "settings": {
             "show_twitter": true,
             "show_facebook": true,
@@ -278,6 +279,9 @@
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-3",
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-4",
         "template--18816811630890__dcc0f5e7-0234-41ad-9fd1-9ee4e2007348-16897518875e3c8207-6"
+      ],
+      "custom_css": [
+        ".product__section--buttons.product-add {margin-top: 3%;}"
       ],
       "settings": {
         "heading": "Featured Product",
