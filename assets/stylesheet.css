@@ -14408,3 +14408,6 @@ display:block;}
     text-align: center;
 }
 }
+h1.colleciton__page-title.page-title {
+    display: none;
+}
