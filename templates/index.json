@@ -225,6 +225,17 @@
         "section_space": "top_and_bottom"
       }
     },
+    "600a972c-e5e2-45d6-82ba-26c7f0c6415a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "READY TO WAER",
+        "collection": "teeya",
+        "carousel": false,
+        "grid": 4,
+        "limit": 4,
+        "section_space": "top_and_bottom"
+      }
+    },
     "dcc0f5e7-0234-41ad-9fd1-9ee4e2007348": {
       "type": "featured-product",
       "blocks": {
@@ -563,7 +574,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/indiansareesbanarasi11_0abb65b8-9179-4741-8556-973ea8e451a0.jpg",
             "image_size": "medium",
-            "link": "shopify:\/\/products\/breathable-banarasi-silk-saree",
+            "link": "shopify:\/\/products\/exquisite-silk-berry-soft-linen-silk-saree-for-a-sophisticated-look",
             "column_size": 2
           }
         },
@@ -1027,6 +1038,7 @@
     "1625671734793532ca",
     "a18a2913-7419-4757-984d-22aa496ad2dc",
     "162567173863ea5075",
+    "600a972c-e5e2-45d6-82ba-26c7f0c6415a",
     "dcc0f5e7-0234-41ad-9fd1-9ee4e2007348",
     "da60578f-bb7b-449b-acd0-4cb4e894885b",
     "162567175551040fc5",
